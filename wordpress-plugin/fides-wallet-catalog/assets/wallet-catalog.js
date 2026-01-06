@@ -63,9 +63,7 @@
 
   // Configuration
   const config = window.fidesWalletCatalog || {
-    apiUrl: '/wp-json/fides/v1',
     pluginUrl: '',
-    // GitHub raw URL as fallback data source
     githubDataUrl: 'https://raw.githubusercontent.com/FIDEScommunity/fides-wallet-catalog/main/data/aggregated.json'
   };
 
@@ -118,7 +116,6 @@
    */
   async function loadWallets() {
     const sources = [
-      { name: 'API', url: `${config.apiUrl}/wallets`, transform: (d) => d.wallets || [] },
       { name: 'GitHub', url: config.githubDataUrl, transform: (d) => d.wallets || [] },
       { name: 'Local', url: `${config.pluginUrl}data/aggregated.json`, transform: (d) => d.wallets || [] }
     ];

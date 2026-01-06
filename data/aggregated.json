@@ -70,8 +70,8 @@
           "support": "https://animo.id/support"
         }
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/animo/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T08:55:03.271Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/animo/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:09:43.038Z",
       "source": "local"
     },
     {
@@ -95,68 +95,8 @@
         "name": "Apple",
         "website": "https://www.apple.com"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/apple/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T08:55:03.271Z",
-      "source": "local"
-    },
-    {
-      "id": "bc-wallet",
-      "name": "BC Wallet",
-      "description": "A government-issued digital wallet for citizens of British Columbia, built on Hyperledger Aries, enabling secure storage of government-issued credentials.",
-      "logo": "https://digital.gov.bc.ca/bc-wallet-logo.png",
-      "website": "https://www2.gov.bc.ca/gov/content/governments/government-id/bc-wallet",
-      "type": "personal",
-      "platforms": [
-        "iOS",
-        "Android"
-      ],
-      "openSource": true,
-      "license": "Apache-2.0",
-      "repository": "https://github.com/bcgov/bc-wallet-mobile",
-      "credentialFormats": [
-        "AnonCreds"
-      ],
-      "issuanceProtocols": [
-        "DIDComm Issue Credential v1"
-      ],
-      "presentationProtocols": [
-        "DIDComm Present Proof v1"
-      ],
-      "supportedDIDMethods": [
-        "did:peer",
-        "did:indy"
-      ],
-      "keyManagement": [
-        "Secure Enclave (iOS)",
-        "StrongBox (Android)"
-      ],
-      "certifications": [],
-      "standards": [],
-      "features": [
-        "Government credential issuance",
-        "Person credential",
-        "Lawyer credential",
-        "Biometric authentication",
-        "Offline support"
-      ],
-      "documentation": "https://github.com/bcgov/bc-wallet-mobile/wiki",
-      "appStoreLinks": {
-        "iOS": "https://apps.apple.com/app/bc-wallet/id1587380443",
-        "android": "https://play.google.com/store/apps/details?id=ca.bc.gov.BCWallet"
-      },
-      "status": "production",
-      "releaseDate": "2022-05-01",
-      "provider": {
-        "name": "Government of British Columbia",
-        "did": "did:web:digital.gov.bc.ca",
-        "website": "https://digital.gov.bc.ca",
-        "logo": "https://digital.gov.bc.ca/logo.png",
-        "contact": {
-          "email": "DItrust@gov.bc.ca"
-        }
-      },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/bcgov/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T08:55:03.272Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/apple/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:09:43.039Z",
       "source": "local"
     },
     {
@@ -194,128 +134,8 @@
         "name": "Digidentity",
         "website": "https://www.digidentity.com"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/digidentity/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T08:55:03.273Z",
-      "source": "local"
-    },
-    {
-      "id": "esatus-wallet",
-      "name": "esatus Wallet",
-      "description": "Enterprise identity wallet with focus on organizational credentials and compliance.",
-      "logo": "https://esatus.com/wallet-logo.png",
-      "website": "https://esatus.com/wallet",
-      "type": "organizational",
-      "platforms": [
-        "iOS",
-        "Android",
-        "Web",
-        "Windows"
-      ],
-      "openSource": false,
-      "credentialFormats": [
-        "SD-JWT-VC",
-        "JWT-VC",
-        "X.509"
-      ],
-      "issuanceProtocols": [
-        "OpenID4VCI"
-      ],
-      "presentationProtocols": [
-        "OpenID4VP",
-        "SIOPv2"
-      ],
-      "supportedDIDMethods": [
-        "did:web",
-        "did:key",
-        "did:ebsi"
-      ],
-      "keyManagement": [
-        "HSM",
-        "Cloud KMS",
-        "Software"
-      ],
-      "certifications": [
-        "ISO 27001",
-        "EUDI Wallet LSP"
-      ],
-      "standards": [
-        "ARF 1.4",
-        "EBSI"
-      ],
-      "features": [
-        "Enterprise SSO integration",
-        "Audit logging",
-        "Multi-organization support",
-        "Role-based access control"
-      ],
-      "documentation": "https://docs.esatus.com",
-      "status": "production",
-      "releaseDate": "2021-09-01",
-      "provider": {
-        "name": "esatus AG",
-        "did": "did:web:esatus.com",
-        "website": "https://esatus.com",
-        "logo": "https://esatus.com/logo.png",
-        "contact": {
-          "email": "info@esatus.com"
-        }
-      },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/esatus/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T08:55:03.273Z",
-      "source": "local"
-    },
-    {
-      "id": "esatus-consumer-wallet",
-      "name": "esatus Personal Wallet",
-      "description": "Consumer-focused wallet for personal digital identity.",
-      "website": "https://esatus.com/personal-wallet",
-      "type": "personal",
-      "platforms": [
-        "iOS",
-        "Android"
-      ],
-      "openSource": false,
-      "credentialFormats": [
-        "SD-JWT-VC",
-        "mDL/mDoc"
-      ],
-      "issuanceProtocols": [
-        "OpenID4VCI"
-      ],
-      "presentationProtocols": [
-        "OpenID4VP",
-        "ISO 18013-5"
-      ],
-      "supportedDIDMethods": [
-        "did:key",
-        "did:jwk"
-      ],
-      "keyManagement": [
-        "Secure Enclave (iOS)",
-        "StrongBox (Android)"
-      ],
-      "certifications": [],
-      "standards": [
-        "ARF 1.4"
-      ],
-      "features": [
-        "Biometric authentication",
-        "Offline verification",
-        "Privacy-preserving presentations"
-      ],
-      "status": "beta",
-      "releaseDate": "2024-11-01",
-      "provider": {
-        "name": "esatus AG",
-        "did": "did:web:esatus.com",
-        "website": "https://esatus.com",
-        "logo": "https://esatus.com/logo.png",
-        "contact": {
-          "email": "info@esatus.com"
-        }
-      },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/esatus/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T08:55:03.273Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/digidentity/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:09:43.040Z",
       "source": "local"
     },
     {
@@ -351,8 +171,8 @@
         "name": "Gataca Labs",
         "website": "https://gataca.io"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/gataca/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T08:55:03.274Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/gataca/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:09:43.040Z",
       "source": "local"
     },
     {
@@ -376,72 +196,8 @@
         "name": "Google",
         "website": "https://www.google.com"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/google/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T08:55:03.274Z",
-      "source": "local"
-    },
-    {
-      "id": "idemia-digital-id-wallet",
-      "name": "IDEMIA Digital ID Wallet",
-      "description": "An enterprise-grade digital identity wallet from a global leader in identity solutions, designed for government-scale deployments with ISO-compliant mobile driving licenses.",
-      "logo": "https://idemia.com/wallet-logo.png",
-      "website": "https://idemia.com/digital-id-wallet",
-      "type": "personal",
-      "platforms": [
-        "iOS",
-        "Android"
-      ],
-      "openSource": false,
-      "credentialFormats": [
-        "mDL/mDoc",
-        "SD-JWT-VC"
-      ],
-      "issuanceProtocols": [
-        "OpenID4VCI",
-        "ISO 18013-5 (Device Retrieval)"
-      ],
-      "presentationProtocols": [
-        "OpenID4VP",
-        "ISO 18013-5"
-      ],
-      "supportedDIDMethods": [
-        "did:key",
-        "did:web"
-      ],
-      "keyManagement": [
-        "Secure Enclave (iOS)",
-        "StrongBox (Android)",
-        "TEE"
-      ],
-      "certifications": [
-        "EUDI Wallet LSP",
-        "Common Criteria"
-      ],
-      "standards": [
-        "ARF 1.4",
-        "mDL ISO 18013-5"
-      ],
-      "features": [
-        "Government-scale deployment",
-        "ISO 18013-5 compliant mDL",
-        "NFC proximity verification",
-        "Biometric binding",
-        "High assurance identity proofing"
-      ],
-      "documentation": "https://idemia.com/developers",
-      "status": "production",
-      "releaseDate": "2020-09-01",
-      "provider": {
-        "name": "IDEMIA",
-        "did": "did:web:idemia.com",
-        "website": "https://idemia.com",
-        "logo": "https://idemia.com/logo.png",
-        "contact": {
-          "email": "contact@idemia.com"
-        }
-      },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/idemia/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T08:55:03.275Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/google/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:09:43.040Z",
       "source": "local"
     },
     {
@@ -513,8 +269,8 @@
           "email": "info@igrant.io"
         }
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/igrant/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T08:55:03.278Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/igrant/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:09:43.041Z",
       "source": "local"
     },
     {
@@ -552,8 +308,8 @@
         "name": "Impierce Technologies",
         "website": "https://impierce.com"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/impierce/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T08:55:03.286Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/impierce/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:09:43.041Z",
       "source": "local"
     },
     {
@@ -623,8 +379,8 @@
           "email": "info@lissi.id"
         }
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/lissi/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T08:55:03.286Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/lissi/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:09:43.041Z",
       "source": "local"
     },
     {
@@ -658,8 +414,8 @@
         "name": "Microsoft",
         "website": "https://www.microsoft.com"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/microsoft/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T08:55:03.287Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/microsoft/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:09:43.042Z",
       "source": "local"
     },
     {
@@ -691,79 +447,8 @@
         "name": "Privacy by Design Foundation",
         "website": "https://privacybydesign.foundation"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/privacybydesign/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T08:55:03.287Z",
-      "source": "local"
-    },
-    {
-      "id": "procivis-one",
-      "name": "Procivis One",
-      "description": "A comprehensive Swiss-made digital identity platform combining wallet, issuer, and verifier capabilities with strong focus on privacy and security.",
-      "logo": "https://procivis.ch/one-logo.png",
-      "website": "https://procivis.ch/one",
-      "type": "personal",
-      "platforms": [
-        "iOS",
-        "Android",
-        "Web"
-      ],
-      "openSource": true,
-      "license": "Apache-2.0",
-      "repository": "https://github.com/procivis/one-core",
-      "credentialFormats": [
-        "SD-JWT-VC",
-        "JWT-VC",
-        "JSON-LD VC",
-        "mDL/mDoc"
-      ],
-      "issuanceProtocols": [
-        "OpenID4VCI"
-      ],
-      "presentationProtocols": [
-        "OpenID4VP",
-        "ISO 18013-5",
-        "SIOPv2"
-      ],
-      "supportedDIDMethods": [
-        "did:web",
-        "did:key",
-        "did:jwk"
-      ],
-      "keyManagement": [
-        "Secure Enclave (iOS)",
-        "StrongBox (Android)",
-        "HSM"
-      ],
-      "certifications": [],
-      "standards": [
-        "ARF 1.4",
-        "HAIP"
-      ],
-      "features": [
-        "Swiss data protection compliance",
-        "On-premise deployment",
-        "Credential revocation",
-        "Audit logging",
-        "Multi-language support"
-      ],
-      "documentation": "https://docs.procivis.ch",
-      "appStoreLinks": {
-        "iOS": "https://apps.apple.com/app/procivis-one/id1234567890",
-        "android": "https://play.google.com/store/apps/details?id=ch.procivis.one"
-      },
-      "status": "production",
-      "releaseDate": "2023-01-15",
-      "provider": {
-        "name": "Procivis AG",
-        "did": "did:web:procivis.ch",
-        "website": "https://procivis.ch",
-        "logo": "https://procivis.ch/logo.png",
-        "contact": {
-          "email": "info@procivis.ch"
-        }
-      },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/procivis/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T08:55:03.287Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/privacybydesign/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:09:43.042Z",
       "source": "local"
     },
     {
@@ -798,8 +483,8 @@
         "name": "Scytales",
         "website": "https://scytales.com"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/scytales/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T08:55:03.288Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/scytales/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:09:43.042Z",
       "source": "local"
     },
     {
@@ -871,8 +556,8 @@
           "email": "info@sphereon.com"
         }
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/sphereon/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T08:55:03.288Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/sphereon/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:09:43.042Z",
       "source": "local"
     },
     {
@@ -908,8 +593,8 @@
         "name": "Talao",
         "website": "https://talao.io"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/talao/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T08:55:03.289Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/talao/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:09:43.043Z",
       "source": "local"
     },
     {
@@ -945,8 +630,8 @@
         "name": "Talao",
         "website": "https://talao.io"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/talao/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T08:55:03.289Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/talao/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:09:43.043Z",
       "source": "local"
     },
     {
@@ -981,76 +666,8 @@
         "name": "Tangle Labs",
         "website": "https://tanglelabs.io"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/tanglelabs/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T08:55:03.289Z",
-      "source": "local"
-    },
-    {
-      "id": "thales-digital-id-wallet",
-      "name": "Thales Digital ID Wallet",
-      "description": "An enterprise digital identity wallet solution from Thales, supporting mobile driver's licenses and government credentials with strong security guarantees.",
-      "logo": "https://thalesgroup.com/wallet-logo.png",
-      "website": "https://thalesgroup.com/digital-id-wallet",
-      "type": "personal",
-      "platforms": [
-        "iOS",
-        "Android"
-      ],
-      "openSource": false,
-      "credentialFormats": [
-        "mDL/mDoc",
-        "SD-JWT-VC",
-        "X.509"
-      ],
-      "issuanceProtocols": [
-        "OpenID4VCI",
-        "ISO 18013-5 (Device Retrieval)"
-      ],
-      "presentationProtocols": [
-        "OpenID4VP",
-        "ISO 18013-5"
-      ],
-      "supportedDIDMethods": [
-        "did:web",
-        "did:key"
-      ],
-      "keyManagement": [
-        "Secure Enclave (iOS)",
-        "StrongBox (Android)",
-        "HSM",
-        "Smart Card"
-      ],
-      "certifications": [
-        "EUDI Wallet LSP",
-        "Common Criteria",
-        "ISO 27001"
-      ],
-      "standards": [
-        "ARF 1.4",
-        "mDL ISO 18013-5",
-        "EBSI"
-      ],
-      "features": [
-        "Government-grade security",
-        "Remote identity proofing",
-        "PKI integration",
-        "Smart card support",
-        "Enterprise MDM integration"
-      ],
-      "documentation": "https://thalesgroup.com/developers",
-      "status": "production",
-      "releaseDate": "2021-03-01",
-      "provider": {
-        "name": "Thales Group",
-        "did": "did:web:thalesgroup.com",
-        "website": "https://thalesgroup.com",
-        "logo": "https://thalesgroup.com/logo.png",
-        "contact": {
-          "email": "dis.info@thalesgroup.com"
-        }
-      },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/thales/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T08:55:03.289Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/tanglelabs/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:09:43.043Z",
       "source": "local"
     },
     {
@@ -1085,72 +702,8 @@
         "name": "Toppan",
         "website": "https://www.toppan.com"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/toppan/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T08:55:03.290Z",
-      "source": "local"
-    },
-    {
-      "id": "trinsic-wallet",
-      "name": "Trinsic Wallet",
-      "description": "A developer-friendly identity wallet platform with white-label SDKs and APIs, enabling organizations to quickly deploy verifiable credential solutions.",
-      "logo": "https://trinsic.id/wallet-logo.png",
-      "website": "https://trinsic.id/wallet",
-      "type": "personal",
-      "platforms": [
-        "iOS",
-        "Android",
-        "Web"
-      ],
-      "openSource": false,
-      "credentialFormats": [
-        "SD-JWT-VC",
-        "JWT-VC",
-        "AnonCreds"
-      ],
-      "issuanceProtocols": [
-        "OpenID4VCI"
-      ],
-      "presentationProtocols": [
-        "OpenID4VP",
-        "SIOPv2"
-      ],
-      "supportedDIDMethods": [
-        "did:web",
-        "did:key",
-        "did:ion"
-      ],
-      "keyManagement": [
-        "Secure Enclave (iOS)",
-        "StrongBox (Android)",
-        "Cloud KMS"
-      ],
-      "certifications": [],
-      "standards": [],
-      "features": [
-        "White-label SDK",
-        "Developer-friendly API",
-        "Credential templates",
-        "Analytics dashboard",
-        "Multi-platform support"
-      ],
-      "documentation": "https://docs.trinsic.id",
-      "appStoreLinks": {
-        "iOS": "https://apps.apple.com/app/trinsic-wallet/id1475160728",
-        "android": "https://play.google.com/store/apps/details?id=id.trinsic.wallet"
-      },
-      "status": "production",
-      "releaseDate": "2020-03-01",
-      "provider": {
-        "name": "Trinsic",
-        "did": "did:web:trinsic.id",
-        "website": "https://trinsic.id",
-        "logo": "https://trinsic.id/logo.png",
-        "contact": {
-          "email": "support@trinsic.id"
-        }
-      },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/trinsic/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T08:55:03.290Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/toppan/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:09:43.043Z",
       "source": "local"
     },
     {
@@ -1188,8 +741,8 @@
         "name": "Ubique Innovation",
         "website": "https://ubique.ch"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/ubique/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T08:55:03.291Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/ubique/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:09:43.043Z",
       "source": "local"
     },
     {
@@ -1227,76 +780,8 @@
         "name": "Validated ID",
         "website": "https://www.validatedid.com"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/validatedid/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T08:55:03.291Z",
-      "source": "local"
-    },
-    {
-      "id": "waltid-wallet",
-      "name": "walt.id Web Wallet",
-      "description": "An open-source, white-label identity wallet solution that can be deployed as a web application, supporting multiple credential formats and protocols.",
-      "logo": "https://walt.id/wallet-logo.png",
-      "website": "https://wallet.walt.id",
-      "type": "organizational",
-      "platforms": [
-        "Web"
-      ],
-      "openSource": true,
-      "license": "Apache-2.0",
-      "repository": "https://github.com/walt-id/waltid-identity",
-      "credentialFormats": [
-        "SD-JWT-VC",
-        "JWT-VC",
-        "JSON-LD VC",
-        "mDL/mDoc"
-      ],
-      "issuanceProtocols": [
-        "OpenID4VCI"
-      ],
-      "presentationProtocols": [
-        "OpenID4VP",
-        "SIOPv2"
-      ],
-      "supportedDIDMethods": [
-        "did:web",
-        "did:key",
-        "did:jwk",
-        "did:ebsi",
-        "did:cheqd"
-      ],
-      "keyManagement": [
-        "Software",
-        "Cloud KMS"
-      ],
-      "certifications": [],
-      "standards": [
-        "ARF 1.4",
-        "EBSI"
-      ],
-      "features": [
-        "White-label customization",
-        "Multi-tenant support",
-        "REST API",
-        "Kubernetes deployment",
-        "DID management"
-      ],
-      "documentation": "https://docs.walt.id",
-      "appStoreLinks": {
-        "web": "https://wallet.walt.id"
-      },
-      "status": "production",
-      "releaseDate": "2022-06-01",
-      "provider": {
-        "name": "walt.id",
-        "did": "did:web:walt.id",
-        "website": "https://walt.id",
-        "logo": "https://walt.id/logo.png",
-        "contact": {
-          "email": "office@walt.id"
-        }
-      },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/waltid/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T08:55:03.291Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/validatedid/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:09:43.043Z",
       "source": "local"
     },
     {
@@ -1330,8 +815,8 @@
         "name": "wwWallet.org",
         "website": "https://wwwallet.org"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/wwwallet/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T08:55:03.292Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/wwwallet/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:09:43.044Z",
       "source": "local"
     },
     {
@@ -1366,8 +851,8 @@
         "name": "youniqx Identity AG",
         "website": "https://www.youniqx.com"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/youniqx/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T08:55:03.292Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/youniqx/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:09:43.044Z",
       "source": "local"
     },
     {
@@ -1402,8 +887,8 @@
         "name": "youniqx Identity AG",
         "website": "https://www.youniqx.com"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/youniqx/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T08:55:03.292Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/youniqx/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:09:43.044Z",
       "source": "local"
     },
     {
@@ -1442,8 +927,8 @@
         "name": "YourD",
         "website": "https://yourd.xyz"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/yourd/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T08:55:03.293Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/yourd/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:09:43.044Z",
       "source": "local"
     }
   ],
@@ -1463,26 +948,8 @@
       "website": "https://www.apple.com"
     },
     {
-      "name": "Government of British Columbia",
-      "did": "did:web:digital.gov.bc.ca",
-      "website": "https://digital.gov.bc.ca",
-      "logo": "https://digital.gov.bc.ca/logo.png",
-      "contact": {
-        "email": "DItrust@gov.bc.ca"
-      }
-    },
-    {
       "name": "Digidentity",
       "website": "https://www.digidentity.com"
-    },
-    {
-      "name": "esatus AG",
-      "did": "did:web:esatus.com",
-      "website": "https://esatus.com",
-      "logo": "https://esatus.com/logo.png",
-      "contact": {
-        "email": "info@esatus.com"
-      }
     },
     {
       "name": "Gataca Labs",
@@ -1491,15 +958,6 @@
     {
       "name": "Google",
       "website": "https://www.google.com"
-    },
-    {
-      "name": "IDEMIA",
-      "did": "did:web:idemia.com",
-      "website": "https://idemia.com",
-      "logo": "https://idemia.com/logo.png",
-      "contact": {
-        "email": "contact@idemia.com"
-      }
     },
     {
       "name": "iGrant.io",
@@ -1532,15 +990,6 @@
       "website": "https://privacybydesign.foundation"
     },
     {
-      "name": "Procivis AG",
-      "did": "did:web:procivis.ch",
-      "website": "https://procivis.ch",
-      "logo": "https://procivis.ch/logo.png",
-      "contact": {
-        "email": "info@procivis.ch"
-      }
-    },
-    {
       "name": "Scytales",
       "website": "https://scytales.com"
     },
@@ -1562,26 +1011,8 @@
       "website": "https://tanglelabs.io"
     },
     {
-      "name": "Thales Group",
-      "did": "did:web:thalesgroup.com",
-      "website": "https://thalesgroup.com",
-      "logo": "https://thalesgroup.com/logo.png",
-      "contact": {
-        "email": "dis.info@thalesgroup.com"
-      }
-    },
-    {
       "name": "Toppan",
       "website": "https://www.toppan.com"
-    },
-    {
-      "name": "Trinsic",
-      "did": "did:web:trinsic.id",
-      "website": "https://trinsic.id",
-      "logo": "https://trinsic.id/logo.png",
-      "contact": {
-        "email": "support@trinsic.id"
-      }
     },
     {
       "name": "Ubique Innovation",
@@ -1590,15 +1021,6 @@
     {
       "name": "Validated ID",
       "website": "https://www.validatedid.com"
-    },
-    {
-      "name": "walt.id",
-      "did": "did:web:walt.id",
-      "website": "https://walt.id",
-      "logo": "https://walt.id/logo.png",
-      "contact": {
-        "email": "office@walt.id"
-      }
     },
     {
       "name": "wwWallet.org",
@@ -1613,30 +1035,29 @@
       "website": "https://yourd.xyz"
     }
   ],
-  "lastUpdated": "2026-01-06T08:55:03.558Z",
+  "lastUpdated": "2026-01-06T09:09:43.147Z",
   "stats": {
-    "totalWallets": 30,
-    "totalProviders": 12,
+    "totalWallets": 22,
+    "totalProviders": 5,
     "byType": {
-      "personal": 28,
-      "organizational": 2
+      "personal": 22,
+      "organizational": 0
     },
     "byPlatform": {
-      "iOS": 27,
-      "Android": 27,
-      "Web": 7,
-      "Windows": 1,
+      "iOS": 20,
+      "Android": 20,
+      "Web": 3,
+      "Windows": 0,
       "macOS": 0,
       "Linux": 0,
       "CLI": 0
     },
     "byCredentialFormat": {
-      "SD-JWT-VC": 25,
-      "JWT-VC": 21,
-      "AnonCreds": 6,
-      "mDL/mDoc": 11,
-      "X.509": 2,
-      "JSON-LD VC": 6
+      "SD-JWT-VC": 18,
+      "JWT-VC": 17,
+      "AnonCreds": 4,
+      "mDL/mDoc": 6,
+      "JSON-LD VC": 4
     }
   }
 }

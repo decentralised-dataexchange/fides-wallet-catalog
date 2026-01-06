@@ -3,7 +3,7 @@
  * Plugin Name: FIDES Wallet Catalog
  * Plugin URI: https://fides.community
  * Description: Displays the FIDES Wallet Catalog with search and filter functionality
- * Version: 1.1.0
+ * Version: 1.2.0
  * Author: FIDES Community
  * Author URI: https://fides.community
  * License: Apache-2.0
@@ -65,8 +65,8 @@ class FIDES_Wallet_Catalog {
         
         // Pass data to JavaScript
         wp_localize_script('fides-wallet-catalog', 'fidesWalletCatalog', array(
-            'apiUrl' => get_option('fides_api_url', 'https://api.fides.community'),
             'pluginUrl' => $this->plugin_url,
+            'githubDataUrl' => 'https://raw.githubusercontent.com/FIDEScommunity/fides-wallet-catalog/main/data/aggregated.json',
         ));
     }
     
@@ -125,30 +125,13 @@ class FIDES_Wallet_Catalog {
      * Admin page
      */
     public function render_admin_page() {
-        if (isset($_POST['fides_save_settings']) && check_admin_referer('fides_settings')) {
-            update_option('fides_api_url', sanitize_url($_POST['fides_api_url']));
-            echo '<div class="notice notice-success"><p>Settings saved!</p></div>';
-        }
-        
-        $api_url = get_option('fides_api_url', 'https://api.fides.community');
         ?>
         <div class="wrap">
-            <h1>FIDES Wallet Catalog Settings</h1>
+            <h1>FIDES Wallet Catalog</h1>
             
-            <form method="post">
-                <?php wp_nonce_field('fides_settings'); ?>
-                
-                <table class="form-table">
-                    <tr>
-                        <th scope="row">API URL</th>
-                        <td>
-                            <input type="url" name="fides_api_url" value="<?php echo esc_attr($api_url); ?>" class="regular-text">
-                            <p class="description">URL to the FIDES Wallet Catalog API</p>
-                        </td>
-                    </tr>
-                </table>
-                
-                <h2>Shortcode Usage</h2>
+            <p>This plugin displays the FIDES Wallet Catalog on your website. Data is automatically loaded from the <a href="https://github.com/FIDEScommunity/fides-wallet-catalog" target="_blank">FIDES GitHub repository</a>.</p>
+            
+            <h2>Shortcode Usage</h2>
                 <p>Use the following shortcode to display the wallet catalog:</p>
                 <code>[fides_wallet_catalog]</code>
                 
@@ -194,11 +177,6 @@ class FIDES_Wallet_Catalog {
                 <p><code>[fides_wallet_catalog]</code> - Default with FIDES theme</p>
                 <p><code>[fides_wallet_catalog type="personal" columns="2"]</code> - Personal wallets only, 2 columns</p>
                 <p><code>[fides_wallet_catalog theme="dark"]</code> - Dark theme variant</p>
-                
-                <p class="submit">
-                    <input type="submit" name="fides_save_settings" class="button-primary" value="Save Settings">
-                </p>
-            </form>
         </div>
         <?php
     }
