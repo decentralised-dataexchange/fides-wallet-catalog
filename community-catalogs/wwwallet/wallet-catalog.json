@@ -2,12 +2,14 @@
   "$schema": "https://fides.community/schemas/wallet-catalog/v1",
   "provider": {
     "name": "wwWallet.org",
-    "website": "https://wwwallet.org"
+    "website": "https://wwwallet.org",
+    "logo": "https://avatars.githubusercontent.com/u/126908515"
   },
   "wallets": [
     {
       "id": "wwwallet",
       "name": "wwWallet",
+      "logo": "https://avatars.githubusercontent.com/u/126908515",
       "description": "An open-source web-based wallet for verifiable credentials, enabling users to manage their digital identity directly in the browser without installing an app.",
       "type": "personal",
       "platforms": ["Web"],

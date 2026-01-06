@@ -2,12 +2,14 @@
   "$schema": "https://fides.community/schemas/wallet-catalog/v1",
   "provider": {
     "name": "Talao",
-    "website": "https://talao.io"
+    "website": "https://talao.io",
+    "logo": "https://logo.clearbit.com/talao.io"
   },
   "wallets": [
     {
       "id": "altme-wallet",
       "name": "Altme",
+      "logo": "https://play-lh.googleusercontent.com/vPwzZLZP9u88XgNHvgqJLN9M2-fxDKRqhM2zqWfj5j1qPQ8_KlQFv7b5E9fxqVJzD0M=w480-h960",
       "description": "A self-sovereign identity wallet for managing verifiable credentials, supporting decentralized identity standards and blockchain-based credentials.",
       "type": "personal",
       "platforms": ["iOS", "Android"],
@@ -27,6 +29,7 @@
     {
       "id": "talao-wallet",
       "name": "Talao Wallet",
+      "logo": "https://play-lh.googleusercontent.com/gVb5E6QMJPfuSL3oJlKf9uPMJXqjDKQYmG2qbGJvhV6q3x5MKfH4Bh1_HqL9nHxoHg=w480-h960",
       "description": "Enterprise-grade identity wallet supporting verifiable credentials and decentralized identity protocols. HAIP compliant (expected November 2025).",
       "type": "personal",
       "platforms": ["iOS", "Android"],

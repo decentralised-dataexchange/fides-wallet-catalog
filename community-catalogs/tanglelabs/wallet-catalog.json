@@ -2,12 +2,14 @@
   "$schema": "https://fides.community/schemas/wallet-catalog/v1",
   "provider": {
     "name": "Tangle Labs",
-    "website": "https://tanglelabs.io"
+    "website": "https://tanglelabs.io",
+    "logo": "https://logo.clearbit.com/tanglelabs.io"
   },
   "wallets": [
     {
       "id": "vira-wallet",
       "name": "Vira",
+      "logo": "https://play-lh.googleusercontent.com/Iu5o7NdAZ0gYbmT4T7mmf4lWIHQ1nE7VNv7A9K7FHTQH5q9bXaHnMZpKgCexjSv4iQ=w480-h960",
       "description": "A decentralized identity wallet built on IOTA technology, enabling secure management of verifiable credentials with a focus on sustainability and scalability.",
       "type": "personal",
       "platforms": ["iOS", "Android"],

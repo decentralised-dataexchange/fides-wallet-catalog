@@ -70,13 +70,14 @@
           "support": "https://animo.id/support"
         }
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/animo/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:10:02.605Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/animo/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:22:43.290Z",
       "source": "local"
     },
     {
       "id": "apple-wallet",
       "name": "Apple Wallet",
+      "logo": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/58/59/56/58595680-1d32-f0f7-dd7d-a66b392d1f99/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/460x0w.webp",
       "description": "Apple's built-in wallet app for iPhone, supporting payment cards, boarding passes, tickets, and increasingly digital identity credentials like driver's licenses.",
       "type": "personal",
       "platforms": [
@@ -93,15 +94,17 @@
       "status": "production",
       "provider": {
         "name": "Apple",
-        "website": "https://www.apple.com"
+        "website": "https://www.apple.com",
+        "logo": "https://logo.clearbit.com/apple.com"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/apple/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:10:02.606Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/apple/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:22:43.292Z",
       "source": "local"
     },
     {
       "id": "digidentity-wallet",
       "name": "Digidentity Wallet",
+      "logo": "https://play-lh.googleusercontent.com/6b7Dnmbu5UfwMxvIhvyj17Yl1NbqxvRzghf3g2y3oNSDyS6SrDH8tQm0v0eWfnI0yA=w480-h960",
       "description": "A HAIP-compliant identity wallet from Digidentity, supporting secure digital identity verification and verifiable credentials for government and enterprise use cases.",
       "type": "personal",
       "platforms": [
@@ -132,15 +135,17 @@
       "status": "production",
       "provider": {
         "name": "Digidentity",
-        "website": "https://www.digidentity.com"
+        "website": "https://www.digidentity.com",
+        "logo": "https://logo.clearbit.com/digidentity.com"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/digidentity/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:10:02.606Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/digidentity/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:22:43.292Z",
       "source": "local"
     },
     {
       "id": "gataca-wallet",
       "name": "Gataca Digital Identity Wallet",
+      "logo": "https://play-lh.googleusercontent.com/5gTOLknHqRbXS1RTgLqvOzXsIx1qXVuYmOXSFqv9zqHs_JTH1NcfIxZhQe3vH-TZew=w480-h960",
       "description": "A privacy-first digital identity wallet supporting verifiable credentials and self-sovereign identity. HAIP compliance expected November 2025.",
       "type": "personal",
       "platforms": [
@@ -169,15 +174,17 @@
       "status": "production",
       "provider": {
         "name": "Gataca Labs",
-        "website": "https://gataca.io"
+        "website": "https://gataca.io",
+        "logo": "https://logo.clearbit.com/gataca.io"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/gataca/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:10:02.607Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/gataca/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:22:43.293Z",
       "source": "local"
     },
     {
       "id": "google-wallet",
       "name": "Google Wallet",
+      "logo": "https://play-lh.googleusercontent.com/HArtbyi53u0jnqhnnxkQnMx9dHOERNcprZyKnInd2nrfHjp4fKI45zxHsNjBM8QwIqRd=w480-h960",
       "description": "Google's digital wallet for Android devices, supporting payment cards, loyalty cards, boarding passes, tickets, and digital identity credentials.",
       "type": "personal",
       "platforms": [
@@ -194,10 +201,11 @@
       "status": "production",
       "provider": {
         "name": "Google",
-        "website": "https://www.google.com"
+        "website": "https://www.google.com",
+        "logo": "https://logo.clearbit.com/google.com"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/google/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:10:02.608Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/google/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:22:43.293Z",
       "source": "local"
     },
     {
@@ -269,13 +277,14 @@
           "email": "info@igrant.io"
         }
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/igrant/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:10:02.608Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/igrant/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:22:43.294Z",
       "source": "local"
     },
     {
       "id": "unime-wallet",
       "name": "UniMe",
+      "logo": "https://play-lh.googleusercontent.com/3O4o-sB2dNpYwmMl1V9EnSpnxwwK-S8h-tP0RXqQTgPu3R3QYSC77O8j5oHJRJdpvFo=w480-h960",
       "description": "A privacy-focused identity wallet supporting HAIP interoperability profile, enabling secure storage and sharing of verifiable credentials.",
       "type": "personal",
       "platforms": [
@@ -306,10 +315,11 @@
       "status": "production",
       "provider": {
         "name": "Impierce Technologies",
-        "website": "https://impierce.com"
+        "website": "https://impierce.com",
+        "logo": "https://logo.clearbit.com/impierce.com"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/impierce/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:10:02.624Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/impierce/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:22:43.294Z",
       "source": "local"
     },
     {
@@ -379,13 +389,14 @@
           "email": "info@lissi.id"
         }
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/lissi/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:10:02.625Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/lissi/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:22:43.294Z",
       "source": "local"
     },
     {
       "id": "microsoft-authenticator",
       "name": "Microsoft Authenticator",
+      "logo": "https://play-lh.googleusercontent.com/hBnFWGM9zFXWkzE2m3lUB8lNFcYNl28Tzm0sEqAqpkdHf2Im8K6UNDHrYb3jBZ5p7zE=w480-h960",
       "description": "Microsoft's authentication app that also supports verifiable credentials through Microsoft Entra Verified ID, enabling passwordless sign-in and digital identity verification.",
       "type": "personal",
       "platforms": [
@@ -412,15 +423,17 @@
       "status": "production",
       "provider": {
         "name": "Microsoft",
-        "website": "https://www.microsoft.com"
+        "website": "https://www.microsoft.com",
+        "logo": "https://logo.clearbit.com/microsoft.com"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/microsoft/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:10:02.628Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/microsoft/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:22:43.295Z",
       "source": "local"
     },
     {
       "id": "yivi",
       "name": "Yivi",
+      "logo": "https://play-lh.googleusercontent.com/hzCBIJscQ9VhD2WQjr1uOMCBxNq-taPn4XwJQNNJNNj4qjR47qO_s7lMDBvX9HCmNcs=w480-h960",
       "description": "An open-source privacy-friendly identity wallet (formerly IRMA) developed by the Privacy by Design Foundation, enabling attribute-based credentials with selective disclosure.",
       "type": "personal",
       "platforms": [
@@ -445,15 +458,17 @@
       "status": "production",
       "provider": {
         "name": "Privacy by Design Foundation",
-        "website": "https://privacybydesign.foundation"
+        "website": "https://privacybydesign.foundation",
+        "logo": "https://yivi.app/irma_logo.svg"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/privacybydesign/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:10:02.629Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/privacybydesign/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:22:43.295Z",
       "source": "local"
     },
     {
       "id": "scytales-id-wallet",
       "name": "Scytales ID Wallet",
+      "logo": "https://play-lh.googleusercontent.com/9P5O3E4bJPO3MlVOzM8gEgVMvxhZmPYUgT-8mfYxdJT0rV-aw51T7mCGSqYjD5HM1w=w480-h960",
       "description": "An enterprise-grade digital identity wallet for secure credential management, supporting various verifiable credential formats.",
       "type": "personal",
       "platforms": [
@@ -481,10 +496,11 @@
       "status": "production",
       "provider": {
         "name": "Scytales",
-        "website": "https://scytales.com"
+        "website": "https://scytales.com",
+        "logo": "https://logo.clearbit.com/scytales.com"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/scytales/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:10:02.629Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/scytales/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:22:43.296Z",
       "source": "local"
     },
     {
@@ -556,13 +572,14 @@
           "email": "info@sphereon.com"
         }
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/sphereon/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:10:02.630Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/sphereon/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:22:43.297Z",
       "source": "local"
     },
     {
       "id": "altme-wallet",
       "name": "Altme",
+      "logo": "https://play-lh.googleusercontent.com/vPwzZLZP9u88XgNHvgqJLN9M2-fxDKRqhM2zqWfj5j1qPQ8_KlQFv7b5E9fxqVJzD0M=w480-h960",
       "description": "A self-sovereign identity wallet for managing verifiable credentials, supporting decentralized identity standards and blockchain-based credentials.",
       "type": "personal",
       "platforms": [
@@ -591,15 +608,17 @@
       "status": "production",
       "provider": {
         "name": "Talao",
-        "website": "https://talao.io"
+        "website": "https://talao.io",
+        "logo": "https://logo.clearbit.com/talao.io"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/talao/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:10:02.630Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/talao/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:22:43.297Z",
       "source": "local"
     },
     {
       "id": "talao-wallet",
       "name": "Talao Wallet",
+      "logo": "https://play-lh.googleusercontent.com/gVb5E6QMJPfuSL3oJlKf9uPMJXqjDKQYmG2qbGJvhV6q3x5MKfH4Bh1_HqL9nHxoHg=w480-h960",
       "description": "Enterprise-grade identity wallet supporting verifiable credentials and decentralized identity protocols. HAIP compliant (expected November 2025).",
       "type": "personal",
       "platforms": [
@@ -628,15 +647,17 @@
       "status": "production",
       "provider": {
         "name": "Talao",
-        "website": "https://talao.io"
+        "website": "https://talao.io",
+        "logo": "https://logo.clearbit.com/talao.io"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/talao/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:10:02.630Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/talao/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:22:43.297Z",
       "source": "local"
     },
     {
       "id": "vira-wallet",
       "name": "Vira",
+      "logo": "https://play-lh.googleusercontent.com/Iu5o7NdAZ0gYbmT4T7mmf4lWIHQ1nE7VNv7A9K7FHTQH5q9bXaHnMZpKgCexjSv4iQ=w480-h960",
       "description": "A decentralized identity wallet built on IOTA technology, enabling secure management of verifiable credentials with a focus on sustainability and scalability.",
       "type": "personal",
       "platforms": [
@@ -664,15 +685,17 @@
       "status": "production",
       "provider": {
         "name": "Tangle Labs",
-        "website": "https://tanglelabs.io"
+        "website": "https://tanglelabs.io",
+        "logo": "https://logo.clearbit.com/tanglelabs.io"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/tanglelabs/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:10:02.631Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/tanglelabs/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:22:43.298Z",
       "source": "local"
     },
     {
       "id": "toppan-security-wallet",
       "name": "TOPPAN Security Wallet",
+      "logo": "https://play-lh.googleusercontent.com/iBIgj_PL1D5h6qLqJGJXTW5X3R_Sq3uBkL6L9xK5QwM_m_vEJTJKqbX4H7_ufOlIvg=w480-h960",
       "description": "An enterprise security wallet supporting digital identity and verifiable credentials. HAIP compliance expected November 2025.",
       "type": "personal",
       "platforms": [
@@ -700,15 +723,17 @@
       "status": "production",
       "provider": {
         "name": "Toppan",
-        "website": "https://www.toppan.com"
+        "website": "https://www.toppan.com",
+        "logo": "https://logo.clearbit.com/toppan.com"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/toppan/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:10:02.631Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/toppan/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:22:43.298Z",
       "source": "local"
     },
     {
       "id": "heidi-wallet",
       "name": "Heidi Wallet App",
+      "logo": "https://play-lh.googleusercontent.com/8m6g5vHK6qAGwPH5oD7x6cNBvhQpMjH8_zKnLXHQhvB8TQgSHvMxmLnPbEYW6BqXtA=w480-h960",
       "description": "A HAIP-compliant Swiss identity wallet supporting verifiable credentials for secure digital identity management.",
       "type": "personal",
       "platforms": [
@@ -739,15 +764,17 @@
       "status": "production",
       "provider": {
         "name": "Ubique Innovation",
-        "website": "https://ubique.ch"
+        "website": "https://ubique.ch",
+        "logo": "https://logo.clearbit.com/ubique.ch"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/ubique/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:10:02.632Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/ubique/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:22:43.299Z",
       "source": "local"
     },
     {
       "id": "vidwallet",
       "name": "VIDwallet",
+      "logo": "https://play-lh.googleusercontent.com/jHhBYSsZ0gPRKmOVv0d5pT2L9B0Rb8hPWY8xZD4RTEuH8bLBVy8rYxVqG5b5qpj5qQ=w480-h960",
       "description": "A HAIP-compliant digital identity wallet enabling secure storage and presentation of verifiable credentials for individuals and organizations.",
       "type": "personal",
       "platforms": [
@@ -778,15 +805,17 @@
       "status": "production",
       "provider": {
         "name": "Validated ID",
-        "website": "https://www.validatedid.com"
+        "website": "https://www.validatedid.com",
+        "logo": "https://logo.clearbit.com/validatedid.com"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/validatedid/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:10:02.632Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/validatedid/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:22:43.299Z",
       "source": "local"
     },
     {
       "id": "wwwallet",
       "name": "wwWallet",
+      "logo": "https://avatars.githubusercontent.com/u/126908515",
       "description": "An open-source web-based wallet for verifiable credentials, enabling users to manage their digital identity directly in the browser without installing an app.",
       "type": "personal",
       "platforms": [
@@ -813,15 +842,17 @@
       "status": "production",
       "provider": {
         "name": "wwWallet.org",
-        "website": "https://wwwallet.org"
+        "website": "https://wwwallet.org",
+        "logo": "https://avatars.githubusercontent.com/u/126908515"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/wwwallet/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:10:02.633Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/wwwallet/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:22:43.299Z",
       "source": "local"
     },
     {
       "id": "eausweise",
       "name": "eAusweise (Austrian Wallet)",
+      "logo": "https://play-lh.googleusercontent.com/6gMPLiP4L9K7q1vW0K8KfYsEwEQPxvLqEXsZqR8vWJ0uVHQ7XMxNVLxTsJU8EqXjZA=w480-h960",
       "description": "The official Austrian government identity wallet, enabling citizens to store and present digital identity documents and verifiable credentials.",
       "type": "personal",
       "platforms": [
@@ -849,15 +880,17 @@
       "status": "production",
       "provider": {
         "name": "youniqx Identity AG",
-        "website": "https://www.youniqx.com"
+        "website": "https://www.youniqx.com",
+        "logo": "https://logo.clearbit.com/youniqx.com"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/youniqx/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:10:02.633Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/youniqx/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:22:43.300Z",
       "source": "local"
     },
     {
       "id": "eid-li",
       "name": "eID.li (Liechtenstein Wallet)",
+      "logo": "https://play-lh.googleusercontent.com/3j3kcLCp3BN6RJBS0V7yNyQ3D5Q7gMVTQ9cU8qTYsP8BvD5qXq3dPk3r3XqZ1vKMpw=w480-h960",
       "description": "The official Liechtenstein government identity wallet, enabling citizens to store and present digital identity documents and verifiable credentials.",
       "type": "personal",
       "platforms": [
@@ -885,15 +918,17 @@
       "status": "production",
       "provider": {
         "name": "youniqx Identity AG",
-        "website": "https://www.youniqx.com"
+        "website": "https://www.youniqx.com",
+        "logo": "https://logo.clearbit.com/youniqx.com"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/youniqx/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:10:02.633Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/youniqx/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:22:43.300Z",
       "source": "local"
     },
     {
       "id": "yourd-data-wallet",
       "name": "YourD Data Wallet",
+      "logo": "https://play-lh.googleusercontent.com/D2g8PNXK6hZbXQNm_nTD9hPnKuvrMxI-fQDg5L1yRn8rMK6X1YPQW7_aFw6pX5vNNw=w480-h960",
       "description": "A data ownership wallet supporting both HAIP and DIIP v4 interoperability profiles, enabling secure management of personal data and verifiable credentials.",
       "type": "personal",
       "platforms": [
@@ -925,10 +960,11 @@
       "status": "production",
       "provider": {
         "name": "YourD",
-        "website": "https://yourd.xyz"
+        "website": "https://yourd.xyz",
+        "logo": "https://logo.clearbit.com/yourd.xyz"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/yourd/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:10:02.634Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/yourd/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:22:43.300Z",
       "source": "local"
     }
   ],
@@ -945,19 +981,23 @@
     },
     {
       "name": "Apple",
-      "website": "https://www.apple.com"
+      "website": "https://www.apple.com",
+      "logo": "https://logo.clearbit.com/apple.com"
     },
     {
       "name": "Digidentity",
-      "website": "https://www.digidentity.com"
+      "website": "https://www.digidentity.com",
+      "logo": "https://logo.clearbit.com/digidentity.com"
     },
     {
       "name": "Gataca Labs",
-      "website": "https://gataca.io"
+      "website": "https://gataca.io",
+      "logo": "https://logo.clearbit.com/gataca.io"
     },
     {
       "name": "Google",
-      "website": "https://www.google.com"
+      "website": "https://www.google.com",
+      "logo": "https://logo.clearbit.com/google.com"
     },
     {
       "name": "iGrant.io",
@@ -970,7 +1010,8 @@
     },
     {
       "name": "Impierce Technologies",
-      "website": "https://impierce.com"
+      "website": "https://impierce.com",
+      "logo": "https://logo.clearbit.com/impierce.com"
     },
     {
       "name": "Neosfer GmbH",
@@ -983,15 +1024,18 @@
     },
     {
       "name": "Microsoft",
-      "website": "https://www.microsoft.com"
+      "website": "https://www.microsoft.com",
+      "logo": "https://logo.clearbit.com/microsoft.com"
     },
     {
       "name": "Privacy by Design Foundation",
-      "website": "https://privacybydesign.foundation"
+      "website": "https://privacybydesign.foundation",
+      "logo": "https://yivi.app/irma_logo.svg"
     },
     {
       "name": "Scytales",
-      "website": "https://scytales.com"
+      "website": "https://scytales.com",
+      "logo": "https://logo.clearbit.com/scytales.com"
     },
     {
       "name": "Sphereon",
@@ -1004,38 +1048,46 @@
     },
     {
       "name": "Talao",
-      "website": "https://talao.io"
+      "website": "https://talao.io",
+      "logo": "https://logo.clearbit.com/talao.io"
     },
     {
       "name": "Tangle Labs",
-      "website": "https://tanglelabs.io"
+      "website": "https://tanglelabs.io",
+      "logo": "https://logo.clearbit.com/tanglelabs.io"
     },
     {
       "name": "Toppan",
-      "website": "https://www.toppan.com"
+      "website": "https://www.toppan.com",
+      "logo": "https://logo.clearbit.com/toppan.com"
     },
     {
       "name": "Ubique Innovation",
-      "website": "https://ubique.ch"
+      "website": "https://ubique.ch",
+      "logo": "https://logo.clearbit.com/ubique.ch"
     },
     {
       "name": "Validated ID",
-      "website": "https://www.validatedid.com"
+      "website": "https://www.validatedid.com",
+      "logo": "https://logo.clearbit.com/validatedid.com"
     },
     {
       "name": "wwWallet.org",
-      "website": "https://wwwallet.org"
+      "website": "https://wwwallet.org",
+      "logo": "https://avatars.githubusercontent.com/u/126908515"
     },
     {
       "name": "youniqx Identity AG",
-      "website": "https://www.youniqx.com"
+      "website": "https://www.youniqx.com",
+      "logo": "https://logo.clearbit.com/youniqx.com"
     },
     {
       "name": "YourD",
-      "website": "https://yourd.xyz"
+      "website": "https://yourd.xyz",
+      "logo": "https://logo.clearbit.com/yourd.xyz"
     }
   ],
-  "lastUpdated": "2026-01-06T09:10:02.956Z",
+  "lastUpdated": "2026-01-06T09:22:43.619Z",
   "stats": {
     "totalWallets": 22,
     "totalProviders": 5,

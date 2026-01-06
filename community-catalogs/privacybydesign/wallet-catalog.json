@@ -2,12 +2,14 @@
   "$schema": "https://fides.community/schemas/wallet-catalog/v1",
   "provider": {
     "name": "Privacy by Design Foundation",
-    "website": "https://privacybydesign.foundation"
+    "website": "https://privacybydesign.foundation",
+    "logo": "https://yivi.app/irma_logo.svg"
   },
   "wallets": [
     {
       "id": "yivi",
       "name": "Yivi",
+      "logo": "https://play-lh.googleusercontent.com/hzCBIJscQ9VhD2WQjr1uOMCBxNq-taPn4XwJQNNJNNj4qjR47qO_s7lMDBvX9HCmNcs=w480-h960",
       "description": "An open-source privacy-friendly identity wallet (formerly IRMA) developed by the Privacy by Design Foundation, enabling attribute-based credentials with selective disclosure.",
       "type": "personal",
       "platforms": ["iOS", "Android"],
