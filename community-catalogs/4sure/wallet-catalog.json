@@ -19,6 +19,7 @@
       "issuanceProtocols": ["OpenID4VCI"],
       "presentationProtocols": ["OpenID4VP"],
       "interoperabilityProfiles": ["DIIP v4"],
+      "features": ["Universal OID4VP API"],
       "openSource": false,
       "status": "production"
     }
