@@ -70,8 +70,8 @@
           "support": "https://animo.id/support"
         }
       },
-      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/animo/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:09:43.038Z",
+      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/animo/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:10:02.605Z",
       "source": "local"
     },
     {
@@ -95,8 +95,8 @@
         "name": "Apple",
         "website": "https://www.apple.com"
       },
-      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/apple/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:09:43.039Z",
+      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/apple/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:10:02.606Z",
       "source": "local"
     },
     {
@@ -134,8 +134,8 @@
         "name": "Digidentity",
         "website": "https://www.digidentity.com"
       },
-      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/digidentity/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:09:43.040Z",
+      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/digidentity/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:10:02.606Z",
       "source": "local"
     },
     {
@@ -171,8 +171,8 @@
         "name": "Gataca Labs",
         "website": "https://gataca.io"
       },
-      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/gataca/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:09:43.040Z",
+      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/gataca/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:10:02.607Z",
       "source": "local"
     },
     {
@@ -196,8 +196,8 @@
         "name": "Google",
         "website": "https://www.google.com"
       },
-      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/google/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:09:43.040Z",
+      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/google/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:10:02.608Z",
       "source": "local"
     },
     {
@@ -269,8 +269,8 @@
           "email": "info@igrant.io"
         }
       },
-      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/igrant/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:09:43.041Z",
+      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/igrant/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:10:02.608Z",
       "source": "local"
     },
     {
@@ -308,8 +308,8 @@
         "name": "Impierce Technologies",
         "website": "https://impierce.com"
       },
-      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/impierce/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:09:43.041Z",
+      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/impierce/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:10:02.624Z",
       "source": "local"
     },
     {
@@ -379,8 +379,8 @@
           "email": "info@lissi.id"
         }
       },
-      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/lissi/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:09:43.041Z",
+      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/lissi/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:10:02.625Z",
       "source": "local"
     },
     {
@@ -414,8 +414,8 @@
         "name": "Microsoft",
         "website": "https://www.microsoft.com"
       },
-      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/microsoft/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:09:43.042Z",
+      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/microsoft/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:10:02.628Z",
       "source": "local"
     },
     {
@@ -447,8 +447,8 @@
         "name": "Privacy by Design Foundation",
         "website": "https://privacybydesign.foundation"
       },
-      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/privacybydesign/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:09:43.042Z",
+      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/privacybydesign/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:10:02.629Z",
       "source": "local"
     },
     {
@@ -483,8 +483,8 @@
         "name": "Scytales",
         "website": "https://scytales.com"
       },
-      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/scytales/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:09:43.042Z",
+      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/scytales/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:10:02.629Z",
       "source": "local"
     },
     {
@@ -556,8 +556,8 @@
           "email": "info@sphereon.com"
         }
       },
-      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/sphereon/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:09:43.042Z",
+      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/sphereon/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:10:02.630Z",
       "source": "local"
     },
     {
@@ -593,8 +593,8 @@
         "name": "Talao",
         "website": "https://talao.io"
       },
-      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/talao/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:09:43.043Z",
+      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/talao/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:10:02.630Z",
       "source": "local"
     },
     {
@@ -630,8 +630,8 @@
         "name": "Talao",
         "website": "https://talao.io"
       },
-      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/talao/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:09:43.043Z",
+      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/talao/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:10:02.630Z",
       "source": "local"
     },
     {
@@ -666,8 +666,8 @@
         "name": "Tangle Labs",
         "website": "https://tanglelabs.io"
       },
-      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/tanglelabs/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:09:43.043Z",
+      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/tanglelabs/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:10:02.631Z",
       "source": "local"
     },
     {
@@ -702,8 +702,8 @@
         "name": "Toppan",
         "website": "https://www.toppan.com"
       },
-      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/toppan/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:09:43.043Z",
+      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/toppan/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:10:02.631Z",
       "source": "local"
     },
     {
@@ -741,8 +741,8 @@
         "name": "Ubique Innovation",
         "website": "https://ubique.ch"
       },
-      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/ubique/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:09:43.043Z",
+      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/ubique/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:10:02.632Z",
       "source": "local"
     },
     {
@@ -780,8 +780,8 @@
         "name": "Validated ID",
         "website": "https://www.validatedid.com"
       },
-      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/validatedid/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:09:43.043Z",
+      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/validatedid/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:10:02.632Z",
       "source": "local"
     },
     {
@@ -815,8 +815,8 @@
         "name": "wwWallet.org",
         "website": "https://wwwallet.org"
       },
-      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/wwwallet/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:09:43.044Z",
+      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/wwwallet/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:10:02.633Z",
       "source": "local"
     },
     {
@@ -851,8 +851,8 @@
         "name": "youniqx Identity AG",
         "website": "https://www.youniqx.com"
       },
-      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/youniqx/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:09:43.044Z",
+      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/youniqx/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:10:02.633Z",
       "source": "local"
     },
     {
@@ -887,8 +887,8 @@
         "name": "youniqx Identity AG",
         "website": "https://www.youniqx.com"
       },
-      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/youniqx/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:09:43.044Z",
+      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/youniqx/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:10:02.633Z",
       "source": "local"
     },
     {
@@ -927,8 +927,8 @@
         "name": "YourD",
         "website": "https://yourd.xyz"
       },
-      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/yourd/wallet-catalog.json",
-      "fetchedAt": "2026-01-06T09:09:43.044Z",
+      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/yourd/wallet-catalog.json",
+      "fetchedAt": "2026-01-06T09:10:02.634Z",
       "source": "local"
     }
   ],
@@ -1035,7 +1035,7 @@
       "website": "https://yourd.xyz"
     }
   ],
-  "lastUpdated": "2026-01-06T09:09:43.147Z",
+  "lastUpdated": "2026-01-06T09:10:02.956Z",
   "stats": {
     "totalWallets": 22,
     "totalProviders": 5,
