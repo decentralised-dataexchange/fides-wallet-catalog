@@ -1403,3 +1403,111 @@
 .fides-modal-overlay[data-theme="light"] .fides-features-list li svg {
   color: #16a34a;
 }
+
+/* ==========================================================================
+   CAPABILITIES & INTEROP PROFILES STYLING
+   ========================================================================== */
+
+/* Capability tags */
+.fides-tag.capability {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.6875rem;
+  letter-spacing: 0.05em;
+}
+
+.fides-tag.capability-holder {
+  background: rgba(34, 197, 94, 0.15);
+  color: #4ade80;
+  border-color: rgba(34, 197, 94, 0.3);
+}
+
+.fides-tag.capability-issuer {
+  background: rgba(59, 130, 246, 0.15);
+  color: #60a5fa;
+  border-color: rgba(59, 130, 246, 0.3);
+}
+
+.fides-tag.capability-verifier {
+  background: rgba(168, 85, 247, 0.15);
+  color: #a78bfa;
+  border-color: rgba(168, 85, 247, 0.3);
+}
+
+/* Interop profile tags */
+.fides-tag.interop {
+  background: rgba(6, 182, 212, 0.15);
+  color: #22d3ee;
+  border-color: rgba(6, 182, 212, 0.3);
+}
+
+/* Capability tags - Light/FIDES theme */
+.fides-wallet-catalog[data-theme="fides"] .fides-tag.capability-holder,
+.fides-wallet-catalog[data-theme="light"] .fides-tag.capability-holder {
+  background: rgba(34, 197, 94, 0.1);
+  color: #16a34a;
+  border-color: rgba(34, 197, 94, 0.3);
+}
+
+.fides-wallet-catalog[data-theme="fides"] .fides-tag.capability-issuer,
+.fides-wallet-catalog[data-theme="light"] .fides-tag.capability-issuer {
+  background: rgba(10, 110, 243, 0.1);
+  color: #0A6EF3;
+  border-color: rgba(10, 110, 243, 0.3);
+}
+
+.fides-wallet-catalog[data-theme="fides"] .fides-tag.capability-verifier,
+.fides-wallet-catalog[data-theme="light"] .fides-tag.capability-verifier {
+  background: rgba(124, 58, 237, 0.1);
+  color: #7c3aed;
+  border-color: rgba(124, 58, 237, 0.3);
+}
+
+.fides-wallet-catalog[data-theme="fides"] .fides-tag.interop,
+.fides-wallet-catalog[data-theme="light"] .fides-tag.interop {
+  background: rgba(6, 182, 212, 0.1);
+  color: #0891b2;
+  border-color: rgba(6, 182, 212, 0.3);
+}
+
+/* Modal capability badges */
+.fides-modal-badge.capability-holder {
+  background: rgba(34, 197, 94, 0.15);
+  color: #4ade80;
+}
+
+.fides-modal-badge.capability-issuer {
+  background: rgba(59, 130, 246, 0.15);
+  color: #60a5fa;
+}
+
+.fides-modal-badge.capability-verifier {
+  background: rgba(168, 85, 247, 0.15);
+  color: #a78bfa;
+}
+
+/* Modal capability badges - Light/FIDES theme */
+.fides-modal-overlay[data-theme="fides"] .fides-modal-badge.capability-holder,
+.fides-modal-overlay[data-theme="light"] .fides-modal-badge.capability-holder {
+  background: rgba(34, 197, 94, 0.1);
+  color: #16a34a;
+}
+
+.fides-modal-overlay[data-theme="fides"] .fides-modal-badge.capability-issuer,
+.fides-modal-overlay[data-theme="light"] .fides-modal-badge.capability-issuer {
+  background: rgba(10, 110, 243, 0.1);
+  color: #0A6EF3;
+}
+
+.fides-modal-overlay[data-theme="fides"] .fides-modal-badge.capability-verifier,
+.fides-modal-overlay[data-theme="light"] .fides-modal-badge.capability-verifier {
+  background: rgba(124, 58, 237, 0.1);
+  color: #7c3aed;
+}
+
+/* Interop tags in modal - Light/FIDES theme */
+.fides-modal-overlay[data-theme="fides"] .fides-tag.interop,
+.fides-modal-overlay[data-theme="light"] .fides-tag.interop {
+  background: rgba(6, 182, 212, 0.1);
+  color: #0891b2;
+}

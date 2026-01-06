@@ -72,8 +72,10 @@
   let filters = {
     search: '',
     type: [],
+    capabilities: [],
     platforms: [],
     credentialFormats: [],
+    interoperabilityProfiles: [],
     openSource: null
   };
   let showFiltersPanel = false;
@@ -163,6 +165,12 @@
         if (!filters.type.includes(wallet.type)) return false;
       }
 
+      // Capabilities (for organizational wallets)
+      if (filters.capabilities.length > 0) {
+        const hasMatch = filters.capabilities.some(c => (wallet.capabilities || []).includes(c));
+        if (!hasMatch) return false;
+      }
+
       // Platforms
       if (filters.platforms.length > 0) {
         const hasMatch = filters.platforms.some(p => (wallet.platforms || []).includes(p));
@@ -172,6 +180,12 @@
       // Credential formats
       if (filters.credentialFormats.length > 0) {
         const hasMatch = filters.credentialFormats.some(f => (wallet.credentialFormats || []).includes(f));
+        if (!hasMatch) return false;
+      }
+
+      // Interoperability profiles
+      if (filters.interoperabilityProfiles.length > 0) {
+        const hasMatch = filters.interoperabilityProfiles.some(p => (wallet.interoperabilityProfiles || []).includes(p));
         if (!hasMatch) return false;
       }
 
@@ -190,8 +204,10 @@
   function getActiveFilterCount() {
     let count = 0;
     if (!settings.type) count += filters.type.length;
+    count += filters.capabilities.length;
     count += filters.platforms.length;
     count += filters.credentialFormats.length;
+    count += filters.interoperabilityProfiles.length;
     if (filters.openSource !== null) count += 1;
     return count;
   }
@@ -258,17 +274,31 @@
                 <div class="fides-filter-buttons">
                   <button class="fides-filter-btn ${filters.type.includes('personal') ? 'active' : ''}" data-filter="type" data-value="personal">Personal</button>
                   <button class="fides-filter-btn ${filters.type.includes('organizational') ? 'active' : ''}" data-filter="type" data-value="organizational">Organizational</button>
-                  <button class="fides-filter-btn ${filters.type.includes('both') ? 'active' : ''}" data-filter="type" data-value="both">Both</button>
                 </div>
               </div>
             ` : ''}
+            <div class="fides-filter-group">
+              <span class="fides-filter-label">Capabilities</span>
+              <div class="fides-filter-buttons">
+                <button class="fides-filter-btn ${filters.capabilities.includes('holder') ? 'active' : ''}" data-filter="capabilities" data-value="holder">Holder</button>
+                <button class="fides-filter-btn ${filters.capabilities.includes('issuer') ? 'active' : ''}" data-filter="capabilities" data-value="issuer">Issuer</button>
+                <button class="fides-filter-btn ${filters.capabilities.includes('verifier') ? 'active' : ''}" data-filter="capabilities" data-value="verifier">Verifier</button>
+              </div>
+            </div>
+            <div class="fides-filter-group">
+              <span class="fides-filter-label">Interop Profile</span>
+              <div class="fides-filter-buttons">
+                <button class="fides-filter-btn ${filters.interoperabilityProfiles.includes('HAIP') ? 'active' : ''}" data-filter="interoperabilityProfiles" data-value="HAIP">HAIP</button>
+                <button class="fides-filter-btn ${filters.interoperabilityProfiles.includes('DIIP v4') ? 'active' : ''}" data-filter="interoperabilityProfiles" data-value="DIIP v4">DIIP v4</button>
+                <button class="fides-filter-btn ${filters.interoperabilityProfiles.includes('EWC v3') ? 'active' : ''}" data-filter="interoperabilityProfiles" data-value="EWC v3">EWC v3</button>
+              </div>
+            </div>
             <div class="fides-filter-group">
               <span class="fides-filter-label">Platform</span>
               <div class="fides-filter-buttons">
                 <button class="fides-filter-btn ${filters.platforms.includes('iOS') ? 'active' : ''}" data-filter="platforms" data-value="iOS">iOS</button>
                 <button class="fides-filter-btn ${filters.platforms.includes('Android') ? 'active' : ''}" data-filter="platforms" data-value="Android">Android</button>
                 <button class="fides-filter-btn ${filters.platforms.includes('Web') ? 'active' : ''}" data-filter="platforms" data-value="Web">Web</button>
-                <button class="fides-filter-btn ${filters.platforms.includes('Windows') ? 'active' : ''}" data-filter="platforms" data-value="Windows">Windows</button>
               </div>
             </div>
             <div class="fides-filter-group">
@@ -334,6 +364,12 @@
       organizational: 'Organizational'
     };
 
+    const capabilityLabels = {
+      holder: 'Holder',
+      issuer: 'Issuer',
+      verifier: 'Verifier'
+    };
+
     return `
       <div class="fides-wallet-card" data-wallet-id="${wallet.id}" role="button" tabindex="0">
         <div class="fides-wallet-header type-${wallet.type}">
@@ -350,6 +386,16 @@
         <div class="fides-wallet-body">
           ${wallet.description ? `<p class="fides-wallet-description">${escapeHtml(wallet.description)}</p>` : ''}
           
+          ${wallet.capabilities && wallet.capabilities.length > 0 ? `
+            <div class="fides-tags fides-capability-tags">
+              ${wallet.capabilities.map(c => `
+                <span class="fides-tag capability capability-${c}">
+                  ${capabilityLabels[c] || c}
+                </span>
+              `).join('')}
+            </div>
+          ` : ''}
+          
           ${wallet.platforms && wallet.platforms.length > 0 ? `
             <div class="fides-tags">
               ${wallet.platforms.map(p => `
@@ -357,6 +403,14 @@
                   ${p === 'iOS' || p === 'Android' ? icons.smartphone : icons.globe}
                   ${escapeHtml(p)}
                 </span>
+              `).join('')}
+            </div>
+          ` : ''}
+
+          ${wallet.interoperabilityProfiles && wallet.interoperabilityProfiles.length > 0 ? `
+            <div class="fides-tags">
+              ${wallet.interoperabilityProfiles.map(p => `
+                <span class="fides-tag interop">${escapeHtml(p)}</span>
               `).join('')}
             </div>
           ` : ''}
@@ -486,6 +540,11 @@
               <span class="fides-modal-badge type-${wallet.type}">
                 ${typeLabels[wallet.type]}
               </span>
+              ${wallet.capabilities && wallet.capabilities.length > 0 ? wallet.capabilities.map(c => `
+                <span class="fides-modal-badge capability-${c}">
+                  ${c.charAt(0).toUpperCase() + c.slice(1)}
+                </span>
+              `).join('') : ''}
               ${wallet.status ? `
                 <span class="fides-modal-badge ${statusClasses[wallet.status] || ''}">
                   ${statusLabels[wallet.status] || wallet.status}
@@ -627,6 +686,18 @@
                   </div>
                   <div class="fides-modal-grid-value">
                     ${wallet.certifications.map(c => `<span class="fides-tag certification">${escapeHtml(c)}</span>`).join('')}
+                  </div>
+                </div>
+              ` : ''}
+
+              <!-- Interoperability Profiles -->
+              ${wallet.interoperabilityProfiles && wallet.interoperabilityProfiles.length > 0 ? `
+                <div class="fides-modal-grid-item">
+                  <div class="fides-modal-grid-label">
+                    ${icons.shield} Interop Profiles
+                  </div>
+                  <div class="fides-modal-grid-value">
+                    ${wallet.interoperabilityProfiles.map(p => `<span class="fides-tag interop">${escapeHtml(p)}</span>`).join('')}
                   </div>
                 </div>
               ` : ''}
@@ -823,8 +894,10 @@
         filters = {
           search: filters.search,
           type: settings.type ? [settings.type] : [],
+          capabilities: [],
           platforms: [],
           credentialFormats: [],
+          interoperabilityProfiles: [],
           openSource: null
         };
         render();
