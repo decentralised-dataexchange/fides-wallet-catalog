@@ -448,10 +448,14 @@
     };
 
     // Combine issuance and presentation protocols
+    // Collect protocols from both old format (issuanceProtocols/presentationProtocols) 
+    // and new format (protocols.issuance/protocols.presentation)
+    const protocolsObj = wallet.protocols || {};
     const allProtocols = [
       ...(wallet.issuanceProtocols || []),
       ...(wallet.presentationProtocols || []),
-      ...(wallet.protocols || [])
+      ...(protocolsObj.issuance || []),
+      ...(protocolsObj.presentation || [])
     ].filter((v, i, a) => a.indexOf(v) === i); // Remove duplicates
 
     // Get current theme from container
@@ -550,28 +554,34 @@
               ` : ''}
 
               <!-- Issuance Protocols -->
-              ${wallet.issuanceProtocols && wallet.issuanceProtocols.length > 0 ? `
+              ${(() => {
+                const issuance = wallet.issuanceProtocols || (wallet.protocols && wallet.protocols.issuance) || [];
+                return issuance.length > 0 ? `
                 <div class="fides-modal-grid-item">
                   <div class="fides-modal-grid-label">
                     ${icons.download} Issuance Protocols
                   </div>
                   <div class="fides-modal-grid-value">
-                    ${wallet.issuanceProtocols.map(p => `<span class="fides-tag protocol-issuance">${escapeHtml(p)}</span>`).join('')}
+                    ${issuance.map(p => `<span class="fides-tag protocol-issuance">${escapeHtml(p)}</span>`).join('')}
                   </div>
                 </div>
-              ` : ''}
+              ` : '';
+              })()}
 
               <!-- Presentation Protocols -->
-              ${wallet.presentationProtocols && wallet.presentationProtocols.length > 0 ? `
+              ${(() => {
+                const presentation = wallet.presentationProtocols || (wallet.protocols && wallet.protocols.presentation) || [];
+                return presentation.length > 0 ? `
                 <div class="fides-modal-grid-item">
                   <div class="fides-modal-grid-label">
                     ${icons.shield} Presentation Protocols
                   </div>
                   <div class="fides-modal-grid-value">
-                    ${wallet.presentationProtocols.map(p => `<span class="fides-tag protocol-presentation">${escapeHtml(p)}</span>`).join('')}
+                    ${presentation.map(p => `<span class="fides-tag protocol-presentation">${escapeHtml(p)}</span>`).join('')}
                   </div>
                 </div>
-              ` : ''}
+              ` : '';
+              })()}
 
               <!-- DID Methods -->
               ${(wallet.supportedDIDMethods || wallet.didMethods) && (wallet.supportedDIDMethods || wallet.didMethods).length > 0 ? `
