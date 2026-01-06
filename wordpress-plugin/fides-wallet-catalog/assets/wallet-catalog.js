@@ -288,7 +288,6 @@
             <div class="fides-filter-group">
               <span class="fides-filter-label">Interop Profile</span>
               <div class="fides-filter-buttons">
-                <button class="fides-filter-btn ${filters.interoperabilityProfiles.includes('HAIP') ? 'active' : ''}" data-filter="interoperabilityProfiles" data-value="HAIP">HAIP</button>
                 <button class="fides-filter-btn ${filters.interoperabilityProfiles.includes('DIIP v4') ? 'active' : ''}" data-filter="interoperabilityProfiles" data-value="DIIP v4">DIIP v4</button>
                 <button class="fides-filter-btn ${filters.interoperabilityProfiles.includes('EWC v3') ? 'active' : ''}" data-filter="interoperabilityProfiles" data-value="EWC v3">EWC v3</button>
               </div>

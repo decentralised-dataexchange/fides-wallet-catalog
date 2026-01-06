@@ -27,6 +27,7 @@
       "supportedDIDMethods": ["did:web", "did:key", "did:jwk", "did:ion", "did:ebsi"],
       "keyManagement": ["Secure Enclave (iOS)", "StrongBox (Android)", "Software"],
       "certifications": ["EUDI Wallet LSP"],
+      "interoperabilityProfiles": ["DIIP v4"],
       "standards": ["ARF 1.4", "EBSI"],
       "features": [
         "Multi-tenant support",
@@ -41,7 +42,24 @@
       },
       "status": "production",
       "releaseDate": "2022-03-15"
+    },
+    {
+      "id": "sphereon-platform",
+      "name": "Sphereon Platform",
+      "description": "An enterprise organizational wallet platform providing holder, issuer, and verifier capabilities with DIIP v4 compliance.",
+      "logo": "https://www.google.com/s2/favicons?domain=sphereon.com&sz=128",
+      "website": "https://sphereon.com",
+      "type": "organizational",
+      "capabilities": ["holder", "issuer", "verifier"],
+      "platforms": ["Web"],
+      "openSource": false,
+      "credentialFormats": ["SD-JWT-VC", "JWT-VC", "JSON-LD VC", "mDL/mDoc"],
+      "issuanceProtocols": ["OpenID4VCI"],
+      "presentationProtocols": ["OpenID4VP"],
+      "interoperabilityProfiles": ["DIIP v4"],
+      "documentation": "https://docs.sphereon.com",
+      "status": "production"
     }
   ],
-  "lastUpdated": "2025-01-03T14:30:00Z"
+  "lastUpdated": "2026-01-06T12:00:00Z"
 }

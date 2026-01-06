@@ -16,7 +16,7 @@
       "credentialFormats": ["SD-JWT-VC", "JWT-VC"],
       "issuanceProtocols": ["OpenID4VCI"],
       "presentationProtocols": ["OpenID4VP"],
-      "interoperabilityProfiles": ["HAIP"],
+      "interoperabilityProfiles": ["EWC v3"],
       "website": "https://www.validatedid.com",
       "appStoreLinks": {
         "iOS": "https://apps.apple.com/app/vidwallet/id1554340592",
@@ -36,6 +36,7 @@
       "credentialFormats": ["SD-JWT-VC", "JWT-VC"],
       "issuanceProtocols": ["OpenID4VCI"],
       "presentationProtocols": ["OpenID4VP"],
+      "interoperabilityProfiles": ["EWC v3"],
       "website": "https://validated.id",
       "openSource": false,
       "status": "production"

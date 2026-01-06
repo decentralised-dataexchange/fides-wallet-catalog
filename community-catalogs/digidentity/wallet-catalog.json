@@ -18,7 +18,7 @@
         "issuance": ["OpenID4VCI"],
         "presentation": ["OpenID4VP"]
       },
-      "interoperabilityProfiles": ["HAIP"],
+      "interoperabilityProfiles": ["EWC v3"],
       "website": "https://www.digidentity.com",
       "appStoreLinks": {
         "iOS": "https://apps.apple.com/app/digidentity-wallet/id916749732",

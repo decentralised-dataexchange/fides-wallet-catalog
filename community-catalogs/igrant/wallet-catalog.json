@@ -27,7 +27,7 @@
       "supportedDIDMethods": ["did:key", "did:web", "did:peer"],
       "keyManagement": ["Secure Enclave (iOS)", "StrongBox (Android)", "Software"],
       "certifications": [],
-      "interoperabilityProfiles": ["HAIP", "DIIP v4"],
+      "interoperabilityProfiles": ["DIIP v4", "EWC v3"],
       "standards": ["ARF 1.4"],
       "features": [
         "GDPR consent management",
@@ -59,7 +59,7 @@
       "issuanceProtocols": ["OpenID4VCI", "DIDComm Issue Credential v2"],
       "presentationProtocols": ["OpenID4VP", "DIDComm Present Proof v2"],
       "supportedDIDMethods": ["did:key", "did:web"],
-      "interoperabilityProfiles": ["DIIP v4"],
+      "interoperabilityProfiles": ["EWC v3"],
       "documentation": "https://docs.igrant.io",
       "status": "production"
     }

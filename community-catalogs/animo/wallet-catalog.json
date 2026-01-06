@@ -28,7 +28,7 @@
       "supportedDIDMethods": ["did:web", "did:key", "did:jwk", "did:peer"],
       "keyManagement": ["Secure Enclave (iOS)", "StrongBox (Android)", "Software"],
       "certifications": [],
-      "interoperabilityProfiles": ["HAIP"],
+      "interoperabilityProfiles": ["DIIP v4"],
       "standards": ["ARF 1.4"],
       "features": [
         "Biometric authentication",

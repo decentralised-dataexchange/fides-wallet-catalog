@@ -18,7 +18,7 @@
         "issuance": ["OpenID4VCI"],
         "presentation": ["OpenID4VP"]
       },
-      "interoperabilityProfiles": ["HAIP"],
+      "interoperabilityProfiles": ["DIIP v4"],
       "website": "https://ubique.ch",
       "appStoreLinks": {
         "iOS": "https://apps.apple.com/bj/app/heidi-wallet/id6741428702",

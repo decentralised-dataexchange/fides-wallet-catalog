@@ -10,7 +10,7 @@
       "id": "toppan-security-wallet",
       "name": "TOPPAN Security Wallet",
       "logo": "https://www.google.com/s2/favicons?domain=toppan.com&sz=128",
-      "description": "An enterprise security wallet supporting digital identity and verifiable credentials. HAIP compliance expected November 2025.",
+      "description": "An enterprise security wallet supporting digital identity and verifiable credentials with DIIP v4 compliance.",
       "type": "personal",
       "platforms": ["iOS", "Android"],
       "credentialFormats": ["SD-JWT-VC", "JWT-VC"],
@@ -18,6 +18,7 @@
         "issuance": ["OpenID4VCI"],
         "presentation": ["OpenID4VP"]
       },
+      "interoperabilityProfiles": ["DIIP v4"],
       "website": "https://www.toppan.com",
       "appStoreLinks": {
         "iOS": "https://apps.apple.com/app/ts-digital-onboarding-solution/id6479744390",

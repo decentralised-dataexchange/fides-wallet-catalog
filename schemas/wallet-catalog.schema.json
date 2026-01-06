@@ -207,7 +207,6 @@
           "items": {
             "type": "string",
             "enum": [
-              "HAIP",
               "DIIP v4",
               "EWC v3"
             ]

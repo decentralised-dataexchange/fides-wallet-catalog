@@ -16,7 +16,7 @@
       "credentialFormats": ["SD-JWT-VC", "JWT-VC"],
       "issuanceProtocols": ["OpenID4VCI"],
       "presentationProtocols": ["OpenID4VP"],
-      "interoperabilityProfiles": ["HAIP"],
+      "interoperabilityProfiles": ["DIIP v4"],
       "website": "https://impierce.com/unime",
       "appStoreLinks": {
         "iOS": "https://apps.apple.com/app/unime-identity-wallet/id6451394321",

@@ -18,7 +18,7 @@
         "issuance": ["OpenID4VCI"],
         "presentation": ["OpenID4VP"]
       },
-      "interoperabilityProfiles": ["HAIP", "DIIP v4"],
+      "interoperabilityProfiles": ["DIIP v4", "EWC v3"],
       "website": "https://yourd.xyz",
       "appStoreLinks": {
         "iOS": "https://apps.apple.com/app/yourd/id6477564824",

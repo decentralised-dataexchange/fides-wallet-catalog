@@ -25,7 +25,7 @@
       "supportedDIDMethods": ["did:key", "did:peer", "did:indy"],
       "keyManagement": ["Secure Enclave (iOS)", "StrongBox (Android)", "Software"],
       "certifications": ["EUDI Wallet LSP"],
-      "interoperabilityProfiles": ["HAIP"],
+      "interoperabilityProfiles": ["EWC v3"],
       "standards": ["ARF 1.4"],
       "features": [
         "Biometric authentication",
@@ -55,6 +55,7 @@
       "issuanceProtocols": ["OpenID4VCI", "DIDComm Issue Credential v2"],
       "presentationProtocols": ["OpenID4VP", "DIDComm Present Proof v2"],
       "supportedDIDMethods": ["did:web", "did:key", "did:indy"],
+      "interoperabilityProfiles": ["EWC v3"],
       "documentation": "https://docs.lissi.id",
       "status": "production"
     }

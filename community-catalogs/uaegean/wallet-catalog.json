@@ -18,6 +18,7 @@
       "credentialFormats": ["SD-JWT-VC", "JWT-VC"],
       "issuanceProtocols": ["OpenID4VCI"],
       "presentationProtocols": ["OpenID4VP"],
+      "interoperabilityProfiles": ["EWC v3"],
       "openSource": false,
       "status": "production"
     }
