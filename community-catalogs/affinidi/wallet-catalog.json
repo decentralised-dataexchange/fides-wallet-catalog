@@ -14,7 +14,7 @@
       "logo": "https://www.google.com/s2/favicons?domain=affinidi.com&sz=128",
       "website": "https://www.affinidi.com",
       "type": "organizational",
-      "capabilities": ["holder", "issuer"],
+      "capabilities": ["verifier", "issuer"],
       "platforms": ["Web"],
       "credentialFormats": ["SD-JWT-VC", "JWT-VC", "JSON-LD VC"],
       "issuanceProtocols": ["OpenID4VCI"],
