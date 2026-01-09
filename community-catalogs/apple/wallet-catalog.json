@@ -3,7 +3,8 @@
   "provider": {
     "name": "Apple",
     "website": "https://www.apple.com",
-    "logo": "https://www.google.com/s2/favicons?domain=apple.com&sz=128"
+    "logo": "https://www.google.com/s2/favicons?domain=apple.com&sz=128",
+    "country": "US"
   },
   "wallets": [
     {

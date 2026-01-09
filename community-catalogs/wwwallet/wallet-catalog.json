@@ -3,7 +3,8 @@
   "provider": {
     "name": "wwWallet.org",
     "website": "https://wwwallet.org",
-    "logo": "https://avatars.githubusercontent.com/u/126908515"
+    "logo": "https://avatars.githubusercontent.com/u/126908515",
+    "country": "GR"
   },
   "wallets": [
     {

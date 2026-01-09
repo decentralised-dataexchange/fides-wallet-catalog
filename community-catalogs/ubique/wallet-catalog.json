@@ -3,7 +3,8 @@
   "provider": {
     "name": "Ubique Innovation",
     "website": "https://ubique.ch",
-    "logo": "https://www.google.com/s2/favicons?domain=ubique.ch&sz=128"
+    "logo": "https://www.google.com/s2/favicons?domain=ubique.ch&sz=128",
+    "country": "CH"
   },
   "wallets": [
     {

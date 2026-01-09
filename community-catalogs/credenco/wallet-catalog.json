@@ -3,7 +3,8 @@
   "provider": {
     "name": "Credenco",
     "website": "https://www.credenco.com",
-    "logo": "https://www.google.com/s2/favicons?domain=credenco.com&sz=128"
+    "logo": "https://www.google.com/s2/favicons?domain=credenco.com&sz=128",
+    "country": "NL"
   },
   "wallets": [
     {

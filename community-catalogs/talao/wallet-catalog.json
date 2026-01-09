@@ -3,7 +3,8 @@
   "provider": {
     "name": "Talao",
     "website": "https://talao.io",
-    "logo": "https://www.google.com/s2/favicons?domain=talao.io&sz=128"
+    "logo": "https://www.google.com/s2/favicons?domain=talao.io&sz=128",
+    "country": "FR"
   },
   "wallets": [
     {

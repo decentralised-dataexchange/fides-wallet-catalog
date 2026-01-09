@@ -5,6 +5,7 @@
     "did": "did:web:igrant.io",
     "website": "https://igrant.io",
     "logo": "https://www.google.com/s2/favicons?domain=igrant.io&sz=128",
+    "country": "SE",
     "contact": {
       "email": "info@igrant.io"
     }

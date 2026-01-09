@@ -93,11 +93,25 @@ function mapWalletToFidesFormat(euWallet) {
     wallet.website = euWallet.url;
   }
 
+  // Country code detection
+  const countryCode = euWallet.country?.match(/\(([A-Z]{2})\)/)?.[1] || 
+                      Object.keys(COUNTRY_NAMES).find(code => 
+                        euWallet.country?.includes(COUNTRY_NAMES[code]));
+
   // Add optional fields
   if (euWallet.provider) {
     wallet.provider = {
       name: euWallet.provider.split('/')[0].trim(),
       website: euWallet.url || ''
+    };
+    if (countryCode) {
+      wallet.provider.country = countryCode;
+    }
+  } else if (countryCode) {
+    // If no provider specified, use country as provider context
+    wallet.provider = {
+      name: `${COUNTRY_NAMES[countryCode] || euWallet.country} Government`,
+      country: countryCode
     };
   }
 
@@ -123,13 +137,8 @@ function mapWalletToFidesFormat(euWallet) {
     wallet.interoperabilityProfiles = ['EUDI Wallet ARF'];
   }
 
-  // Country and flag logo
-  const countryCode = euWallet.country?.match(/\(([A-Z]{2})\)/)?.[1] || 
-                      Object.keys(COUNTRY_NAMES).find(code => 
-                        euWallet.country?.includes(COUNTRY_NAMES[code]));
+  // Use country flag as logo (FlagCDN - free to use, public domain flags)
   if (countryCode) {
-    wallet.countries = [countryCode];
-    // Use country flag as logo (FlagCDN - free to use, public domain flags)
     wallet.logo = `https://flagcdn.com/w80/${countryCode.toLowerCase()}.png`;
   }
 

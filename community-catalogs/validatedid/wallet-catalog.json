@@ -3,7 +3,8 @@
   "provider": {
     "name": "Validated ID",
     "website": "https://www.validatedid.com",
-    "logo": "https://www.google.com/s2/favicons?domain=validatedid.com&sz=128"
+    "logo": "https://www.google.com/s2/favicons?domain=validatedid.com&sz=128",
+    "country": "ES"
   },
   "wallets": [
     {

@@ -34,6 +34,24 @@
   // Selected wallet for modal
   let selectedWallet = null;
 
+  // Track which filter groups are expanded (true = expanded, false = collapsed)
+  // Default: top filters open, bottom filters collapsed
+  const filterGroupState = {
+    type: true,
+    availability: true,
+    provider: true,
+    platform: true,
+    country: false,
+    capabilities: true,
+    interop: false,
+    credentialFormats: false,
+    issuanceProtocols: false,
+    presentationProtocols: false,
+    supportedDIDMethods: false,
+    keyManagement: false,
+    license: false
+  };
+
   // Credential format sort order (consistent ordering)
   const CREDENTIAL_FORMAT_ORDER = [
     'SD-JWT-VC',
@@ -74,11 +92,34 @@
     type: [],
     capabilities: [],
     platforms: [],
+    countries: [],
     credentialFormats: [],
+    issuanceProtocols: [],
+    presentationProtocols: [],
+    supportedDIDMethods: [],
+    keyManagement: [],
     interoperabilityProfiles: [],
     status: [],
     openSource: null,
     governance: null // 'government' or 'private'
+  };
+
+  // Country code to name mapping
+  const COUNTRY_NAMES = {
+    'AD': 'Andorra', 'AL': 'Albania', 'AT': 'Austria', 'AU': 'Australia',
+    'BE': 'Belgium', 'BG': 'Bulgaria', 'BA': 'Bosnia and Herzegovina',
+    'CA': 'Canada', 'CH': 'Switzerland', 'CY': 'Cyprus', 'CZ': 'Czech Republic',
+    'DE': 'Germany', 'DK': 'Denmark', 'EE': 'Estonia', 'ES': 'Spain',
+    'FI': 'Finland', 'FR': 'France', 'GB': 'United Kingdom', 'GR': 'Greece',
+    'HR': 'Croatia', 'HU': 'Hungary', 'IE': 'Ireland', 'IL': 'Israel',
+    'IN': 'India', 'IS': 'Iceland', 'IT': 'Italy', 'JP': 'Japan', 'KR': 'South Korea',
+    'XK': 'Kosovo', 'LI': 'Liechtenstein', 'LT': 'Lithuania', 'LU': 'Luxembourg',
+    'LV': 'Latvia', 'MC': 'Monaco', 'MD': 'Moldova', 'ME': 'Montenegro',
+    'MK': 'North Macedonia', 'MT': 'Malta', 'NL': 'Netherlands', 'NO': 'Norway',
+    'NZ': 'New Zealand', 'PL': 'Poland', 'PT': 'Portugal', 'RO': 'Romania',
+    'RS': 'Serbia', 'SE': 'Sweden', 'SG': 'Singapore', 'SI': 'Slovenia',
+    'SK': 'Slovakia', 'SM': 'San Marino', 'TR': 'Turkey', 'UA': 'Ukraine',
+    'US': 'United States', 'VA': 'Vatican City'
   };
 
   /**
@@ -196,9 +237,42 @@
         if (!hasMatch) return false;
       }
 
+      // Countries
+      if (filters.countries.length > 0) {
+        const walletCountry = wallet.provider?.country;
+        if (!walletCountry || !filters.countries.includes(walletCountry)) return false;
+      }
+
       // Credential formats
       if (filters.credentialFormats.length > 0) {
         const hasMatch = filters.credentialFormats.some(f => (wallet.credentialFormats || []).includes(f));
+        if (!hasMatch) return false;
+      }
+
+      // Issuance protocols
+      if (filters.issuanceProtocols.length > 0) {
+        const walletIssuance = wallet.issuanceProtocols || (wallet.protocols && wallet.protocols.issuance) || [];
+        const hasMatch = filters.issuanceProtocols.some(p => walletIssuance.includes(p));
+        if (!hasMatch) return false;
+      }
+
+      // Presentation protocols
+      if (filters.presentationProtocols.length > 0) {
+        const walletPresentation = wallet.presentationProtocols || (wallet.protocols && wallet.protocols.presentation) || [];
+        const hasMatch = filters.presentationProtocols.some(p => walletPresentation.includes(p));
+        if (!hasMatch) return false;
+      }
+
+      // DID Methods
+      if (filters.supportedDIDMethods.length > 0) {
+        const walletDIDMethods = wallet.supportedDIDMethods || wallet.didMethods || [];
+        const hasMatch = filters.supportedDIDMethods.some(d => walletDIDMethods.includes(d));
+        if (!hasMatch) return false;
+      }
+
+      // Key Management
+      if (filters.keyManagement.length > 0) {
+        const hasMatch = filters.keyManagement.some(k => (wallet.keyManagement || []).includes(k));
         if (!hasMatch) return false;
       }
 
@@ -249,12 +323,34 @@
     if (!settings.type) count += filters.type.length;
     count += filters.capabilities.length;
     count += filters.platforms.length;
+    count += filters.countries.length;
     count += filters.credentialFormats.length;
+    count += filters.issuanceProtocols.length;
+    count += filters.presentationProtocols.length;
+    count += filters.supportedDIDMethods.length;
+    count += filters.keyManagement.length;
     count += filters.interoperabilityProfiles.length;
     count += filters.status.length;
     if (filters.openSource !== null) count += 1;
     if (filters.governance !== null) count += 1;
     return count;
+  }
+
+  /**
+   * Get unique countries from all wallets
+   */
+  function getAvailableCountries() {
+    const countries = new Set();
+    wallets.forEach(wallet => {
+      if (wallet.provider?.country) {
+        countries.add(wallet.provider.country);
+      }
+    });
+    return Array.from(countries).sort((a, b) => {
+      const nameA = COUNTRY_NAMES[a] || a;
+      const nameB = COUNTRY_NAMES[b] || b;
+      return nameA.localeCompare(nameB);
+    });
   }
 
   /**
@@ -282,14 +378,12 @@
             <div class="fides-sidebar-title">
               ${icons.filter}
               <span>Filters</span>
-              ${activeFilterCount > 0 ? `<span class="fides-filter-count">${activeFilterCount}</span>` : ''}
+              <span class="fides-filter-count ${activeFilterCount > 0 ? '' : 'hidden'}">${activeFilterCount || 0}</span>
             </div>
             <div class="fides-sidebar-actions">
-              ${activeFilterCount > 0 ? `
-                <button class="fides-clear-all" id="fides-clear">
-                  ${icons.x} Clear
-                </button>
-              ` : ''}
+              <button class="fides-clear-all ${activeFilterCount > 0 ? '' : 'hidden'}" id="fides-clear">
+                ${icons.x} Clear
+              </button>
               <button class="fides-sidebar-close" id="fides-sidebar-close" aria-label="Close filters">
                 ${icons.xLarge}
               </button>
@@ -314,75 +408,288 @@
               </div>
             ` : ''}
             ${!settings.type ? `
-              <div class="fides-filter-group">
-                <span class="fides-filter-label">Type</span>
-                <div class="fides-filter-buttons">
-                  <button class="fides-filter-btn ${filters.type.includes('personal') ? 'active' : ''}" data-filter="type" data-value="personal">Personal</button>
-                  <button class="fides-filter-btn ${filters.type.includes('organizational') ? 'active' : ''}" data-filter="type" data-value="organizational">Organizational</button>
+              <div class="fides-filter-group collapsible ${!filterGroupState.type ? 'collapsed' : ''} ${filters.type.length > 0 ? 'has-active' : ''}" data-filter-group="type">
+                <button class="fides-filter-label-toggle" type="button" aria-expanded="${filterGroupState.type}">
+                  <span class="fides-filter-label">Type</span>
+                  <span class="fides-filter-active-indicator"></span>
+                  ${icons.chevronDown}
+                </button>
+                <div class="fides-filter-options">
+                  <label class="fides-filter-checkbox">
+                    <input type="checkbox" data-filter="type" data-value="personal" ${filters.type.includes('personal') ? 'checked' : ''}>
+                    <span>Personal</span>
+                  </label>
+                  <label class="fides-filter-checkbox">
+                    <input type="checkbox" data-filter="type" data-value="organizational" ${filters.type.includes('organizational') ? 'checked' : ''}>
+                    <span>Organizational</span>
+                  </label>
                 </div>
               </div>
             ` : ''}
-            <div class="fides-filter-group">
-              <span class="fides-filter-label">Governance</span>
-              <div class="fides-filter-buttons">
-                <button class="fides-filter-btn ${filters.governance === 'government' ? 'active' : ''}" data-filter="governance" data-value="government">Government</button>
-                <button class="fides-filter-btn ${filters.governance === 'private' ? 'active' : ''}" data-filter="governance" data-value="private">Private</button>
-              </div>
-            </div>
-            ${filters.type.includes('organizational') || settings.type === 'organizational' ? `
-              <div class="fides-filter-group">
-                <span class="fides-filter-label">Capabilities</span>
-                <div class="fides-filter-buttons">
-                  <button class="fides-filter-btn ${filters.capabilities.includes('holder') ? 'active' : ''}" data-filter="capabilities" data-value="holder">Holder</button>
-                  <button class="fides-filter-btn ${filters.capabilities.includes('issuer') ? 'active' : ''}" data-filter="capabilities" data-value="issuer">Issuer</button>
-                  <button class="fides-filter-btn ${filters.capabilities.includes('verifier') ? 'active' : ''}" data-filter="capabilities" data-value="verifier">Verifier</button>
-                </div>
-              </div>
-            ` : ''}
-            <div class="fides-filter-group">
-              <span class="fides-filter-label">Interop Profile</span>
-              <div class="fides-filter-buttons">
-                <button class="fides-filter-btn ${filters.interoperabilityProfiles.includes('EUDI Wallet ARF') ? 'active' : ''}" data-filter="interoperabilityProfiles" data-value="EUDI Wallet ARF">EUDI Wallet ARF</button>
-                <button class="fides-filter-btn ${filters.interoperabilityProfiles.includes('DIIP v4') ? 'active' : ''}" data-filter="interoperabilityProfiles" data-value="DIIP v4">DIIP v4</button>
-                <button class="fides-filter-btn ${filters.interoperabilityProfiles.includes('EWC v3') ? 'active' : ''}" data-filter="interoperabilityProfiles" data-value="EWC v3">EWC v3</button>
-              </div>
-            </div>
             ${filters.type.includes('personal') || settings.type === 'personal' || (!filters.type.includes('organizational') && settings.type !== 'organizational') ? `
-              <div class="fides-filter-group">
-                <span class="fides-filter-label">Status</span>
-                <div class="fides-filter-buttons">
-                  <button class="fides-filter-btn ${filters.status.includes('available') ? 'active' : ''}" data-filter="status" data-value="available">Available</button>
-                  <button class="fides-filter-btn ${filters.status.includes('development') ? 'active' : ''}" data-filter="status" data-value="development">Development</button>
+              <div class="fides-filter-group collapsible ${!filterGroupState.availability ? 'collapsed' : ''} ${filters.status.length > 0 ? 'has-active' : ''}" data-filter-group="availability">
+                <button class="fides-filter-label-toggle" type="button" aria-expanded="${filterGroupState.availability}">
+                  <span class="fides-filter-label">Availability</span>
+                  <span class="fides-filter-active-indicator"></span>
+                  ${icons.chevronDown}
+                </button>
+                <div class="fides-filter-options">
+                  <label class="fides-filter-checkbox">
+                    <input type="checkbox" data-filter="status" data-value="available" ${filters.status.includes('available') ? 'checked' : ''}>
+                    <span>Publicly available</span>
+                  </label>
+                  <label class="fides-filter-checkbox">
+                    <input type="checkbox" data-filter="status" data-value="development" ${filters.status.includes('development') ? 'checked' : ''}>
+                    <span>Not publicly available</span>
+                  </label>
+                </div>
+              </div>
+              <div class="fides-filter-group collapsible ${!filterGroupState.provider ? 'collapsed' : ''} ${filters.governance !== null ? 'has-active' : ''}" data-filter-group="provider">
+                <button class="fides-filter-label-toggle" type="button" aria-expanded="${filterGroupState.provider}">
+                  <span class="fides-filter-label">Provider</span>
+                  <span class="fides-filter-active-indicator"></span>
+                  ${icons.chevronDown}
+                </button>
+                <div class="fides-filter-options">
+                  <label class="fides-filter-checkbox">
+                    <input type="checkbox" data-filter="governance" data-value="government" ${filters.governance === 'government' ? 'checked' : ''}>
+                    <span>Government</span>
+                  </label>
+                  <label class="fides-filter-checkbox">
+                    <input type="checkbox" data-filter="governance" data-value="private" ${filters.governance === 'private' ? 'checked' : ''}>
+                    <span>Non-government</span>
+                  </label>
+                </div>
+              </div>
+              <div class="fides-filter-group collapsible ${!filterGroupState.platform ? 'collapsed' : ''} ${filters.platforms.length > 0 ? 'has-active' : ''}" data-filter-group="platform">
+                <button class="fides-filter-label-toggle" type="button" aria-expanded="${filterGroupState.platform}">
+                  <span class="fides-filter-label">Platform</span>
+                  <span class="fides-filter-active-indicator"></span>
+                  ${icons.chevronDown}
+                </button>
+                <div class="fides-filter-options">
+                  <label class="fides-filter-checkbox">
+                    <input type="checkbox" data-filter="platforms" data-value="iOS" ${filters.platforms.includes('iOS') ? 'checked' : ''}>
+                    <span>iOS</span>
+                  </label>
+                  <label class="fides-filter-checkbox">
+                    <input type="checkbox" data-filter="platforms" data-value="Android" ${filters.platforms.includes('Android') ? 'checked' : ''}>
+                    <span>Android</span>
+                  </label>
+                  <label class="fides-filter-checkbox">
+                    <input type="checkbox" data-filter="platforms" data-value="Web" ${filters.platforms.includes('Web') ? 'checked' : ''}>
+                    <span>Web</span>
+                  </label>
+                </div>
+              </div>
+              <div class="fides-filter-group collapsible ${!filterGroupState.country ? 'collapsed' : ''} ${filters.countries.length > 0 ? 'has-active' : ''}" data-filter-group="country">
+                <button class="fides-filter-label-toggle" type="button" aria-expanded="${filterGroupState.country}">
+                  <span class="fides-filter-label">Country</span>
+                  <span class="fides-filter-active-indicator"></span>
+                  ${icons.chevronDown}
+                </button>
+                <div class="fides-filter-options fides-filter-options-scrollable">
+                  ${getAvailableCountries().map(code => `
+                    <label class="fides-filter-checkbox">
+                      <input type="checkbox" data-filter="countries" data-value="${code}" ${filters.countries.includes(code) ? 'checked' : ''}>
+                      <span><img src="https://flagcdn.com/w20/${code.toLowerCase()}.png" alt="" class="fides-country-flag"> ${COUNTRY_NAMES[code] || code}</span>
+                    </label>
+                  `).join('')}
                 </div>
               </div>
             ` : ''}
-            <div class="fides-filter-group">
-              <span class="fides-filter-label">Platform</span>
-              <div class="fides-filter-buttons">
-                <button class="fides-filter-btn ${filters.platforms.includes('iOS') ? 'active' : ''}" data-filter="platforms" data-value="iOS">iOS</button>
-                <button class="fides-filter-btn ${filters.platforms.includes('Android') ? 'active' : ''}" data-filter="platforms" data-value="Android">Android</button>
-                <button class="fides-filter-btn ${filters.platforms.includes('Web') ? 'active' : ''}" data-filter="platforms" data-value="Web">Web</button>
+            ${filters.type.includes('organizational') || settings.type === 'organizational' ? `
+              <div class="fides-filter-group collapsible ${!filterGroupState.capabilities ? 'collapsed' : ''} ${filters.capabilities.length > 0 ? 'has-active' : ''}" data-filter-group="capabilities">
+                <button class="fides-filter-label-toggle" type="button" aria-expanded="${filterGroupState.capabilities}">
+                  <span class="fides-filter-label">Capabilities</span>
+                  <span class="fides-filter-active-indicator"></span>
+                  ${icons.chevronDown}
+                </button>
+                <div class="fides-filter-options">
+                  <label class="fides-filter-checkbox">
+                    <input type="checkbox" data-filter="capabilities" data-value="holder" ${filters.capabilities.includes('holder') ? 'checked' : ''}>
+                    <span>Holder</span>
+                  </label>
+                  <label class="fides-filter-checkbox">
+                    <input type="checkbox" data-filter="capabilities" data-value="issuer" ${filters.capabilities.includes('issuer') ? 'checked' : ''}>
+                    <span>Issuer</span>
+                  </label>
+                  <label class="fides-filter-checkbox">
+                    <input type="checkbox" data-filter="capabilities" data-value="verifier" ${filters.capabilities.includes('verifier') ? 'checked' : ''}>
+                    <span>Verifier</span>
+                  </label>
+                </div>
+              </div>
+            ` : ''}
+            <div class="fides-filter-group collapsible ${!filterGroupState.interop ? 'collapsed' : ''} ${filters.interoperabilityProfiles.length > 0 ? 'has-active' : ''}" data-filter-group="interop">
+              <button class="fides-filter-label-toggle" type="button" aria-expanded="${filterGroupState.interop}">
+                <span class="fides-filter-label">Interop Profile</span>
+                <span class="fides-filter-active-indicator"></span>
+                ${icons.chevronDown}
+              </button>
+              <div class="fides-filter-options">
+                <label class="fides-filter-checkbox">
+                  <input type="checkbox" data-filter="interoperabilityProfiles" data-value="EUDI Wallet ARF" ${filters.interoperabilityProfiles.includes('EUDI Wallet ARF') ? 'checked' : ''}>
+                  <span>EUDI Wallet ARF</span>
+                </label>
+                <label class="fides-filter-checkbox">
+                  <input type="checkbox" data-filter="interoperabilityProfiles" data-value="DIIP v4" ${filters.interoperabilityProfiles.includes('DIIP v4') ? 'checked' : ''}>
+                  <span>DIIP v4</span>
+                </label>
+                <label class="fides-filter-checkbox">
+                  <input type="checkbox" data-filter="interoperabilityProfiles" data-value="EWC v3" ${filters.interoperabilityProfiles.includes('EWC v3') ? 'checked' : ''}>
+                  <span>EWC v3</span>
+                </label>
               </div>
             </div>
-            <div class="fides-filter-group">
-              <span class="fides-filter-label">Credential Format</span>
-              <div class="fides-filter-buttons">
-                <button class="fides-filter-btn ${filters.credentialFormats.includes('SD-JWT-VC') ? 'active' : ''}" data-filter="credentialFormats" data-value="SD-JWT-VC">SD-JWT-VC</button>
-                <button class="fides-filter-btn ${filters.credentialFormats.includes('mDL/mDoc') ? 'active' : ''}" data-filter="credentialFormats" data-value="mDL/mDoc">mDL/mDoc</button>
-                <button class="fides-filter-btn ${filters.credentialFormats.includes('JWT-VC') ? 'active' : ''}" data-filter="credentialFormats" data-value="JWT-VC">JWT-VC</button>
-                <button class="fides-filter-btn ${filters.credentialFormats.includes('AnonCreds') ? 'active' : ''}" data-filter="credentialFormats" data-value="AnonCreds">AnonCreds</button>
-                <button class="fides-filter-btn ${filters.credentialFormats.includes('JSON-LD VC') ? 'active' : ''}" data-filter="credentialFormats" data-value="JSON-LD VC">JSON-LD VC</button>
+            <div class="fides-filter-group collapsible ${!filterGroupState.credentialFormats ? 'collapsed' : ''} ${filters.credentialFormats.length > 0 ? 'has-active' : ''}" data-filter-group="credentialFormats">
+              <button class="fides-filter-label-toggle" type="button" aria-expanded="${filterGroupState.credentialFormats}">
+                <span class="fides-filter-label">Credential Format</span>
+                <span class="fides-filter-active-indicator"></span>
+                ${icons.chevronDown}
+              </button>
+              <div class="fides-filter-options">
+                <label class="fides-filter-checkbox">
+                  <input type="checkbox" data-filter="credentialFormats" data-value="SD-JWT-VC" ${filters.credentialFormats.includes('SD-JWT-VC') ? 'checked' : ''}>
+                  <span>SD-JWT-VC</span>
+                </label>
+                <label class="fides-filter-checkbox">
+                  <input type="checkbox" data-filter="credentialFormats" data-value="mDL/mDoc" ${filters.credentialFormats.includes('mDL/mDoc') ? 'checked' : ''}>
+                  <span>mDL/mDoc</span>
+                </label>
+                <label class="fides-filter-checkbox">
+                  <input type="checkbox" data-filter="credentialFormats" data-value="JWT-VC" ${filters.credentialFormats.includes('JWT-VC') ? 'checked' : ''}>
+                  <span>JWT-VC</span>
+                </label>
+                <label class="fides-filter-checkbox">
+                  <input type="checkbox" data-filter="credentialFormats" data-value="AnonCreds" ${filters.credentialFormats.includes('AnonCreds') ? 'checked' : ''}>
+                  <span>AnonCreds</span>
+                </label>
+                <label class="fides-filter-checkbox">
+                  <input type="checkbox" data-filter="credentialFormats" data-value="JSON-LD VC" ${filters.credentialFormats.includes('JSON-LD VC') ? 'checked' : ''}>
+                  <span>JSON-LD VC</span>
+                </label>
               </div>
             </div>
-            <div class="fides-filter-group">
-              <span class="fides-filter-label">License</span>
-              <div class="fides-filter-buttons">
-                <button class="fides-filter-btn ${filters.openSource === true ? 'active' : ''}" data-filter="openSource" data-value="true">
-                  ${icons.github} Open Source
-                </button>
-                <button class="fides-filter-btn ${filters.openSource === false ? 'active' : ''}" data-filter="openSource" data-value="false">
-                  Proprietary
-                </button>
+            <div class="fides-filter-group collapsible ${!filterGroupState.issuanceProtocols ? 'collapsed' : ''} ${filters.issuanceProtocols.length > 0 ? 'has-active' : ''}" data-filter-group="issuanceProtocols">
+              <button class="fides-filter-label-toggle" type="button" aria-expanded="${filterGroupState.issuanceProtocols}">
+                <span class="fides-filter-label">Issuance Protocol</span>
+                <span class="fides-filter-active-indicator"></span>
+                ${icons.chevronDown}
+              </button>
+              <div class="fides-filter-options">
+                <label class="fides-filter-checkbox">
+                  <input type="checkbox" data-filter="issuanceProtocols" data-value="OpenID4VCI" ${filters.issuanceProtocols.includes('OpenID4VCI') ? 'checked' : ''}>
+                  <span>OpenID4VCI</span>
+                </label>
+                <label class="fides-filter-checkbox">
+                  <input type="checkbox" data-filter="issuanceProtocols" data-value="DIDComm Issue Credential v2" ${filters.issuanceProtocols.includes('DIDComm Issue Credential v2') ? 'checked' : ''}>
+                  <span>DIDComm v2</span>
+                </label>
+                <label class="fides-filter-checkbox">
+                  <input type="checkbox" data-filter="issuanceProtocols" data-value="DIDComm Issue Credential v1" ${filters.issuanceProtocols.includes('DIDComm Issue Credential v1') ? 'checked' : ''}>
+                  <span>DIDComm v1</span>
+                </label>
+              </div>
+            </div>
+            <div class="fides-filter-group collapsible ${!filterGroupState.presentationProtocols ? 'collapsed' : ''} ${filters.presentationProtocols.length > 0 ? 'has-active' : ''}" data-filter-group="presentationProtocols">
+              <button class="fides-filter-label-toggle" type="button" aria-expanded="${filterGroupState.presentationProtocols}">
+                <span class="fides-filter-label">Presentation Protocol</span>
+                <span class="fides-filter-active-indicator"></span>
+                ${icons.chevronDown}
+              </button>
+              <div class="fides-filter-options">
+                <label class="fides-filter-checkbox">
+                  <input type="checkbox" data-filter="presentationProtocols" data-value="OpenID4VP" ${filters.presentationProtocols.includes('OpenID4VP') ? 'checked' : ''}>
+                  <span>OpenID4VP</span>
+                </label>
+                <label class="fides-filter-checkbox">
+                  <input type="checkbox" data-filter="presentationProtocols" data-value="SIOPv2" ${filters.presentationProtocols.includes('SIOPv2') ? 'checked' : ''}>
+                  <span>SIOPv2</span>
+                </label>
+                <label class="fides-filter-checkbox">
+                  <input type="checkbox" data-filter="presentationProtocols" data-value="DIDComm Present Proof v2" ${filters.presentationProtocols.includes('DIDComm Present Proof v2') ? 'checked' : ''}>
+                  <span>DIDComm v2</span>
+                </label>
+                <label class="fides-filter-checkbox">
+                  <input type="checkbox" data-filter="presentationProtocols" data-value="ISO 18013-5" ${filters.presentationProtocols.includes('ISO 18013-5') ? 'checked' : ''}>
+                  <span>ISO 18013-5</span>
+                </label>
+              </div>
+            </div>
+            <div class="fides-filter-group collapsible ${!filterGroupState.supportedDIDMethods ? 'collapsed' : ''} ${filters.supportedDIDMethods.length > 0 ? 'has-active' : ''}" data-filter-group="supportedDIDMethods">
+              <button class="fides-filter-label-toggle" type="button" aria-expanded="${filterGroupState.supportedDIDMethods}">
+                <span class="fides-filter-label">DID Methods</span>
+                <span class="fides-filter-active-indicator"></span>
+                ${icons.chevronDown}
+              </button>
+              <div class="fides-filter-options">
+                <label class="fides-filter-checkbox">
+                  <input type="checkbox" data-filter="supportedDIDMethods" data-value="did:web" ${filters.supportedDIDMethods.includes('did:web') ? 'checked' : ''}>
+                  <span>did:web</span>
+                </label>
+                <label class="fides-filter-checkbox">
+                  <input type="checkbox" data-filter="supportedDIDMethods" data-value="did:key" ${filters.supportedDIDMethods.includes('did:key') ? 'checked' : ''}>
+                  <span>did:key</span>
+                </label>
+                <label class="fides-filter-checkbox">
+                  <input type="checkbox" data-filter="supportedDIDMethods" data-value="did:jwk" ${filters.supportedDIDMethods.includes('did:jwk') ? 'checked' : ''}>
+                  <span>did:jwk</span>
+                </label>
+                <label class="fides-filter-checkbox">
+                  <input type="checkbox" data-filter="supportedDIDMethods" data-value="did:peer" ${filters.supportedDIDMethods.includes('did:peer') ? 'checked' : ''}>
+                  <span>did:peer</span>
+                </label>
+                <label class="fides-filter-checkbox">
+                  <input type="checkbox" data-filter="supportedDIDMethods" data-value="did:ebsi" ${filters.supportedDIDMethods.includes('did:ebsi') ? 'checked' : ''}>
+                  <span>did:ebsi</span>
+                </label>
+              </div>
+            </div>
+            <div class="fides-filter-group collapsible ${!filterGroupState.keyManagement ? 'collapsed' : ''} ${filters.keyManagement.length > 0 ? 'has-active' : ''}" data-filter-group="keyManagement">
+              <button class="fides-filter-label-toggle" type="button" aria-expanded="${filterGroupState.keyManagement}">
+                <span class="fides-filter-label">Key Management</span>
+                <span class="fides-filter-active-indicator"></span>
+                ${icons.chevronDown}
+              </button>
+              <div class="fides-filter-options">
+                <label class="fides-filter-checkbox">
+                  <input type="checkbox" data-filter="keyManagement" data-value="Secure Enclave (iOS)" ${filters.keyManagement.includes('Secure Enclave (iOS)') ? 'checked' : ''}>
+                  <span>Secure Enclave (iOS)</span>
+                </label>
+                <label class="fides-filter-checkbox">
+                  <input type="checkbox" data-filter="keyManagement" data-value="StrongBox (Android)" ${filters.keyManagement.includes('StrongBox (Android)') ? 'checked' : ''}>
+                  <span>StrongBox (Android)</span>
+                </label>
+                <label class="fides-filter-checkbox">
+                  <input type="checkbox" data-filter="keyManagement" data-value="Software" ${filters.keyManagement.includes('Software') ? 'checked' : ''}>
+                  <span>Software</span>
+                </label>
+                <label class="fides-filter-checkbox">
+                  <input type="checkbox" data-filter="keyManagement" data-value="HSM" ${filters.keyManagement.includes('HSM') ? 'checked' : ''}>
+                  <span>HSM</span>
+                </label>
+                <label class="fides-filter-checkbox">
+                  <input type="checkbox" data-filter="keyManagement" data-value="TEE" ${filters.keyManagement.includes('TEE') ? 'checked' : ''}>
+                  <span>TEE</span>
+                </label>
+              </div>
+            </div>
+            <div class="fides-filter-group collapsible ${!filterGroupState.license ? 'collapsed' : ''} ${filters.openSource !== null ? 'has-active' : ''}" data-filter-group="license">
+              <button class="fides-filter-label-toggle" type="button" aria-expanded="${filterGroupState.license}">
+                <span class="fides-filter-label">License</span>
+                <span class="fides-filter-active-indicator"></span>
+                ${icons.chevronDown}
+              </button>
+              <div class="fides-filter-options">
+                <label class="fides-filter-checkbox">
+                  <input type="checkbox" data-filter="openSource" data-value="true" ${filters.openSource === true ? 'checked' : ''}>
+                  <span>Open Source</span>
+                </label>
+                <label class="fides-filter-checkbox">
+                  <input type="checkbox" data-filter="openSource" data-value="false" ${filters.openSource === false ? 'checked' : ''}>
+                  <span>Proprietary</span>
+                </label>
               </div>
             </div>
           </div>
@@ -425,7 +732,7 @@
           <button class="fides-mobile-filter-toggle" id="fides-mobile-filter-toggle">
             ${icons.filter}
             <span>Filters</span>
-            ${activeFilterCount > 0 ? `<span class="fides-filter-count">${activeFilterCount}</span>` : ''}
+            <span class="fides-filter-count ${activeFilterCount > 0 ? '' : 'hidden'}">${activeFilterCount || 0}</span>
           </button>
         ` : ''}
       </div>
@@ -1010,27 +1317,47 @@
       });
     }
 
-    // Filter buttons
-    container.querySelectorAll('.fides-filter-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
-        const filterType = btn.dataset.filter;
-        const value = btn.dataset.value;
+    // Collapsible filter toggles
+    container.querySelectorAll('.fides-filter-label-toggle').forEach(toggle => {
+      toggle.addEventListener('click', () => {
+        const filterGroup = toggle.closest('.fides-filter-group');
+        if (filterGroup) {
+          const groupName = filterGroup.dataset.filterGroup;
+          filterGroup.classList.toggle('collapsed');
+          const isExpanded = !filterGroup.classList.contains('collapsed');
+          toggle.setAttribute('aria-expanded', isExpanded);
+          // Save state
+          if (groupName && filterGroupState.hasOwnProperty(groupName)) {
+            filterGroupState[groupName] = isExpanded;
+          }
+        }
+      });
+    });
+
+    // Filter checkboxes
+    container.querySelectorAll('.fides-filter-checkbox input[type="checkbox"]').forEach(checkbox => {
+      checkbox.addEventListener('change', () => {
+        const filterType = checkbox.dataset.filter;
+        const value = checkbox.dataset.value;
+        const isChecked = checkbox.checked;
         
         // Special handling for openSource (boolean toggle)
         if (filterType === 'openSource') {
           const boolValue = value === 'true';
-          filters.openSource = filters.openSource === boolValue ? null : boolValue;
+          filters.openSource = isChecked ? boolValue : null;
         } 
         // Special handling for governance (string toggle)
         else if (filterType === 'governance') {
-          filters.governance = filters.governance === value ? null : value;
+          filters.governance = isChecked ? value : null;
         }
         else {
           // Array-based filters
-          if (filters[filterType].includes(value)) {
-            filters[filterType] = filters[filterType].filter(v => v !== value);
+          if (isChecked) {
+            if (!filters[filterType].includes(value)) {
+              filters[filterType].push(value);
+            }
           } else {
-            filters[filterType].push(value);
+            filters[filterType] = filters[filterType].filter(v => v !== value);
           }
         }
         
@@ -1047,7 +1374,12 @@
           type: settings.type ? [settings.type] : [],
           capabilities: [],
           platforms: [],
+          countries: [],
           credentialFormats: [],
+          issuanceProtocols: [],
+          presentationProtocols: [],
+          supportedDIDMethods: [],
+          keyManagement: [],
           interoperabilityProfiles: [],
           status: [],
           openSource: null,

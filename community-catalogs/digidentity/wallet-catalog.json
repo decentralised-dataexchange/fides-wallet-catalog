@@ -3,7 +3,8 @@
   "provider": {
     "name": "Digidentity",
     "website": "https://www.digidentity.com",
-    "logo": "https://www.google.com/s2/favicons?domain=digidentity.com&sz=128"
+    "logo": "https://www.google.com/s2/favicons?domain=digidentity.com&sz=128",
+    "country": "NL"
   },
   "wallets": [
     {

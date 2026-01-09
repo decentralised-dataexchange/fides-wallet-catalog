@@ -3,7 +3,8 @@
   "provider": {
     "name": "youniqx Identity AG",
     "website": "https://www.youniqx.com",
-    "logo": "https://www.google.com/s2/favicons?domain=youniqx.com&sz=128"
+    "logo": "https://www.google.com/s2/favicons?domain=youniqx.com&sz=128",
+    "country": "AT"
   },
   "wallets": [
     {

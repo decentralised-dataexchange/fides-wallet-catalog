@@ -5,6 +5,7 @@
     "did": "did:web:animo.id",
     "website": "https://animo.id",
     "logo": "https://www.google.com/s2/favicons?domain=animo.id&sz=128",
+    "country": "NL",
     "contact": {
       "email": "info@animo.id",
       "support": "https://animo.id/support"
@@ -51,7 +52,7 @@
       "logo": "https://www.google.com/s2/favicons?domain=paradym.id&sz=128",
       "website": "https://paradym.id",
       "type": "organizational",
-      "capabilities": ["holder", "issuer"],
+      "capabilities": ["verifier", "issuer"],
       "platforms": ["Web"],
       "openSource": false,
       "credentialFormats": ["SD-JWT-VC", "JWT-VC", "AnonCreds", "mDL/mDoc"],

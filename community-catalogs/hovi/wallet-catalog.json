@@ -3,7 +3,8 @@
   "provider": {
     "name": "Hovi",
     "website": "https://www.hovi.id/",
-    "logo": "https://www.google.com/s2/favicons?domain=hovi.id&sz=128"
+    "logo": "https://www.google.com/s2/favicons?domain=hovi.id&sz=128",
+    "country": "FI"
   },
   "wallets": [
     {

@@ -3,7 +3,8 @@
   "provider": {
     "name": "Privacy by Design Foundation",
     "website": "https://privacybydesign.foundation",
-    "logo": "https://www.google.com/s2/favicons?domain=yivi.app&sz=128"
+    "logo": "https://www.google.com/s2/favicons?domain=yivi.app&sz=128",
+    "country": "NL"
   },
   "wallets": [
     {

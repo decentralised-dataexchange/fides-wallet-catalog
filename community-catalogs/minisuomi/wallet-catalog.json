@@ -3,7 +3,8 @@
   "provider": {
     "name": "Mini-Suomi (DVV Finland)",
     "website": "https://wallet.minisuomi.fi",
-    "logo": "https://www.google.com/s2/favicons?domain=minisuomi.fi&sz=128"
+    "logo": "https://www.google.com/s2/favicons?domain=minisuomi.fi&sz=128",
+    "country": "FI"
   },
   "wallets": [
     {

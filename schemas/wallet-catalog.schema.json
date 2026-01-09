@@ -35,6 +35,11 @@
           "format": "uri",
           "description": "URL to the organization's logo"
         },
+        "country": {
+          "type": "string",
+          "pattern": "^[A-Z]{2}$",
+          "description": "ISO 3166-1 alpha-2 country code where the provider is based"
+        },
         "contact": {
           "type": "object",
           "description": "Contact information",

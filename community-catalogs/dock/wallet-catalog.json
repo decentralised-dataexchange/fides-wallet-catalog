@@ -3,7 +3,8 @@
   "provider": {
     "name": "Dock",
     "website": "https://www.dock.io",
-    "logo": "https://www.google.com/s2/favicons?domain=dock.io&sz=128"
+    "logo": "https://www.google.com/s2/favicons?domain=dock.io&sz=128",
+    "country": "US"
   },
   "wallets": [
     {

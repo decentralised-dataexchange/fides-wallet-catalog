@@ -3,7 +3,8 @@
   "provider": {
     "name": "MATTR",
     "website": "https://mattr.global",
-    "logo": "https://www.google.com/s2/favicons?domain=mattr.global&sz=128"
+    "logo": "https://www.google.com/s2/favicons?domain=mattr.global&sz=128",
+    "country": "NZ"
   },
   "wallets": [
     {

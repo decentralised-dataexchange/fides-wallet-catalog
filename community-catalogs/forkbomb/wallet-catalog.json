@@ -3,7 +3,8 @@
   "provider": {
     "name": "Forkbomb",
     "website": "https://forkbomb.solutions",
-    "logo": "https://www.google.com/s2/favicons?domain=forkbomb.solutions&sz=128"
+    "logo": "https://www.google.com/s2/favicons?domain=forkbomb.solutions&sz=128",
+    "country": "IT"
   },
   "wallets": [
     {

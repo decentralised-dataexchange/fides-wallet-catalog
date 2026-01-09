@@ -3,7 +3,8 @@
   "provider": {
     "name": "Impierce Technologies",
     "website": "https://impierce.com",
-    "logo": "https://www.google.com/s2/favicons?domain=impierce.com&sz=128"
+    "logo": "https://www.google.com/s2/favicons?domain=impierce.com&sz=128",
+    "country": "NL"
   },
   "wallets": [
     {

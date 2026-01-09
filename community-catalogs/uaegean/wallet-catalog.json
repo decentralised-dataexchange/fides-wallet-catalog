@@ -3,7 +3,8 @@
   "provider": {
     "name": "University of the Aegean",
     "website": "https://www.aegean.gr",
-    "logo": "https://www.google.com/s2/favicons?domain=aegean.gr&sz=128"
+    "logo": "https://www.google.com/s2/favicons?domain=aegean.gr&sz=128",
+    "country": "GR"
   },
   "wallets": [
     {

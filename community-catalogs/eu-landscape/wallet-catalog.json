@@ -15,7 +15,8 @@
       "website": "https://www.govern.ad/ca/tematiques/ciutadania-i-documentacio/certificat-digital/oscepa",
       "provider": {
         "name": "Government of Andorra",
-        "website": "https://www.govern.ad/ca/tematiques/ciutadania-i-documentacio/certificat-digital/oscepa"
+        "website": "https://www.govern.ad/ca/tematiques/ciutadania-i-documentacio/certificat-digital/oscepa",
+        "country": "AD"
       },
       "platforms": [
         "iOS",
@@ -33,9 +34,6 @@
       ],
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
-      ],
-      "countries": [
-        "AD"
       ],
       "logo": "https://flagcdn.com/w80/ad.png",
       "releaseDate": "2024-01-01"
@@ -50,7 +48,8 @@
       "website": "https://me.rks-gov.net",
       "provider": {
         "name": "IdentiTek (State-owned enterprise)",
-        "website": "https://me.rks-gov.net"
+        "website": "https://me.rks-gov.net",
+        "country": "AL"
       },
       "presentationProtocols": [
         "OpenID4VP"
@@ -64,9 +63,6 @@
       ],
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
-      ],
-      "countries": [
-        "AL"
       ],
       "logo": "https://flagcdn.com/w80/al.png"
     },
@@ -80,7 +76,8 @@
       "website": "https://a-sit-plus.github.io/",
       "provider": {
         "name": "A-SIT, Austrian Government",
-        "website": "https://a-sit-plus.github.io/"
+        "website": "https://a-sit-plus.github.io/",
+        "country": "AT"
       },
       "presentationProtocols": [
         "OpenID4VP"
@@ -94,9 +91,6 @@
       ],
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
-      ],
-      "countries": [
-        "AT"
       ],
       "logo": "https://flagcdn.com/w80/at.png",
       "releaseDate": "2024-01-01"
@@ -111,7 +105,8 @@
       "website": "https://www.id-austria.gv.at/de/verwenden/eausweise",
       "provider": {
         "name": "Federal Government of Austria",
-        "website": "https://www.id-austria.gv.at/de/verwenden/eausweise"
+        "website": "https://www.id-austria.gv.at/de/verwenden/eausweise",
+        "country": "AT"
       },
       "platforms": [
         "iOS",
@@ -119,9 +114,6 @@
       ],
       "credentialFormats": [
         "mDL/mDoc"
-      ],
-      "countries": [
-        "AT"
       ],
       "logo": "https://flagcdn.com/w80/at.png",
       "releaseDate": "2022-01-01"
@@ -136,7 +128,8 @@
       "website": "https://www.id-austria.gv.at/de/verwenden/eausweise",
       "provider": {
         "name": "Austrian Federal Government",
-        "website": "https://www.id-austria.gv.at/de/verwenden/eausweise"
+        "website": "https://www.id-austria.gv.at/de/verwenden/eausweise",
+        "country": "AT"
       },
       "platforms": [
         "iOS",
@@ -144,9 +137,6 @@
       ],
       "credentialFormats": [
         "mDL/mDoc"
-      ],
-      "countries": [
-        "AT"
       ],
       "logo": "https://flagcdn.com/w80/at.png",
       "releaseDate": "2022-01-01"
@@ -161,14 +151,12 @@
       "website": "https://ich.app",
       "provider": {
         "name": "PSA Payment Services Austria GmbH",
-        "website": "https://ich.app"
+        "website": "https://ich.app",
+        "country": "AT"
       },
       "platforms": [
         "iOS",
         "Android"
-      ],
-      "countries": [
-        "AT"
       ],
       "logo": "https://flagcdn.com/w80/at.png",
       "releaseDate": "2022-01-01"
@@ -200,7 +188,8 @@
       "status": "production",
       "provider": {
         "name": "Belgian Government",
-        "website": ""
+        "website": "",
+        "country": "BE"
       },
       "platforms": [
         "iOS",
@@ -218,9 +207,6 @@
       ],
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
-      ],
-      "countries": [
-        "BE"
       ],
       "logo": "https://flagcdn.com/w80/be.png",
       "releaseDate": "2025-01-01"
@@ -235,13 +221,11 @@
       "website": "https://www.pxl-vision.com",
       "provider": {
         "name": "PXL Vision AG",
-        "website": "https://www.pxl-vision.com"
+        "website": "https://www.pxl-vision.com",
+        "country": "CH"
       },
       "platforms": [
         "Web"
-      ],
-      "countries": [
-        "CH"
       ],
       "logo": "https://flagcdn.com/w80/ch.png"
     },
@@ -255,11 +239,9 @@
       "website": "https://www.post.ch/en/business-solutions/identification",
       "provider": {
         "name": "Swiss Post (Die Schweizerische Post AG)",
-        "website": "https://www.post.ch/en/business-solutions/identification"
+        "website": "https://www.post.ch/en/business-solutions/identification",
+        "country": "CH"
       },
-      "countries": [
-        "CH"
-      ],
       "logo": "https://flagcdn.com/w80/ch.png"
     },
     {
@@ -272,13 +254,11 @@
       "website": "https://www.procivis.ch",
       "provider": {
         "name": "Procivis AG (subsidiary of Orell Füssli)",
-        "website": "https://www.procivis.ch"
+        "website": "https://www.procivis.ch",
+        "country": "CH"
       },
       "credentialFormats": [
         "mDL/mDoc"
-      ],
-      "countries": [
-        "CH"
       ],
       "logo": "https://flagcdn.com/w80/ch.png",
       "releaseDate": "2023-01-01"
@@ -293,7 +273,8 @@
       "website": "https://www.ejpd.admin.ch/bj/de/home/staat/gesetzgebung/staatliche-e-id.html",
       "provider": {
         "name": "Federal Office of Justice (Bundesamt für Justiz - BJ)",
-        "website": "https://www.ejpd.admin.ch/bj/de/home/staat/gesetzgebung/staatliche-e-id.html"
+        "website": "https://www.ejpd.admin.ch/bj/de/home/staat/gesetzgebung/staatliche-e-id.html",
+        "country": "CH"
       },
       "platforms": [
         "iOS",
@@ -311,9 +292,6 @@
       ],
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
-      ],
-      "countries": [
-        "CH"
       ],
       "logo": "https://flagcdn.com/w80/ch.png"
     },
@@ -327,7 +305,8 @@
       "website": "https://www.cygov.gov.cy/",
       "provider": {
         "name": "Government of Cyprus",
-        "website": "https://www.cygov.gov.cy/"
+        "website": "https://www.cygov.gov.cy/",
+        "country": "CY"
       },
       "platforms": [
         "iOS",
@@ -345,9 +324,6 @@
       ],
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
-      ],
-      "countries": [
-        "CY"
       ],
       "logo": "https://flagcdn.com/w80/cy.png",
       "certifications": [
@@ -364,14 +340,12 @@
       "status": "production",
       "provider": {
         "name": "Government of Cyprus",
-        "website": ""
+        "website": "",
+        "country": "CY"
       },
       "platforms": [
         "iOS",
         "Android"
-      ],
-      "countries": [
-        "CY"
       ],
       "logo": "https://flagcdn.com/w80/cy.png",
       "releaseDate": "2024-01-01"
@@ -386,14 +360,12 @@
       "website": "https://www.edoklady.cz/",
       "provider": {
         "name": "Czech Government",
-        "website": "https://www.edoklady.cz/"
+        "website": "https://www.edoklady.cz/",
+        "country": "CZ"
       },
       "platforms": [
         "iOS",
         "Android"
-      ],
-      "countries": [
-        "CZ"
       ],
       "logo": "https://flagcdn.com/w80/cz.png",
       "releaseDate": "2022-01-01"
@@ -408,14 +380,12 @@
       "website": "https://helixid.io",
       "provider": {
         "name": "Helix ID GmbH",
-        "website": "https://helixid.io"
+        "website": "https://helixid.io",
+        "country": "DE"
       },
       "platforms": [
         "iOS",
         "Android"
-      ],
-      "countries": [
-        "DE"
       ],
       "logo": "https://flagcdn.com/w80/de.png",
       "releaseDate": "2020-01-01"
@@ -430,7 +400,8 @@
       "website": "https://www.sprind.org/eudi-wallet",
       "provider": {
         "name": "SPRIND, BMDS, BMI, BSI, Bundesdruckerei, Fraunhofer AISEC, PwC",
-        "website": "https://www.sprind.org/eudi-wallet"
+        "website": "https://www.sprind.org/eudi-wallet",
+        "country": "DE"
       },
       "presentationProtocols": [
         "OpenID4VP"
@@ -444,9 +415,6 @@
       ],
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
-      ],
-      "countries": [
-        "DE"
       ],
       "logo": "https://flagcdn.com/w80/de.png"
     },
@@ -460,7 +428,8 @@
       "website": "https://www.spherity.com/eida",
       "provider": {
         "name": "Spherity GmbH",
-        "website": "https://www.spherity.com/eida"
+        "website": "https://www.spherity.com/eida",
+        "country": "DE"
       },
       "presentationProtocols": [
         "OpenID4VP"
@@ -474,9 +443,6 @@
       ],
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
-      ],
-      "countries": [
-        "DE"
       ],
       "logo": "https://flagcdn.com/w80/de.png",
       "releaseDate": "2023-01-01"
@@ -491,11 +457,9 @@
       "website": "https://verimi.de/",
       "provider": {
         "name": "Verimi GmbH",
-        "website": "https://verimi.de/"
+        "website": "https://verimi.de/",
+        "country": "DE"
       },
-      "countries": [
-        "DE"
-      ],
       "logo": "https://flagcdn.com/w80/de.png",
       "releaseDate": "2017-01-01"
     },
@@ -508,11 +472,9 @@
       "status": "production",
       "provider": {
         "name": "msg systems AG",
-        "website": ""
+        "website": "",
+        "country": "DE"
       },
-      "countries": [
-        "DE"
-      ],
       "logo": "https://flagcdn.com/w80/de.png",
       "releaseDate": "2019-01-01"
     },
@@ -525,7 +487,8 @@
       "status": "development",
       "provider": {
         "name": "Nine (Trifork Group)",
-        "website": ""
+        "website": "",
+        "country": "DK"
       },
       "presentationProtocols": [
         "OpenID4VP"
@@ -539,9 +502,6 @@
       ],
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
-      ],
-      "countries": [
-        "DK"
       ],
       "logo": "https://flagcdn.com/w80/dk.png",
       "releaseDate": "2026-01-01"
@@ -555,7 +515,8 @@
       "status": "development",
       "provider": {
         "name": "Estonian Government",
-        "website": ""
+        "website": "",
+        "country": "EE"
       },
       "platforms": [
         "iOS",
@@ -573,9 +534,6 @@
       ],
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
-      ],
-      "countries": [
-        "EE"
       ],
       "logo": "https://flagcdn.com/w80/ee.png"
     },
@@ -589,7 +547,8 @@
       "website": "https://digital.gob.es/especificaciones_tecnicas.html",
       "provider": {
         "name": "Spanish Government",
-        "website": "https://digital.gob.es/especificaciones_tecnicas.html"
+        "website": "https://digital.gob.es/especificaciones_tecnicas.html",
+        "country": "ES"
       },
       "platforms": [
         "iOS",
@@ -607,9 +566,6 @@
       ],
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
-      ],
-      "countries": [
-        "ES"
       ],
       "logo": "https://flagcdn.com/w80/es.png",
       "releaseDate": "2024-01-01"
@@ -624,7 +580,8 @@
       "website": "https://www.izertis.com/en/-/caso-de-exito/identfy",
       "provider": {
         "name": "Izertis S.A.",
-        "website": "https://www.izertis.com/en/-/caso-de-exito/identfy"
+        "website": "https://www.izertis.com/en/-/caso-de-exito/identfy",
+        "country": "ES"
       },
       "platforms": [
         "iOS",
@@ -643,11 +600,39 @@
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
       ],
-      "countries": [
-        "ES"
-      ],
       "logo": "https://flagcdn.com/w80/es.png",
       "releaseDate": "2023-01-01"
+    },
+    {
+      "id": "we-build",
+      "name": "WE BUILD",
+      "description": "WE BUILD (Wallet Ecosystem for Business & payment Use cases, Identification, Legal person representation, and Data sharing) consortium selected for second round of Large Scale Pilots commencing September 2025 for 24 months, led by Ministry of Economic Affairs (Netherlands), KVK (Netherlands), and Bolagsverket (Sweden) with 197 participants including 99 beneficiaries and 74 associated partners covering 27 countries with approximately €25 million budget. The organizational and business identity-focused pilot deploys 13 high-impact use cases for production-ready EUDI Wallet solutions representing organizations through power of attorney, signatory rights, and UBO attestations to streamline B2B, B2G, and B2C interactions improving KYx processes (Know Your Customer/Business/Supplier/Employee), engaging 20 wallet providers, 13 business register providers, 20 relying parties, 30 qualified trust service providers (QTSPs), 25 public identity (PID) providers, and 25 public agencies for automated, cost-reduced, and secure digital business identity infrastructure across Europe.",
+      "type": "personal",
+      "openSource": false,
+      "status": "beta",
+      "website": "https://www.webuildconsortium.eu",
+      "provider": {
+        "name": "Consortium (200+ partners)",
+        "website": "https://www.webuildconsortium.eu"
+      },
+      "platforms": [
+        "iOS",
+        "Android"
+      ],
+      "presentationProtocols": [
+        "OpenID4VP"
+      ],
+      "issuanceProtocols": [
+        "OpenID4VCI"
+      ],
+      "credentialFormats": [
+        "mDL/mDoc",
+        "SD-JWT-VC"
+      ],
+      "interoperabilityProfiles": [
+        "EUDI Wallet ARF"
+      ],
+      "releaseDate": "2025-01-01"
     },
     {
       "id": "finnish-authenticator",
@@ -659,14 +644,12 @@
       "website": "https://dvv.fi/en/finnish-authenticator-identification-service1",
       "provider": {
         "name": "Digital and Population Data Services Agency (DVV)",
-        "website": "https://dvv.fi/en/finnish-authenticator-identification-service1"
+        "website": "https://dvv.fi/en/finnish-authenticator-identification-service1",
+        "country": "FI"
       },
       "platforms": [
         "iOS",
         "Android"
-      ],
-      "countries": [
-        "FI"
       ],
       "logo": "https://flagcdn.com/w80/fi.png",
       "releaseDate": "2020-01-01"
@@ -681,14 +664,12 @@
       "website": "https://mobiilivarmenne.fi/en/",
       "provider": {
         "name": "DNA, Elisa, Telia (Finnish mobile network operators, coordinated by FiCom)",
-        "website": "https://mobiilivarmenne.fi/en/"
+        "website": "https://mobiilivarmenne.fi/en/",
+        "country": "FI"
       },
       "platforms": [
         "iOS",
         "Android"
-      ],
-      "countries": [
-        "FI"
       ],
       "logo": "https://flagcdn.com/w80/fi.png",
       "releaseDate": "2010-01-01"
@@ -703,7 +684,8 @@
       "website": "https://dvv.fi/en/european-digital-identity-wallet",
       "provider": {
         "name": "Digital and Population Data Services Agency (DVV)",
-        "website": "https://dvv.fi/en/european-digital-identity-wallet"
+        "website": "https://dvv.fi/en/european-digital-identity-wallet",
+        "country": "FI"
       },
       "presentationProtocols": [
         "OpenID4VP"
@@ -717,9 +699,6 @@
       ],
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
-      ],
-      "countries": [
-        "FI"
       ],
       "logo": "https://flagcdn.com/w80/fi.png",
       "releaseDate": "2026-01-01"
@@ -734,14 +713,12 @@
       "website": "https://www.ameli.fr/assure/remboursements/etre-bien-rembourse/carte-vitale",
       "provider": {
         "name": "French Government",
-        "website": "https://www.ameli.fr/assure/remboursements/etre-bien-rembourse/carte-vitale"
+        "website": "https://www.ameli.fr/assure/remboursements/etre-bien-rembourse/carte-vitale",
+        "country": "FR"
       },
       "platforms": [
         "iOS",
         "Android"
-      ],
-      "countries": [
-        "FR"
       ],
       "logo": "https://flagcdn.com/w80/fr.png",
       "releaseDate": "2025-01-01"
@@ -756,7 +733,8 @@
       "website": "https://france-identite.gouv.fr/",
       "provider": {
         "name": "French Ministry of the Interior",
-        "website": "https://france-identite.gouv.fr/"
+        "website": "https://france-identite.gouv.fr/",
+        "country": "FR"
       },
       "platforms": [
         "iOS",
@@ -774,9 +752,6 @@
       ],
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
-      ],
-      "countries": [
-        "FR"
       ],
       "logo": "https://flagcdn.com/w80/fr.png",
       "releaseDate": "2024-01-01"
@@ -841,14 +816,12 @@
       "website": "https://wallet.gov.gr/",
       "provider": {
         "name": "Greek Ministry of Digital Governance",
-        "website": "https://wallet.gov.gr/"
+        "website": "https://wallet.gov.gr/",
+        "country": "GR"
       },
       "platforms": [
         "iOS",
         "Android"
-      ],
-      "countries": [
-        "GR"
       ],
       "logo": "https://flagcdn.com/w80/gr.png",
       "releaseDate": "2022-01-01"
@@ -862,7 +835,8 @@
       "status": "development",
       "provider": {
         "name": "Greek Government",
-        "website": ""
+        "website": "",
+        "country": "GR"
       },
       "platforms": [
         "iOS",
@@ -881,9 +855,6 @@
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
       ],
-      "countries": [
-        "GR"
-      ],
       "logo": "https://flagcdn.com/w80/gr.png",
       "releaseDate": "2026-01-01"
     },
@@ -896,7 +867,8 @@
       "status": "production",
       "provider": {
         "name": "Hungarian Government",
-        "website": ""
+        "website": "",
+        "country": "HU"
       },
       "presentationProtocols": [
         "OpenID4VP"
@@ -910,9 +882,6 @@
       ],
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
-      ],
-      "countries": [
-        "HU"
       ],
       "logo": "https://flagcdn.com/w80/hu.png",
       "releaseDate": "2024-01-01"
@@ -926,7 +895,8 @@
       "status": "development",
       "provider": {
         "name": "Irish Government",
-        "website": ""
+        "website": "",
+        "country": "IE"
       },
       "presentationProtocols": [
         "OpenID4VP"
@@ -940,9 +910,6 @@
       ],
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
-      ],
-      "countries": [
-        "IE"
       ],
       "logo": "https://flagcdn.com/w80/ie.png"
     },
@@ -955,7 +922,8 @@
       "status": "development",
       "provider": {
         "name": "Icelandic Government",
-        "website": ""
+        "website": "",
+        "country": "IS"
       },
       "presentationProtocols": [
         "OpenID4VP"
@@ -969,9 +937,6 @@
       ],
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
-      ],
-      "countries": [
-        "IS"
       ],
       "logo": "https://flagcdn.com/w80/is.png",
       "releaseDate": "2027-01-01"
@@ -986,7 +951,8 @@
       "website": "https://io.italia.it/",
       "provider": {
         "name": "Italian Ministry of Digitalization (via IO App)",
-        "website": "https://io.italia.it/"
+        "website": "https://io.italia.it/",
+        "country": "IT"
       },
       "platforms": [
         "iOS",
@@ -1004,9 +970,6 @@
       ],
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
-      ],
-      "countries": [
-        "IT"
       ],
       "logo": "https://flagcdn.com/w80/it.png",
       "releaseDate": "2024-01-01"
@@ -1021,14 +984,12 @@
       "website": "https://www.idenfy.com/",
       "provider": {
         "name": "iDenfy (private company)",
-        "website": "https://www.idenfy.com/"
+        "website": "https://www.idenfy.com/",
+        "country": "LT"
       },
       "platforms": [
         "iOS",
         "Android"
-      ],
-      "countries": [
-        "LT"
       ],
       "logo": "https://flagcdn.com/w80/lt.png",
       "releaseDate": "2017-01-01"
@@ -1042,7 +1003,8 @@
       "status": "development",
       "provider": {
         "name": "Latvian Government",
-        "website": ""
+        "website": "",
+        "country": "LV"
       },
       "presentationProtocols": [
         "OpenID4VP"
@@ -1057,9 +1019,6 @@
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
       ],
-      "countries": [
-        "LV"
-      ],
       "logo": "https://flagcdn.com/w80/lv.png"
     },
     {
@@ -1072,11 +1031,9 @@
       "website": "https://www.gov.me",
       "provider": {
         "name": "Ministry of Public Administration",
-        "website": "https://www.gov.me"
+        "website": "https://www.gov.me",
+        "country": "ME"
       },
-      "countries": [
-        "ME"
-      ],
       "logo": "https://flagcdn.com/w80/me.png",
       "releaseDate": "2019-01-01"
     },
@@ -1090,11 +1047,9 @@
       "website": "https://www.euprava.me",
       "provider": {
         "name": "Ministry of Public Administration, Digital Society and Media of Montenegro",
-        "website": "https://www.euprava.me"
+        "website": "https://www.euprava.me",
+        "country": "ME"
       },
-      "countries": [
-        "ME"
-      ],
       "logo": "https://flagcdn.com/w80/me.png",
       "releaseDate": "2019-01-01"
     },
@@ -1108,14 +1063,12 @@
       "website": "https://portal.gov.mk",
       "provider": {
         "name": "Ministry of Digital Transformation",
-        "website": "https://portal.gov.mk"
+        "website": "https://portal.gov.mk",
+        "country": "MK"
       },
       "platforms": [
         "iOS",
         "Android"
-      ],
-      "countries": [
-        "MK"
       ],
       "logo": "https://flagcdn.com/w80/mk.png",
       "releaseDate": "2024-01-01"
@@ -1130,7 +1083,8 @@
       "website": "https://www.nldigitalgovernment.nl/",
       "provider": {
         "name": "Dutch Government",
-        "website": "https://www.nldigitalgovernment.nl/"
+        "website": "https://www.nldigitalgovernment.nl/",
+        "country": "NL"
       },
       "platforms": [
         "iOS"
@@ -1148,9 +1102,6 @@
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
       ],
-      "countries": [
-        "NL"
-      ],
       "logo": "https://flagcdn.com/w80/nl.png"
     },
     {
@@ -1162,7 +1113,8 @@
       "status": "development",
       "provider": {
         "name": "Norwegian Government",
-        "website": ""
+        "website": "",
+        "country": "NO"
       },
       "presentationProtocols": [
         "OpenID4VP"
@@ -1177,9 +1129,6 @@
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
       ],
-      "countries": [
-        "NO"
-      ],
       "logo": "https://flagcdn.com/w80/no.png",
       "releaseDate": "2027-01-01"
     },
@@ -1193,7 +1142,8 @@
       "website": "https://www.gov.pl/mobywatel",
       "provider": {
         "name": "Polish Government",
-        "website": "https://www.gov.pl/mobywatel"
+        "website": "https://www.gov.pl/mobywatel",
+        "country": "PL"
       },
       "platforms": [
         "iOS",
@@ -1201,9 +1151,6 @@
       ],
       "credentialFormats": [
         "mDL/mDoc"
-      ],
-      "countries": [
-        "PL"
       ],
       "logo": "https://flagcdn.com/w80/pl.png",
       "certifications": [
@@ -1221,14 +1168,12 @@
       "website": "https://www.kir.pl/en/our-products/clients/identity-i-e-signature/mojeid",
       "provider": {
         "name": "KIR (Krajowa Izba Rozliczeniowa S.A. - Polish National Clearing House)",
-        "website": "https://www.kir.pl/en/our-products/clients/identity-i-e-signature/mojeid"
+        "website": "https://www.kir.pl/en/our-products/clients/identity-i-e-signature/mojeid",
+        "country": "PL"
       },
       "platforms": [
         "iOS",
         "Android"
-      ],
-      "countries": [
-        "PL"
       ],
       "logo": "https://flagcdn.com/w80/pl.png"
     },
@@ -1242,14 +1187,12 @@
       "website": "https://eportugal.gov.pt",
       "provider": {
         "name": "AMA - Agency for Administrative Modernisation",
-        "website": "https://eportugal.gov.pt"
+        "website": "https://eportugal.gov.pt",
+        "country": "PT"
       },
       "platforms": [
         "iOS",
         "Android"
-      ],
-      "countries": [
-        "PT"
       ],
       "logo": "https://flagcdn.com/w80/pt.png",
       "releaseDate": "2019-01-01"
@@ -1264,14 +1207,12 @@
       "website": "https://eid.gov.rs",
       "provider": {
         "name": "Office for Information Technologies and eGovernment (Kancelarija ITE)",
-        "website": "https://eid.gov.rs"
+        "website": "https://eid.gov.rs",
+        "country": "RS"
       },
       "platforms": [
         "iOS",
         "Android"
-      ],
-      "countries": [
-        "RS"
       ],
       "logo": "https://flagcdn.com/w80/rs.png",
       "releaseDate": "2020-01-01"
@@ -1285,7 +1226,8 @@
       "status": "development",
       "provider": {
         "name": "Swedish Government",
-        "website": ""
+        "website": "",
+        "country": "SE"
       },
       "presentationProtocols": [
         "OpenID4VP"
@@ -1299,9 +1241,6 @@
       ],
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
-      ],
-      "countries": [
-        "SE"
       ],
       "logo": "https://flagcdn.com/w80/se.png"
     },
@@ -1315,14 +1254,12 @@
       "website": "https://www.truid.app/",
       "provider": {
         "name": "Truid AB (acquired by Kivra on March 14, 2025)",
-        "website": "https://www.truid.app/"
+        "website": "https://www.truid.app/",
+        "country": "SE"
       },
       "platforms": [
         "iOS",
         "Android"
-      ],
-      "countries": [
-        "SE"
       ],
       "logo": "https://flagcdn.com/w80/se.png",
       "releaseDate": "2021-01-01"
@@ -1336,7 +1273,8 @@
       "status": "development",
       "provider": {
         "name": "Slovenian Government",
-        "website": ""
+        "website": "",
+        "country": "SI"
       },
       "platforms": [
         "iOS",
@@ -1354,9 +1292,6 @@
       ],
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
-      ],
-      "countries": [
-        "SI"
       ],
       "logo": "https://flagcdn.com/w80/si.png"
     },
@@ -1369,7 +1304,8 @@
       "status": "development",
       "provider": {
         "name": "Slovak Government",
-        "website": ""
+        "website": "",
+        "country": "SK"
       },
       "platforms": [
         "iOS",
@@ -1388,9 +1324,6 @@
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
       ],
-      "countries": [
-        "SK"
-      ],
       "logo": "https://flagcdn.com/w80/sk.png"
     },
     {
@@ -1402,13 +1335,11 @@
       "status": "production",
       "provider": {
         "name": "Slovak Government",
-        "website": ""
+        "website": "",
+        "country": "SK"
       },
       "platforms": [
         "iOS"
-      ],
-      "countries": [
-        "SK"
       ],
       "logo": "https://flagcdn.com/w80/sk.png",
       "releaseDate": "2017-01-01"
@@ -1423,14 +1354,12 @@
       "website": "https://diia.gov.ua/",
       "provider": {
         "name": "Ukrainian Ministry of Digitalisation",
-        "website": "https://diia.gov.ua/"
+        "website": "https://diia.gov.ua/",
+        "country": "UA"
       },
       "platforms": [
         "iOS",
         "Android"
-      ],
-      "countries": [
-        "UA"
       ],
       "logo": "https://flagcdn.com/w80/ua.png",
       "releaseDate": "2020-01-01"
@@ -1445,7 +1374,8 @@
       "website": "https://me.rks-gov.net",
       "provider": {
         "name": "Ministry of Economy",
-        "website": "https://me.rks-gov.net"
+        "website": "https://me.rks-gov.net",
+        "country": "XK"
       },
       "presentationProtocols": [
         "OpenID4VP"
@@ -1459,9 +1389,6 @@
       ],
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
-      ],
-      "countries": [
-        "XK"
       ],
       "logo": "https://flagcdn.com/w80/xk.png",
       "releaseDate": "2024-01-01"

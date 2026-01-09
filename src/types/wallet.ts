@@ -46,6 +46,7 @@ export interface WalletProvider {
   did?: string; // Optional - not all providers have a DID yet
   website?: string;
   logo?: string;
+  country?: string; // ISO 3166-1 alpha-2 country code
   contact?: {
     email?: string;
     support?: string;

@@ -3,7 +3,8 @@
   "provider": {
     "name": "Microsoft",
     "website": "https://www.microsoft.com",
-    "logo": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128"
+    "logo": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128",
+    "country": "US"
   },
   "wallets": [
     {

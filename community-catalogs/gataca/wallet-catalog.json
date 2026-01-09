@@ -3,7 +3,8 @@
   "provider": {
     "name": "Gataca Labs",
     "website": "https://gataca.io",
-    "logo": "https://www.google.com/s2/favicons?domain=gataca.io&sz=128"
+    "logo": "https://www.google.com/s2/favicons?domain=gataca.io&sz=128",
+    "country": "ES"
   },
   "wallets": [
     {

@@ -3,7 +3,8 @@
   "provider": {
     "name": "Digital Bazaar",
     "website": "https://www.digitalbazaar.com",
-    "logo": "https://www.google.com/s2/favicons?domain=digitalbazaar.com&sz=128"
+    "logo": "https://www.google.com/s2/favicons?domain=digitalbazaar.com&sz=128",
+    "country": "US"
   },
   "wallets": [
     {

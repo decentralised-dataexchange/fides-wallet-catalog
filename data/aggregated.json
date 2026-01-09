@@ -30,10 +30,11 @@
       "provider": {
         "name": "Affinidi",
         "website": "https://www.affinidi.com",
-        "logo": "https://www.google.com/s2/favicons?domain=affinidi.com&sz=128"
+        "logo": "https://www.google.com/s2/favicons?domain=affinidi.com&sz=128",
+        "country": "SG"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/affinidi/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.356Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/affinidi/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.542Z",
       "source": "local"
     },
     {
@@ -101,13 +102,14 @@
         "did": "did:web:animo.id",
         "website": "https://animo.id",
         "logo": "https://www.google.com/s2/favicons?domain=animo.id&sz=128",
+        "country": "NL",
         "contact": {
           "email": "info@animo.id",
           "support": "https://animo.id/support"
         }
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/animo/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.360Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/animo/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.543Z",
       "source": "local"
     },
     {
@@ -118,7 +120,7 @@
       "website": "https://paradym.id",
       "type": "organizational",
       "capabilities": [
-        "holder",
+        "verifier",
         "issuer"
       ],
       "platforms": [
@@ -152,13 +154,14 @@
         "did": "did:web:animo.id",
         "website": "https://animo.id",
         "logo": "https://www.google.com/s2/favicons?domain=animo.id&sz=128",
+        "country": "NL",
         "contact": {
           "email": "info@animo.id",
           "support": "https://animo.id/support"
         }
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/animo/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.360Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/animo/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.543Z",
       "source": "local"
     },
     {
@@ -182,46 +185,11 @@
       "provider": {
         "name": "Apple",
         "website": "https://www.apple.com",
-        "logo": "https://www.google.com/s2/favicons?domain=apple.com&sz=128"
+        "logo": "https://www.google.com/s2/favicons?domain=apple.com&sz=128",
+        "country": "US"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/apple/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.361Z",
-      "source": "local"
-    },
-    {
-      "id": "archipels-wallet",
-      "name": "Archipels",
-      "description": "A French enterprise identity platform providing complete holder, issuer, and verifier capabilities for organizational digital credential management.",
-      "logo": "https://www.google.com/s2/favicons?domain=archipels.io&sz=128",
-      "website": "https://en.archipels.io",
-      "type": "organizational",
-      "capabilities": [
-        "holder",
-        "issuer",
-        "verifier"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "credentialFormats": [
-        "SD-JWT-VC",
-        "JWT-VC"
-      ],
-      "issuanceProtocols": [
-        "OpenID4VCI"
-      ],
-      "presentationProtocols": [
-        "OpenID4VP"
-      ],
-      "openSource": false,
-      "status": "production",
-      "provider": {
-        "name": "Archipels",
-        "website": "https://en.archipels.io",
-        "logo": "https://www.google.com/s2/favicons?domain=archipels.io&sz=128"
-      },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/archipels/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.363Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/apple/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.543Z",
       "source": "local"
     },
     {
@@ -253,10 +221,11 @@
       "provider": {
         "name": "Auth0 (Okta)",
         "website": "https://auth0.com",
-        "logo": "https://www.google.com/s2/favicons?domain=auth0.com&sz=128"
+        "logo": "https://www.google.com/s2/favicons?domain=auth0.com&sz=128",
+        "country": "US"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/auth0/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.364Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/auth0/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.544Z",
       "source": "local"
     },
     {
@@ -295,10 +264,11 @@
       "provider": {
         "name": "Credenco",
         "website": "https://www.credenco.com",
-        "logo": "https://www.google.com/s2/favicons?domain=credenco.com&sz=128"
+        "logo": "https://www.google.com/s2/favicons?domain=credenco.com&sz=128",
+        "country": "NL"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/credenco/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.364Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/credenco/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.544Z",
       "source": "local"
     },
     {
@@ -336,10 +306,11 @@
       "provider": {
         "name": "Digidentity",
         "website": "https://www.digidentity.com",
-        "logo": "https://www.google.com/s2/favicons?domain=digidentity.com&sz=128"
+        "logo": "https://www.google.com/s2/favicons?domain=digidentity.com&sz=128",
+        "country": "NL"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/digidentity/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.366Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/digidentity/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.544Z",
       "source": "local"
     },
     {
@@ -376,10 +347,11 @@
       "provider": {
         "name": "Digital Bazaar",
         "website": "https://www.digitalbazaar.com",
-        "logo": "https://www.google.com/s2/favicons?domain=digitalbazaar.com&sz=128"
+        "logo": "https://www.google.com/s2/favicons?domain=digitalbazaar.com&sz=128",
+        "country": "US"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/digitalbazaar/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.367Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/digitalbazaar/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.544Z",
       "source": "local"
     },
     {
@@ -415,10 +387,11 @@
       "provider": {
         "name": "Dock",
         "website": "https://www.dock.io",
-        "logo": "https://www.google.com/s2/favicons?domain=dock.io&sz=128"
+        "logo": "https://www.google.com/s2/favicons?domain=dock.io&sz=128",
+        "country": "US"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/dock/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.371Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/dock/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.544Z",
       "source": "local"
     },
     {
@@ -431,7 +404,8 @@
       "website": "https://www.govern.ad/ca/tematiques/ciutadania-i-documentacio/certificat-digital/oscepa",
       "provider": {
         "name": "Government of Andorra",
-        "website": "https://www.govern.ad/ca/tematiques/ciutadania-i-documentacio/certificat-digital/oscepa"
+        "website": "https://www.govern.ad/ca/tematiques/ciutadania-i-documentacio/certificat-digital/oscepa",
+        "country": "AD"
       },
       "platforms": [
         "iOS",
@@ -450,13 +424,10 @@
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
       ],
-      "countries": [
-        "AD"
-      ],
       "logo": "https://flagcdn.com/w80/ad.png",
       "releaseDate": "2024-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -469,7 +440,8 @@
       "website": "https://me.rks-gov.net",
       "provider": {
         "name": "IdentiTek (State-owned enterprise)",
-        "website": "https://me.rks-gov.net"
+        "website": "https://me.rks-gov.net",
+        "country": "AL"
       },
       "presentationProtocols": [
         "OpenID4VP"
@@ -484,12 +456,9 @@
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
       ],
-      "countries": [
-        "AL"
-      ],
       "logo": "https://flagcdn.com/w80/al.png",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -502,7 +471,8 @@
       "website": "https://a-sit-plus.github.io/",
       "provider": {
         "name": "A-SIT, Austrian Government",
-        "website": "https://a-sit-plus.github.io/"
+        "website": "https://a-sit-plus.github.io/",
+        "country": "AT"
       },
       "presentationProtocols": [
         "OpenID4VP"
@@ -517,13 +487,10 @@
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
       ],
-      "countries": [
-        "AT"
-      ],
       "logo": "https://flagcdn.com/w80/at.png",
       "releaseDate": "2024-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -536,7 +503,8 @@
       "website": "https://www.id-austria.gv.at/de/verwenden/eausweise",
       "provider": {
         "name": "Federal Government of Austria",
-        "website": "https://www.id-austria.gv.at/de/verwenden/eausweise"
+        "website": "https://www.id-austria.gv.at/de/verwenden/eausweise",
+        "country": "AT"
       },
       "platforms": [
         "iOS",
@@ -545,13 +513,10 @@
       "credentialFormats": [
         "mDL/mDoc"
       ],
-      "countries": [
-        "AT"
-      ],
       "logo": "https://flagcdn.com/w80/at.png",
       "releaseDate": "2022-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -564,7 +529,8 @@
       "website": "https://www.id-austria.gv.at/de/verwenden/eausweise",
       "provider": {
         "name": "Austrian Federal Government",
-        "website": "https://www.id-austria.gv.at/de/verwenden/eausweise"
+        "website": "https://www.id-austria.gv.at/de/verwenden/eausweise",
+        "country": "AT"
       },
       "platforms": [
         "iOS",
@@ -573,13 +539,10 @@
       "credentialFormats": [
         "mDL/mDoc"
       ],
-      "countries": [
-        "AT"
-      ],
       "logo": "https://flagcdn.com/w80/at.png",
       "releaseDate": "2022-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -592,19 +555,17 @@
       "website": "https://ich.app",
       "provider": {
         "name": "PSA Payment Services Austria GmbH",
-        "website": "https://ich.app"
+        "website": "https://ich.app",
+        "country": "AT"
       },
       "platforms": [
         "iOS",
         "Android"
       ],
-      "countries": [
-        "AT"
-      ],
       "logo": "https://flagcdn.com/w80/at.png",
       "releaseDate": "2022-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -624,8 +585,8 @@
         "Android"
       ],
       "releaseDate": "2025-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -637,7 +598,8 @@
       "status": "production",
       "provider": {
         "name": "Belgian Government",
-        "website": ""
+        "website": "",
+        "country": "BE"
       },
       "platforms": [
         "iOS",
@@ -656,13 +618,10 @@
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
       ],
-      "countries": [
-        "BE"
-      ],
       "logo": "https://flagcdn.com/w80/be.png",
       "releaseDate": "2025-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -675,17 +634,15 @@
       "website": "https://www.pxl-vision.com",
       "provider": {
         "name": "PXL Vision AG",
-        "website": "https://www.pxl-vision.com"
+        "website": "https://www.pxl-vision.com",
+        "country": "CH"
       },
       "platforms": [
         "Web"
       ],
-      "countries": [
-        "CH"
-      ],
       "logo": "https://flagcdn.com/w80/ch.png",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -698,14 +655,12 @@
       "website": "https://www.post.ch/en/business-solutions/identification",
       "provider": {
         "name": "Swiss Post (Die Schweizerische Post AG)",
-        "website": "https://www.post.ch/en/business-solutions/identification"
+        "website": "https://www.post.ch/en/business-solutions/identification",
+        "country": "CH"
       },
-      "countries": [
-        "CH"
-      ],
       "logo": "https://flagcdn.com/w80/ch.png",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -718,18 +673,16 @@
       "website": "https://www.procivis.ch",
       "provider": {
         "name": "Procivis AG (subsidiary of Orell Füssli)",
-        "website": "https://www.procivis.ch"
+        "website": "https://www.procivis.ch",
+        "country": "CH"
       },
       "credentialFormats": [
         "mDL/mDoc"
       ],
-      "countries": [
-        "CH"
-      ],
       "logo": "https://flagcdn.com/w80/ch.png",
       "releaseDate": "2023-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -742,7 +695,8 @@
       "website": "https://www.ejpd.admin.ch/bj/de/home/staat/gesetzgebung/staatliche-e-id.html",
       "provider": {
         "name": "Federal Office of Justice (Bundesamt für Justiz - BJ)",
-        "website": "https://www.ejpd.admin.ch/bj/de/home/staat/gesetzgebung/staatliche-e-id.html"
+        "website": "https://www.ejpd.admin.ch/bj/de/home/staat/gesetzgebung/staatliche-e-id.html",
+        "country": "CH"
       },
       "platforms": [
         "iOS",
@@ -761,12 +715,9 @@
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
       ],
-      "countries": [
-        "CH"
-      ],
       "logo": "https://flagcdn.com/w80/ch.png",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -779,7 +730,8 @@
       "website": "https://www.cygov.gov.cy/",
       "provider": {
         "name": "Government of Cyprus",
-        "website": "https://www.cygov.gov.cy/"
+        "website": "https://www.cygov.gov.cy/",
+        "country": "CY"
       },
       "platforms": [
         "iOS",
@@ -798,16 +750,13 @@
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
       ],
-      "countries": [
-        "CY"
-      ],
       "logo": "https://flagcdn.com/w80/cy.png",
       "certifications": [
         "eIDAS notified"
       ],
       "releaseDate": "2020-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -819,19 +768,17 @@
       "status": "production",
       "provider": {
         "name": "Government of Cyprus",
-        "website": ""
+        "website": "",
+        "country": "CY"
       },
       "platforms": [
         "iOS",
         "Android"
       ],
-      "countries": [
-        "CY"
-      ],
       "logo": "https://flagcdn.com/w80/cy.png",
       "releaseDate": "2024-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -844,19 +791,17 @@
       "website": "https://www.edoklady.cz/",
       "provider": {
         "name": "Czech Government",
-        "website": "https://www.edoklady.cz/"
+        "website": "https://www.edoklady.cz/",
+        "country": "CZ"
       },
       "platforms": [
         "iOS",
         "Android"
       ],
-      "countries": [
-        "CZ"
-      ],
       "logo": "https://flagcdn.com/w80/cz.png",
       "releaseDate": "2022-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -869,19 +814,17 @@
       "website": "https://helixid.io",
       "provider": {
         "name": "Helix ID GmbH",
-        "website": "https://helixid.io"
+        "website": "https://helixid.io",
+        "country": "DE"
       },
       "platforms": [
         "iOS",
         "Android"
       ],
-      "countries": [
-        "DE"
-      ],
       "logo": "https://flagcdn.com/w80/de.png",
       "releaseDate": "2020-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -894,7 +837,8 @@
       "website": "https://www.sprind.org/eudi-wallet",
       "provider": {
         "name": "SPRIND, BMDS, BMI, BSI, Bundesdruckerei, Fraunhofer AISEC, PwC",
-        "website": "https://www.sprind.org/eudi-wallet"
+        "website": "https://www.sprind.org/eudi-wallet",
+        "country": "DE"
       },
       "presentationProtocols": [
         "OpenID4VP"
@@ -909,12 +853,9 @@
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
       ],
-      "countries": [
-        "DE"
-      ],
       "logo": "https://flagcdn.com/w80/de.png",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -927,7 +868,8 @@
       "website": "https://www.spherity.com/eida",
       "provider": {
         "name": "Spherity GmbH",
-        "website": "https://www.spherity.com/eida"
+        "website": "https://www.spherity.com/eida",
+        "country": "DE"
       },
       "presentationProtocols": [
         "OpenID4VP"
@@ -942,13 +884,10 @@
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
       ],
-      "countries": [
-        "DE"
-      ],
       "logo": "https://flagcdn.com/w80/de.png",
       "releaseDate": "2023-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -961,15 +900,13 @@
       "website": "https://verimi.de/",
       "provider": {
         "name": "Verimi GmbH",
-        "website": "https://verimi.de/"
+        "website": "https://verimi.de/",
+        "country": "DE"
       },
-      "countries": [
-        "DE"
-      ],
       "logo": "https://flagcdn.com/w80/de.png",
       "releaseDate": "2017-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -981,15 +918,13 @@
       "status": "production",
       "provider": {
         "name": "msg systems AG",
-        "website": ""
+        "website": "",
+        "country": "DE"
       },
-      "countries": [
-        "DE"
-      ],
       "logo": "https://flagcdn.com/w80/de.png",
       "releaseDate": "2019-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -1001,7 +936,8 @@
       "status": "development",
       "provider": {
         "name": "Nine (Trifork Group)",
-        "website": ""
+        "website": "",
+        "country": "DK"
       },
       "presentationProtocols": [
         "OpenID4VP"
@@ -1016,13 +952,10 @@
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
       ],
-      "countries": [
-        "DK"
-      ],
       "logo": "https://flagcdn.com/w80/dk.png",
       "releaseDate": "2026-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -1034,7 +967,8 @@
       "status": "development",
       "provider": {
         "name": "Estonian Government",
-        "website": ""
+        "website": "",
+        "country": "EE"
       },
       "platforms": [
         "iOS",
@@ -1053,12 +987,9 @@
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
       ],
-      "countries": [
-        "EE"
-      ],
       "logo": "https://flagcdn.com/w80/ee.png",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -1071,7 +1002,8 @@
       "website": "https://digital.gob.es/especificaciones_tecnicas.html",
       "provider": {
         "name": "Spanish Government",
-        "website": "https://digital.gob.es/especificaciones_tecnicas.html"
+        "website": "https://digital.gob.es/especificaciones_tecnicas.html",
+        "country": "ES"
       },
       "platforms": [
         "iOS",
@@ -1090,13 +1022,10 @@
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
       ],
-      "countries": [
-        "ES"
-      ],
       "logo": "https://flagcdn.com/w80/es.png",
       "releaseDate": "2024-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -1109,7 +1038,8 @@
       "website": "https://www.izertis.com/en/-/caso-de-exito/identfy",
       "provider": {
         "name": "Izertis S.A.",
-        "website": "https://www.izertis.com/en/-/caso-de-exito/identfy"
+        "website": "https://www.izertis.com/en/-/caso-de-exito/identfy",
+        "country": "ES"
       },
       "platforms": [
         "iOS",
@@ -1128,13 +1058,44 @@
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
       ],
-      "countries": [
-        "ES"
-      ],
       "logo": "https://flagcdn.com/w80/es.png",
       "releaseDate": "2023-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
+      "source": "local"
+    },
+    {
+      "id": "we-build",
+      "name": "WE BUILD",
+      "description": "WE BUILD (Wallet Ecosystem for Business & payment Use cases, Identification, Legal person representation, and Data sharing) consortium selected for second round of Large Scale Pilots commencing September 2025 for 24 months, led by Ministry of Economic Affairs (Netherlands), KVK (Netherlands), and Bolagsverket (Sweden) with 197 participants including 99 beneficiaries and 74 associated partners covering 27 countries with approximately €25 million budget. The organizational and business identity-focused pilot deploys 13 high-impact use cases for production-ready EUDI Wallet solutions representing organizations through power of attorney, signatory rights, and UBO attestations to streamline B2B, B2G, and B2C interactions improving KYx processes (Know Your Customer/Business/Supplier/Employee), engaging 20 wallet providers, 13 business register providers, 20 relying parties, 30 qualified trust service providers (QTSPs), 25 public identity (PID) providers, and 25 public agencies for automated, cost-reduced, and secure digital business identity infrastructure across Europe.",
+      "type": "personal",
+      "openSource": false,
+      "status": "beta",
+      "website": "https://www.webuildconsortium.eu",
+      "provider": {
+        "name": "Consortium (200+ partners)",
+        "website": "https://www.webuildconsortium.eu"
+      },
+      "platforms": [
+        "iOS",
+        "Android"
+      ],
+      "presentationProtocols": [
+        "OpenID4VP"
+      ],
+      "issuanceProtocols": [
+        "OpenID4VCI"
+      ],
+      "credentialFormats": [
+        "mDL/mDoc",
+        "SD-JWT-VC"
+      ],
+      "interoperabilityProfiles": [
+        "EUDI Wallet ARF"
+      ],
+      "releaseDate": "2025-01-01",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -1147,19 +1108,17 @@
       "website": "https://dvv.fi/en/finnish-authenticator-identification-service1",
       "provider": {
         "name": "Digital and Population Data Services Agency (DVV)",
-        "website": "https://dvv.fi/en/finnish-authenticator-identification-service1"
+        "website": "https://dvv.fi/en/finnish-authenticator-identification-service1",
+        "country": "FI"
       },
       "platforms": [
         "iOS",
         "Android"
       ],
-      "countries": [
-        "FI"
-      ],
       "logo": "https://flagcdn.com/w80/fi.png",
       "releaseDate": "2020-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -1172,19 +1131,17 @@
       "website": "https://mobiilivarmenne.fi/en/",
       "provider": {
         "name": "DNA, Elisa, Telia (Finnish mobile network operators, coordinated by FiCom)",
-        "website": "https://mobiilivarmenne.fi/en/"
+        "website": "https://mobiilivarmenne.fi/en/",
+        "country": "FI"
       },
       "platforms": [
         "iOS",
         "Android"
       ],
-      "countries": [
-        "FI"
-      ],
       "logo": "https://flagcdn.com/w80/fi.png",
       "releaseDate": "2010-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -1197,7 +1154,8 @@
       "website": "https://dvv.fi/en/european-digital-identity-wallet",
       "provider": {
         "name": "Digital and Population Data Services Agency (DVV)",
-        "website": "https://dvv.fi/en/european-digital-identity-wallet"
+        "website": "https://dvv.fi/en/european-digital-identity-wallet",
+        "country": "FI"
       },
       "presentationProtocols": [
         "OpenID4VP"
@@ -1212,13 +1170,10 @@
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
       ],
-      "countries": [
-        "FI"
-      ],
       "logo": "https://flagcdn.com/w80/fi.png",
       "releaseDate": "2026-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -1231,19 +1186,17 @@
       "website": "https://www.ameli.fr/assure/remboursements/etre-bien-rembourse/carte-vitale",
       "provider": {
         "name": "French Government",
-        "website": "https://www.ameli.fr/assure/remboursements/etre-bien-rembourse/carte-vitale"
+        "website": "https://www.ameli.fr/assure/remboursements/etre-bien-rembourse/carte-vitale",
+        "country": "FR"
       },
       "platforms": [
         "iOS",
         "Android"
       ],
-      "countries": [
-        "FR"
-      ],
       "logo": "https://flagcdn.com/w80/fr.png",
       "releaseDate": "2025-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -1256,7 +1209,8 @@
       "website": "https://france-identite.gouv.fr/",
       "provider": {
         "name": "French Ministry of the Interior",
-        "website": "https://france-identite.gouv.fr/"
+        "website": "https://france-identite.gouv.fr/",
+        "country": "FR"
       },
       "platforms": [
         "iOS",
@@ -1275,13 +1229,10 @@
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
       ],
-      "countries": [
-        "FR"
-      ],
       "logo": "https://flagcdn.com/w80/fr.png",
       "releaseDate": "2024-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -1301,8 +1252,8 @@
         "Android"
       ],
       "releaseDate": "2009-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -1318,8 +1269,8 @@
         "website": "https://www.selectid.co.uk"
       },
       "releaseDate": "2024-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -1339,8 +1290,8 @@
         "Android"
       ],
       "releaseDate": "2014-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -1353,19 +1304,17 @@
       "website": "https://wallet.gov.gr/",
       "provider": {
         "name": "Greek Ministry of Digital Governance",
-        "website": "https://wallet.gov.gr/"
+        "website": "https://wallet.gov.gr/",
+        "country": "GR"
       },
       "platforms": [
         "iOS",
         "Android"
       ],
-      "countries": [
-        "GR"
-      ],
       "logo": "https://flagcdn.com/w80/gr.png",
       "releaseDate": "2022-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -1377,7 +1326,8 @@
       "status": "development",
       "provider": {
         "name": "Greek Government",
-        "website": ""
+        "website": "",
+        "country": "GR"
       },
       "platforms": [
         "iOS",
@@ -1396,13 +1346,10 @@
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
       ],
-      "countries": [
-        "GR"
-      ],
       "logo": "https://flagcdn.com/w80/gr.png",
       "releaseDate": "2026-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -1414,7 +1361,8 @@
       "status": "production",
       "provider": {
         "name": "Hungarian Government",
-        "website": ""
+        "website": "",
+        "country": "HU"
       },
       "presentationProtocols": [
         "OpenID4VP"
@@ -1429,13 +1377,10 @@
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
       ],
-      "countries": [
-        "HU"
-      ],
       "logo": "https://flagcdn.com/w80/hu.png",
       "releaseDate": "2024-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -1447,7 +1392,8 @@
       "status": "development",
       "provider": {
         "name": "Irish Government",
-        "website": ""
+        "website": "",
+        "country": "IE"
       },
       "presentationProtocols": [
         "OpenID4VP"
@@ -1462,12 +1408,9 @@
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
       ],
-      "countries": [
-        "IE"
-      ],
       "logo": "https://flagcdn.com/w80/ie.png",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -1479,7 +1422,8 @@
       "status": "development",
       "provider": {
         "name": "Icelandic Government",
-        "website": ""
+        "website": "",
+        "country": "IS"
       },
       "presentationProtocols": [
         "OpenID4VP"
@@ -1494,13 +1438,10 @@
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
       ],
-      "countries": [
-        "IS"
-      ],
       "logo": "https://flagcdn.com/w80/is.png",
       "releaseDate": "2027-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -1513,7 +1454,8 @@
       "website": "https://io.italia.it/",
       "provider": {
         "name": "Italian Ministry of Digitalization (via IO App)",
-        "website": "https://io.italia.it/"
+        "website": "https://io.italia.it/",
+        "country": "IT"
       },
       "platforms": [
         "iOS",
@@ -1532,13 +1474,10 @@
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
       ],
-      "countries": [
-        "IT"
-      ],
       "logo": "https://flagcdn.com/w80/it.png",
       "releaseDate": "2024-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -1551,19 +1490,17 @@
       "website": "https://www.idenfy.com/",
       "provider": {
         "name": "iDenfy (private company)",
-        "website": "https://www.idenfy.com/"
+        "website": "https://www.idenfy.com/",
+        "country": "LT"
       },
       "platforms": [
         "iOS",
         "Android"
       ],
-      "countries": [
-        "LT"
-      ],
       "logo": "https://flagcdn.com/w80/lt.png",
       "releaseDate": "2017-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -1575,7 +1512,8 @@
       "status": "development",
       "provider": {
         "name": "Latvian Government",
-        "website": ""
+        "website": "",
+        "country": "LV"
       },
       "presentationProtocols": [
         "OpenID4VP"
@@ -1590,12 +1528,9 @@
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
       ],
-      "countries": [
-        "LV"
-      ],
       "logo": "https://flagcdn.com/w80/lv.png",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -1608,15 +1543,13 @@
       "website": "https://www.gov.me",
       "provider": {
         "name": "Ministry of Public Administration",
-        "website": "https://www.gov.me"
+        "website": "https://www.gov.me",
+        "country": "ME"
       },
-      "countries": [
-        "ME"
-      ],
       "logo": "https://flagcdn.com/w80/me.png",
       "releaseDate": "2019-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -1629,15 +1562,13 @@
       "website": "https://www.euprava.me",
       "provider": {
         "name": "Ministry of Public Administration, Digital Society and Media of Montenegro",
-        "website": "https://www.euprava.me"
+        "website": "https://www.euprava.me",
+        "country": "ME"
       },
-      "countries": [
-        "ME"
-      ],
       "logo": "https://flagcdn.com/w80/me.png",
       "releaseDate": "2019-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -1650,19 +1581,17 @@
       "website": "https://portal.gov.mk",
       "provider": {
         "name": "Ministry of Digital Transformation",
-        "website": "https://portal.gov.mk"
+        "website": "https://portal.gov.mk",
+        "country": "MK"
       },
       "platforms": [
         "iOS",
         "Android"
       ],
-      "countries": [
-        "MK"
-      ],
       "logo": "https://flagcdn.com/w80/mk.png",
       "releaseDate": "2024-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -1675,7 +1604,8 @@
       "website": "https://www.nldigitalgovernment.nl/",
       "provider": {
         "name": "Dutch Government",
-        "website": "https://www.nldigitalgovernment.nl/"
+        "website": "https://www.nldigitalgovernment.nl/",
+        "country": "NL"
       },
       "platforms": [
         "iOS"
@@ -1693,12 +1623,9 @@
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
       ],
-      "countries": [
-        "NL"
-      ],
       "logo": "https://flagcdn.com/w80/nl.png",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -1710,7 +1637,8 @@
       "status": "development",
       "provider": {
         "name": "Norwegian Government",
-        "website": ""
+        "website": "",
+        "country": "NO"
       },
       "presentationProtocols": [
         "OpenID4VP"
@@ -1725,13 +1653,10 @@
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
       ],
-      "countries": [
-        "NO"
-      ],
       "logo": "https://flagcdn.com/w80/no.png",
       "releaseDate": "2027-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -1744,7 +1669,8 @@
       "website": "https://www.gov.pl/mobywatel",
       "provider": {
         "name": "Polish Government",
-        "website": "https://www.gov.pl/mobywatel"
+        "website": "https://www.gov.pl/mobywatel",
+        "country": "PL"
       },
       "platforms": [
         "iOS",
@@ -1753,16 +1679,13 @@
       "credentialFormats": [
         "mDL/mDoc"
       ],
-      "countries": [
-        "PL"
-      ],
       "logo": "https://flagcdn.com/w80/pl.png",
       "certifications": [
         "eIDAS notified"
       ],
       "releaseDate": "2018-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -1775,18 +1698,16 @@
       "website": "https://www.kir.pl/en/our-products/clients/identity-i-e-signature/mojeid",
       "provider": {
         "name": "KIR (Krajowa Izba Rozliczeniowa S.A. - Polish National Clearing House)",
-        "website": "https://www.kir.pl/en/our-products/clients/identity-i-e-signature/mojeid"
+        "website": "https://www.kir.pl/en/our-products/clients/identity-i-e-signature/mojeid",
+        "country": "PL"
       },
       "platforms": [
         "iOS",
         "Android"
       ],
-      "countries": [
-        "PL"
-      ],
       "logo": "https://flagcdn.com/w80/pl.png",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -1799,19 +1720,17 @@
       "website": "https://eportugal.gov.pt",
       "provider": {
         "name": "AMA - Agency for Administrative Modernisation",
-        "website": "https://eportugal.gov.pt"
+        "website": "https://eportugal.gov.pt",
+        "country": "PT"
       },
       "platforms": [
         "iOS",
         "Android"
       ],
-      "countries": [
-        "PT"
-      ],
       "logo": "https://flagcdn.com/w80/pt.png",
       "releaseDate": "2019-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -1824,19 +1743,17 @@
       "website": "https://eid.gov.rs",
       "provider": {
         "name": "Office for Information Technologies and eGovernment (Kancelarija ITE)",
-        "website": "https://eid.gov.rs"
+        "website": "https://eid.gov.rs",
+        "country": "RS"
       },
       "platforms": [
         "iOS",
         "Android"
       ],
-      "countries": [
-        "RS"
-      ],
       "logo": "https://flagcdn.com/w80/rs.png",
       "releaseDate": "2020-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -1848,7 +1765,8 @@
       "status": "development",
       "provider": {
         "name": "Swedish Government",
-        "website": ""
+        "website": "",
+        "country": "SE"
       },
       "presentationProtocols": [
         "OpenID4VP"
@@ -1863,12 +1781,9 @@
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
       ],
-      "countries": [
-        "SE"
-      ],
       "logo": "https://flagcdn.com/w80/se.png",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -1881,19 +1796,17 @@
       "website": "https://www.truid.app/",
       "provider": {
         "name": "Truid AB (acquired by Kivra on March 14, 2025)",
-        "website": "https://www.truid.app/"
+        "website": "https://www.truid.app/",
+        "country": "SE"
       },
       "platforms": [
         "iOS",
         "Android"
       ],
-      "countries": [
-        "SE"
-      ],
       "logo": "https://flagcdn.com/w80/se.png",
       "releaseDate": "2021-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -1905,7 +1818,8 @@
       "status": "development",
       "provider": {
         "name": "Slovenian Government",
-        "website": ""
+        "website": "",
+        "country": "SI"
       },
       "platforms": [
         "iOS",
@@ -1924,12 +1838,9 @@
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
       ],
-      "countries": [
-        "SI"
-      ],
       "logo": "https://flagcdn.com/w80/si.png",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -1941,7 +1852,8 @@
       "status": "development",
       "provider": {
         "name": "Slovak Government",
-        "website": ""
+        "website": "",
+        "country": "SK"
       },
       "platforms": [
         "iOS",
@@ -1960,12 +1872,9 @@
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
       ],
-      "countries": [
-        "SK"
-      ],
       "logo": "https://flagcdn.com/w80/sk.png",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -1977,18 +1886,16 @@
       "status": "production",
       "provider": {
         "name": "Slovak Government",
-        "website": ""
+        "website": "",
+        "country": "SK"
       },
       "platforms": [
         "iOS"
       ],
-      "countries": [
-        "SK"
-      ],
       "logo": "https://flagcdn.com/w80/sk.png",
       "releaseDate": "2017-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -2001,19 +1908,17 @@
       "website": "https://diia.gov.ua/",
       "provider": {
         "name": "Ukrainian Ministry of Digitalisation",
-        "website": "https://diia.gov.ua/"
+        "website": "https://diia.gov.ua/",
+        "country": "UA"
       },
       "platforms": [
         "iOS",
         "Android"
       ],
-      "countries": [
-        "UA"
-      ],
       "logo": "https://flagcdn.com/w80/ua.png",
       "releaseDate": "2020-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -2026,7 +1931,8 @@
       "website": "https://me.rks-gov.net",
       "provider": {
         "name": "Ministry of Economy",
-        "website": "https://me.rks-gov.net"
+        "website": "https://me.rks-gov.net",
+        "country": "XK"
       },
       "presentationProtocols": [
         "OpenID4VP"
@@ -2041,13 +1947,10 @@
       "interoperabilityProfiles": [
         "EUDI Wallet ARF"
       ],
-      "countries": [
-        "XK"
-      ],
       "logo": "https://flagcdn.com/w80/xk.png",
       "releaseDate": "2024-01-01",
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.372Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/eu-landscape/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -2080,10 +1983,11 @@
       "provider": {
         "name": "Forkbomb",
         "website": "https://forkbomb.solutions",
-        "logo": "https://www.google.com/s2/favicons?domain=forkbomb.solutions&sz=128"
+        "logo": "https://www.google.com/s2/favicons?domain=forkbomb.solutions&sz=128",
+        "country": "IT"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/forkbomb/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.374Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/forkbomb/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.545Z",
       "source": "local"
     },
     {
@@ -2122,10 +2026,11 @@
       "provider": {
         "name": "Gataca Labs",
         "website": "https://gataca.io",
-        "logo": "https://www.google.com/s2/favicons?domain=gataca.io&sz=128"
+        "logo": "https://www.google.com/s2/favicons?domain=gataca.io&sz=128",
+        "country": "ES"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/gataca/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.377Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/gataca/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.546Z",
       "source": "local"
     },
     {
@@ -2149,10 +2054,11 @@
       "provider": {
         "name": "Google",
         "website": "https://www.google.com",
-        "logo": "https://www.google.com/s2/favicons?domain=google.com&sz=128"
+        "logo": "https://www.google.com/s2/favicons?domain=google.com&sz=128",
+        "country": "US"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/google/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.377Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/google/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.546Z",
       "source": "local"
     },
     {
@@ -2190,10 +2096,11 @@
       "provider": {
         "name": "Hovi",
         "website": "https://www.hovi.id/",
-        "logo": "https://www.google.com/s2/favicons?domain=hovi.id&sz=128"
+        "logo": "https://www.google.com/s2/favicons?domain=hovi.id&sz=128",
+        "country": "FI"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/hovi/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.377Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/hovi/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.546Z",
       "source": "local"
     },
     {
@@ -2260,12 +2167,13 @@
         "did": "did:web:igrant.io",
         "website": "https://igrant.io",
         "logo": "https://www.google.com/s2/favicons?domain=igrant.io&sz=128",
+        "country": "SE",
         "contact": {
           "email": "info@igrant.io"
         }
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/igrant/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.378Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/igrant/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.546Z",
       "source": "local"
     },
     {
@@ -2312,12 +2220,13 @@
         "did": "did:web:igrant.io",
         "website": "https://igrant.io",
         "logo": "https://www.google.com/s2/favicons?domain=igrant.io&sz=128",
+        "country": "SE",
         "contact": {
           "email": "info@igrant.io"
         }
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/igrant/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.378Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/igrant/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.546Z",
       "source": "local"
     },
     {
@@ -2353,10 +2262,11 @@
       "provider": {
         "name": "Impierce Technologies",
         "website": "https://impierce.com",
-        "logo": "https://www.google.com/s2/favicons?domain=impierce.com&sz=128"
+        "logo": "https://www.google.com/s2/favicons?domain=impierce.com&sz=128",
+        "country": "NL"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/impierce/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.379Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/impierce/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.546Z",
       "source": "local"
     },
     {
@@ -2391,10 +2301,11 @@
       "provider": {
         "name": "Impierce Technologies",
         "website": "https://impierce.com",
-        "logo": "https://www.google.com/s2/favicons?domain=impierce.com&sz=128"
+        "logo": "https://www.google.com/s2/favicons?domain=impierce.com&sz=128",
+        "country": "NL"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/impierce/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.379Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/impierce/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.546Z",
       "source": "local"
     },
     {
@@ -2460,12 +2371,13 @@
         "did": "did:web:lissi.id",
         "website": "https://lissi.id",
         "logo": "https://www.google.com/s2/favicons?domain=lissi.id&sz=128",
+        "country": "DE",
         "contact": {
           "email": "info@lissi.id"
         }
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/lissi/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.380Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/lissi/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.547Z",
       "source": "local"
     },
     {
@@ -2512,12 +2424,13 @@
         "did": "did:web:lissi.id",
         "website": "https://lissi.id",
         "logo": "https://www.google.com/s2/favicons?domain=lissi.id&sz=128",
+        "country": "DE",
         "contact": {
           "email": "info@lissi.id"
         }
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/lissi/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.380Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/lissi/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.547Z",
       "source": "local"
     },
     {
@@ -2557,10 +2470,11 @@
       "provider": {
         "name": "MATTR",
         "website": "https://mattr.global",
-        "logo": "https://www.google.com/s2/favicons?domain=mattr.global&sz=128"
+        "logo": "https://www.google.com/s2/favicons?domain=mattr.global&sz=128",
+        "country": "NZ"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/mattr/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.384Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/mattr/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.547Z",
       "source": "local"
     },
     {
@@ -2594,10 +2508,11 @@
       "provider": {
         "name": "Meeco",
         "website": "https://www.meeco.me",
-        "logo": "https://www.google.com/s2/favicons?domain=meeco.me&sz=128"
+        "logo": "https://www.google.com/s2/favicons?domain=meeco.me&sz=128",
+        "country": "AU"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/meeco/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.384Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/meeco/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.547Z",
       "source": "local"
     },
     {
@@ -2631,10 +2546,11 @@
       "provider": {
         "name": "Microsoft",
         "website": "https://www.microsoft.com",
-        "logo": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128"
+        "logo": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128",
+        "country": "US"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/microsoft/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.384Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/microsoft/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.547Z",
       "source": "local"
     },
     {
@@ -2666,10 +2582,11 @@
       "provider": {
         "name": "Mini-Suomi (DVV Finland)",
         "website": "https://wallet.minisuomi.fi",
-        "logo": "https://www.google.com/s2/favicons?domain=minisuomi.fi&sz=128"
+        "logo": "https://www.google.com/s2/favicons?domain=minisuomi.fi&sz=128",
+        "country": "FI"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/minisuomi/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.385Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/minisuomi/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.547Z",
       "source": "local"
     },
     {
@@ -2708,10 +2625,11 @@
       "provider": {
         "name": "MOSIP",
         "website": "https://www.mosip.io",
-        "logo": "https://www.google.com/s2/favicons?domain=mosip.io&sz=128"
+        "logo": "https://www.google.com/s2/favicons?domain=mosip.io&sz=128",
+        "country": "IN"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/mosip/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.386Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/mosip/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.548Z",
       "source": "local"
     },
     {
@@ -2746,10 +2664,11 @@
       "provider": {
         "name": "Northern Block",
         "website": "https://northernblock.io",
-        "logo": "https://www.google.com/s2/favicons?domain=northernblock.io&sz=128"
+        "logo": "https://www.google.com/s2/favicons?domain=northernblock.io&sz=128",
+        "country": "CA"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/northernblock/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.387Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/northernblock/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.548Z",
       "source": "local"
     },
     {
@@ -2781,10 +2700,11 @@
       "provider": {
         "name": "Privacy by Design Foundation",
         "website": "https://privacybydesign.foundation",
-        "logo": "https://www.google.com/s2/favicons?domain=yivi.app&sz=128"
+        "logo": "https://www.google.com/s2/favicons?domain=yivi.app&sz=128",
+        "country": "NL"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/privacybydesign/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.388Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/privacybydesign/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.548Z",
       "source": "local"
     },
     {
@@ -2817,10 +2737,11 @@
       "provider": {
         "name": "Procivis",
         "website": "https://www.procivis.ch",
-        "logo": "https://www.google.com/s2/favicons?domain=procivis.ch&sz=128"
+        "logo": "https://www.google.com/s2/favicons?domain=procivis.ch&sz=128",
+        "country": "CH"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/procivis/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.391Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/procivis/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.548Z",
       "source": "local"
     },
     {
@@ -2853,10 +2774,11 @@
       "provider": {
         "name": "Scytales",
         "website": "https://scytales.com",
-        "logo": "https://www.google.com/s2/favicons?domain=scytales.com&sz=128"
+        "logo": "https://www.google.com/s2/favicons?domain=scytales.com&sz=128",
+        "country": "IL"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/scytales/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.391Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/scytales/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.549Z",
       "source": "local"
     },
     {
@@ -2889,10 +2811,11 @@
       "provider": {
         "name": "Scytales",
         "website": "https://scytales.com",
-        "logo": "https://www.google.com/s2/favicons?domain=scytales.com&sz=128"
+        "logo": "https://www.google.com/s2/favicons?domain=scytales.com&sz=128",
+        "country": "IL"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/scytales/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.391Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/scytales/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.549Z",
       "source": "local"
     },
     {
@@ -2924,10 +2847,11 @@
       "provider": {
         "name": "SICPA",
         "website": "https://www.sicpa.com",
-        "logo": "https://www.google.com/s2/favicons?domain=sicpa.com&sz=128"
+        "logo": "https://www.google.com/s2/favicons?domain=sicpa.com&sz=128",
+        "country": "CH"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/sicpa/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.393Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/sicpa/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.549Z",
       "source": "local"
     },
     {
@@ -2997,12 +2921,13 @@
         "did": "did:web:sphereon.com",
         "website": "https://sphereon.com",
         "logo": "https://www.google.com/s2/favicons?domain=sphereon.com&sz=128",
+        "country": "NL",
         "contact": {
           "email": "info@sphereon.com"
         }
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/sphereon/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.394Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/sphereon/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.549Z",
       "source": "local"
     },
     {
@@ -3046,12 +2971,13 @@
         "did": "did:web:sphereon.com",
         "website": "https://sphereon.com",
         "logo": "https://www.google.com/s2/favicons?domain=sphereon.com&sz=128",
+        "country": "NL",
         "contact": {
           "email": "info@sphereon.com"
         }
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/sphereon/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.394Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/sphereon/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.549Z",
       "source": "local"
     },
     {
@@ -3090,10 +3016,11 @@
       "provider": {
         "name": "Spherity",
         "website": "https://www.spherity.com",
-        "logo": "https://www.google.com/s2/favicons?domain=spherity.com&sz=128"
+        "logo": "https://www.google.com/s2/favicons?domain=spherity.com&sz=128",
+        "country": "DE"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/spherity/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.394Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/spherity/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.549Z",
       "source": "local"
     },
     {
@@ -3129,10 +3056,11 @@
       "provider": {
         "name": "Talao",
         "website": "https://talao.io",
-        "logo": "https://www.google.com/s2/favicons?domain=talao.io&sz=128"
+        "logo": "https://www.google.com/s2/favicons?domain=talao.io&sz=128",
+        "country": "FR"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/talao/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.398Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/talao/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.550Z",
       "source": "local"
     },
     {
@@ -3168,10 +3096,11 @@
       "provider": {
         "name": "Talao",
         "website": "https://talao.io",
-        "logo": "https://www.google.com/s2/favicons?domain=talao.io&sz=128"
+        "logo": "https://www.google.com/s2/favicons?domain=talao.io&sz=128",
+        "country": "FR"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/talao/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.398Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/talao/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.550Z",
       "source": "local"
     },
     {
@@ -3206,10 +3135,11 @@
       "provider": {
         "name": "Tangle Labs",
         "website": "https://tanglelabs.io",
-        "logo": "https://www.google.com/s2/favicons?domain=tanglelabs.io&sz=128"
+        "logo": "https://www.google.com/s2/favicons?domain=tanglelabs.io&sz=128",
+        "country": "DE"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/tanglelabs/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.398Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/tanglelabs/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.550Z",
       "source": "local"
     },
     {
@@ -3247,10 +3177,11 @@
       "provider": {
         "name": "Toppan",
         "website": "https://www.toppan.com",
-        "logo": "https://www.google.com/s2/favicons?domain=toppan.com&sz=128"
+        "logo": "https://www.google.com/s2/favicons?domain=toppan.com&sz=128",
+        "country": "JP"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/toppan/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.398Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/toppan/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.550Z",
       "source": "local"
     },
     {
@@ -3291,10 +3222,11 @@
       "provider": {
         "name": "Transmute",
         "website": "https://transmute.industries",
-        "logo": "https://www.google.com/s2/favicons?domain=transmute.industries&sz=128"
+        "logo": "https://www.google.com/s2/favicons?domain=transmute.industries&sz=128",
+        "country": "US"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/transmute/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.399Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/transmute/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.550Z",
       "source": "local"
     },
     {
@@ -3330,10 +3262,11 @@
       "provider": {
         "name": "University of the Aegean",
         "website": "https://www.aegean.gr",
-        "logo": "https://www.google.com/s2/favicons?domain=aegean.gr&sz=128"
+        "logo": "https://www.google.com/s2/favicons?domain=aegean.gr&sz=128",
+        "country": "GR"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/uaegean/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.400Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/uaegean/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.550Z",
       "source": "local"
     },
     {
@@ -3371,10 +3304,11 @@
       "provider": {
         "name": "Ubique Innovation",
         "website": "https://ubique.ch",
-        "logo": "https://www.google.com/s2/favicons?domain=ubique.ch&sz=128"
+        "logo": "https://www.google.com/s2/favicons?domain=ubique.ch&sz=128",
+        "country": "CH"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/ubique/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.400Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/ubique/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.550Z",
       "source": "local"
     },
     {
@@ -3410,10 +3344,11 @@
       "provider": {
         "name": "Validated ID",
         "website": "https://www.validatedid.com",
-        "logo": "https://www.google.com/s2/favicons?domain=validatedid.com&sz=128"
+        "logo": "https://www.google.com/s2/favicons?domain=validatedid.com&sz=128",
+        "country": "ES"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/validatedid/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.402Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/validatedid/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.551Z",
       "source": "local"
     },
     {
@@ -3449,10 +3384,11 @@
       "provider": {
         "name": "Validated ID",
         "website": "https://www.validatedid.com",
-        "logo": "https://www.google.com/s2/favicons?domain=validatedid.com&sz=128"
+        "logo": "https://www.google.com/s2/favicons?domain=validatedid.com&sz=128",
+        "country": "ES"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/validatedid/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.402Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/validatedid/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.551Z",
       "source": "local"
     },
     {
@@ -3486,10 +3422,11 @@
       "provider": {
         "name": "wwWallet.org",
         "website": "https://wwwallet.org",
-        "logo": "https://avatars.githubusercontent.com/u/126908515"
+        "logo": "https://avatars.githubusercontent.com/u/126908515",
+        "country": "GR"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/wwwallet/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.403Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/wwwallet/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.551Z",
       "source": "local"
     },
     {
@@ -3524,10 +3461,11 @@
       "provider": {
         "name": "youniqx Identity AG",
         "website": "https://www.youniqx.com",
-        "logo": "https://www.google.com/s2/favicons?domain=youniqx.com&sz=128"
+        "logo": "https://www.google.com/s2/favicons?domain=youniqx.com&sz=128",
+        "country": "AT"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/youniqx/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.404Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/youniqx/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.551Z",
       "source": "local"
     },
     {
@@ -3562,10 +3500,11 @@
       "provider": {
         "name": "youniqx Identity AG",
         "website": "https://www.youniqx.com",
-        "logo": "https://www.google.com/s2/favicons?domain=youniqx.com&sz=128"
+        "logo": "https://www.google.com/s2/favicons?domain=youniqx.com&sz=128",
+        "country": "AT"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/youniqx/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.404Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/youniqx/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.551Z",
       "source": "local"
     },
     {
@@ -3604,10 +3543,11 @@
       "provider": {
         "name": "YourD",
         "website": "https://yourd.xyz",
-        "logo": "https://www.google.com/s2/favicons?domain=yourd.xyz&sz=128"
+        "logo": "https://www.google.com/s2/favicons?domain=yourd.xyz&sz=128",
+        "country": "KR"
       },
-      "catalogUrl": "/home/runner/work/fides-wallet-catalog/fides-wallet-catalog/community-catalogs/yourd/wallet-catalog.json",
-      "fetchedAt": "2026-01-09T12:10:09.405Z",
+      "catalogUrl": "/Users/victorvanderhulst/Projects/wallet-catalog/community-catalogs/yourd/wallet-catalog.json",
+      "fetchedAt": "2026-01-09T14:27:54.551Z",
       "source": "local"
     }
   ],
@@ -3615,13 +3555,15 @@
     {
       "name": "Affinidi",
       "website": "https://www.affinidi.com",
-      "logo": "https://www.google.com/s2/favicons?domain=affinidi.com&sz=128"
+      "logo": "https://www.google.com/s2/favicons?domain=affinidi.com&sz=128",
+      "country": "SG"
     },
     {
       "name": "Animo Solutions",
       "did": "did:web:animo.id",
       "website": "https://animo.id",
       "logo": "https://www.google.com/s2/favicons?domain=animo.id&sz=128",
+      "country": "NL",
       "contact": {
         "email": "info@animo.id",
         "support": "https://animo.id/support"
@@ -3630,37 +3572,38 @@
     {
       "name": "Apple",
       "website": "https://www.apple.com",
-      "logo": "https://www.google.com/s2/favicons?domain=apple.com&sz=128"
-    },
-    {
-      "name": "Archipels",
-      "website": "https://en.archipels.io",
-      "logo": "https://www.google.com/s2/favicons?domain=archipels.io&sz=128"
+      "logo": "https://www.google.com/s2/favicons?domain=apple.com&sz=128",
+      "country": "US"
     },
     {
       "name": "Auth0 (Okta)",
       "website": "https://auth0.com",
-      "logo": "https://www.google.com/s2/favicons?domain=auth0.com&sz=128"
+      "logo": "https://www.google.com/s2/favicons?domain=auth0.com&sz=128",
+      "country": "US"
     },
     {
       "name": "Credenco",
       "website": "https://www.credenco.com",
-      "logo": "https://www.google.com/s2/favicons?domain=credenco.com&sz=128"
+      "logo": "https://www.google.com/s2/favicons?domain=credenco.com&sz=128",
+      "country": "NL"
     },
     {
       "name": "Digidentity",
       "website": "https://www.digidentity.com",
-      "logo": "https://www.google.com/s2/favicons?domain=digidentity.com&sz=128"
+      "logo": "https://www.google.com/s2/favicons?domain=digidentity.com&sz=128",
+      "country": "NL"
     },
     {
       "name": "Digital Bazaar",
       "website": "https://www.digitalbazaar.com",
-      "logo": "https://www.google.com/s2/favicons?domain=digitalbazaar.com&sz=128"
+      "logo": "https://www.google.com/s2/favicons?domain=digitalbazaar.com&sz=128",
+      "country": "US"
     },
     {
       "name": "Dock",
       "website": "https://www.dock.io",
-      "logo": "https://www.google.com/s2/favicons?domain=dock.io&sz=128"
+      "logo": "https://www.google.com/s2/favicons?domain=dock.io&sz=128",
+      "country": "US"
     },
     {
       "name": "EU Digital Identity Landscape",
@@ -3669,28 +3612,33 @@
     {
       "name": "Forkbomb",
       "website": "https://forkbomb.solutions",
-      "logo": "https://www.google.com/s2/favicons?domain=forkbomb.solutions&sz=128"
+      "logo": "https://www.google.com/s2/favicons?domain=forkbomb.solutions&sz=128",
+      "country": "IT"
     },
     {
       "name": "Gataca Labs",
       "website": "https://gataca.io",
-      "logo": "https://www.google.com/s2/favicons?domain=gataca.io&sz=128"
+      "logo": "https://www.google.com/s2/favicons?domain=gataca.io&sz=128",
+      "country": "ES"
     },
     {
       "name": "Google",
       "website": "https://www.google.com",
-      "logo": "https://www.google.com/s2/favicons?domain=google.com&sz=128"
+      "logo": "https://www.google.com/s2/favicons?domain=google.com&sz=128",
+      "country": "US"
     },
     {
       "name": "Hovi",
       "website": "https://www.hovi.id/",
-      "logo": "https://www.google.com/s2/favicons?domain=hovi.id&sz=128"
+      "logo": "https://www.google.com/s2/favicons?domain=hovi.id&sz=128",
+      "country": "FI"
     },
     {
       "name": "iGrant.io",
       "did": "did:web:igrant.io",
       "website": "https://igrant.io",
       "logo": "https://www.google.com/s2/favicons?domain=igrant.io&sz=128",
+      "country": "SE",
       "contact": {
         "email": "info@igrant.io"
       }
@@ -3698,13 +3646,15 @@
     {
       "name": "Impierce Technologies",
       "website": "https://impierce.com",
-      "logo": "https://www.google.com/s2/favicons?domain=impierce.com&sz=128"
+      "logo": "https://www.google.com/s2/favicons?domain=impierce.com&sz=128",
+      "country": "NL"
     },
     {
       "name": "Lissi GmbH",
       "did": "did:web:lissi.id",
       "website": "https://lissi.id",
       "logo": "https://www.google.com/s2/favicons?domain=lissi.id&sz=128",
+      "country": "DE",
       "contact": {
         "email": "info@lissi.id"
       }
@@ -3712,58 +3662,69 @@
     {
       "name": "MATTR",
       "website": "https://mattr.global",
-      "logo": "https://www.google.com/s2/favicons?domain=mattr.global&sz=128"
+      "logo": "https://www.google.com/s2/favicons?domain=mattr.global&sz=128",
+      "country": "NZ"
     },
     {
       "name": "Meeco",
       "website": "https://www.meeco.me",
-      "logo": "https://www.google.com/s2/favicons?domain=meeco.me&sz=128"
+      "logo": "https://www.google.com/s2/favicons?domain=meeco.me&sz=128",
+      "country": "AU"
     },
     {
       "name": "Microsoft",
       "website": "https://www.microsoft.com",
-      "logo": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128"
+      "logo": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128",
+      "country": "US"
     },
     {
       "name": "Mini-Suomi (DVV Finland)",
       "website": "https://wallet.minisuomi.fi",
-      "logo": "https://www.google.com/s2/favicons?domain=minisuomi.fi&sz=128"
+      "logo": "https://www.google.com/s2/favicons?domain=minisuomi.fi&sz=128",
+      "country": "FI"
     },
     {
       "name": "MOSIP",
       "website": "https://www.mosip.io",
-      "logo": "https://www.google.com/s2/favicons?domain=mosip.io&sz=128"
+      "logo": "https://www.google.com/s2/favicons?domain=mosip.io&sz=128",
+      "country": "IN"
     },
     {
       "name": "Northern Block",
       "website": "https://northernblock.io",
-      "logo": "https://www.google.com/s2/favicons?domain=northernblock.io&sz=128"
+      "logo": "https://www.google.com/s2/favicons?domain=northernblock.io&sz=128",
+      "country": "CA"
     },
     {
       "name": "Privacy by Design Foundation",
       "website": "https://privacybydesign.foundation",
-      "logo": "https://www.google.com/s2/favicons?domain=yivi.app&sz=128"
+      "logo": "https://www.google.com/s2/favicons?domain=yivi.app&sz=128",
+      "country": "NL"
     },
     {
       "name": "Procivis",
       "website": "https://www.procivis.ch",
-      "logo": "https://www.google.com/s2/favicons?domain=procivis.ch&sz=128"
+      "logo": "https://www.google.com/s2/favicons?domain=procivis.ch&sz=128",
+      "country": "CH"
     },
     {
       "name": "Scytales",
       "website": "https://scytales.com",
-      "logo": "https://www.google.com/s2/favicons?domain=scytales.com&sz=128"
+      "logo": "https://www.google.com/s2/favicons?domain=scytales.com&sz=128",
+      "country": "IL"
     },
     {
       "name": "SICPA",
       "website": "https://www.sicpa.com",
-      "logo": "https://www.google.com/s2/favicons?domain=sicpa.com&sz=128"
+      "logo": "https://www.google.com/s2/favicons?domain=sicpa.com&sz=128",
+      "country": "CH"
     },
     {
       "name": "Sphereon",
       "did": "did:web:sphereon.com",
       "website": "https://sphereon.com",
       "logo": "https://www.google.com/s2/favicons?domain=sphereon.com&sz=128",
+      "country": "NL",
       "contact": {
         "email": "info@sphereon.com"
       }
@@ -3771,71 +3732,82 @@
     {
       "name": "Spherity",
       "website": "https://www.spherity.com",
-      "logo": "https://www.google.com/s2/favicons?domain=spherity.com&sz=128"
+      "logo": "https://www.google.com/s2/favicons?domain=spherity.com&sz=128",
+      "country": "DE"
     },
     {
       "name": "Talao",
       "website": "https://talao.io",
-      "logo": "https://www.google.com/s2/favicons?domain=talao.io&sz=128"
+      "logo": "https://www.google.com/s2/favicons?domain=talao.io&sz=128",
+      "country": "FR"
     },
     {
       "name": "Tangle Labs",
       "website": "https://tanglelabs.io",
-      "logo": "https://www.google.com/s2/favicons?domain=tanglelabs.io&sz=128"
+      "logo": "https://www.google.com/s2/favicons?domain=tanglelabs.io&sz=128",
+      "country": "DE"
     },
     {
       "name": "Toppan",
       "website": "https://www.toppan.com",
-      "logo": "https://www.google.com/s2/favicons?domain=toppan.com&sz=128"
+      "logo": "https://www.google.com/s2/favicons?domain=toppan.com&sz=128",
+      "country": "JP"
     },
     {
       "name": "Transmute",
       "website": "https://transmute.industries",
-      "logo": "https://www.google.com/s2/favicons?domain=transmute.industries&sz=128"
+      "logo": "https://www.google.com/s2/favicons?domain=transmute.industries&sz=128",
+      "country": "US"
     },
     {
       "name": "University of the Aegean",
       "website": "https://www.aegean.gr",
-      "logo": "https://www.google.com/s2/favicons?domain=aegean.gr&sz=128"
+      "logo": "https://www.google.com/s2/favicons?domain=aegean.gr&sz=128",
+      "country": "GR"
     },
     {
       "name": "Ubique Innovation",
       "website": "https://ubique.ch",
-      "logo": "https://www.google.com/s2/favicons?domain=ubique.ch&sz=128"
+      "logo": "https://www.google.com/s2/favicons?domain=ubique.ch&sz=128",
+      "country": "CH"
     },
     {
       "name": "Validated ID",
       "website": "https://www.validatedid.com",
-      "logo": "https://www.google.com/s2/favicons?domain=validatedid.com&sz=128"
+      "logo": "https://www.google.com/s2/favicons?domain=validatedid.com&sz=128",
+      "country": "ES"
     },
     {
       "name": "wwWallet.org",
       "website": "https://wwwallet.org",
-      "logo": "https://avatars.githubusercontent.com/u/126908515"
+      "logo": "https://avatars.githubusercontent.com/u/126908515",
+      "country": "GR"
     },
     {
       "name": "youniqx Identity AG",
       "website": "https://www.youniqx.com",
-      "logo": "https://www.google.com/s2/favicons?domain=youniqx.com&sz=128"
+      "logo": "https://www.google.com/s2/favicons?domain=youniqx.com&sz=128",
+      "country": "AT"
     },
     {
       "name": "YourD",
       "website": "https://yourd.xyz",
-      "logo": "https://www.google.com/s2/favicons?domain=yourd.xyz&sz=128"
+      "logo": "https://www.google.com/s2/favicons?domain=yourd.xyz&sz=128",
+      "country": "KR"
     }
   ],
-  "lastUpdated": "2026-01-09T12:10:09.520Z",
+  "lastUpdated": "2026-01-09T14:27:54.811Z",
   "stats": {
     "totalWallets": 103,
     "totalProviders": 5,
     "byType": {
-      "personal": 79,
-      "organizational": 24
+      "personal": 80,
+      "organizational": 23
     },
     "byPlatform": {
-      "iOS": 58,
-      "Android": 56,
-      "Web": 26,
+      "iOS": 59,
+      "Android": 57,
+      "Web": 25,
       "Windows": 0,
       "macOS": 0,
       "Linux": 0,
@@ -3843,10 +3815,10 @@
     },
     "byCredentialFormat": {
       "SD-JWT-VC": 66,
-      "JWT-VC": 42,
+      "JWT-VC": 41,
       "JSON-LD VC": 11,
       "AnonCreds": 8,
-      "mDL/mDoc": 43
+      "mDL/mDoc": 44
     }
   }
 }
