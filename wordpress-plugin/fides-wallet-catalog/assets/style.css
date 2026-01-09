@@ -1603,15 +1603,17 @@ a.fides-tag.platform.clickable {
   cursor: pointer;
   text-decoration: none;
   transition: all 0.2s ease;
-  background: rgba(34, 197, 94, 0.15);
-  color: #4ade80;
-  border-color: rgba(34, 197, 94, 0.3);
+  background: #16a34a;
+  color: white;
+  border: 1px solid #15803d;
+  font-weight: 500;
 }
 
 a.fides-tag.platform.clickable:hover {
-  background: var(--fides-success, #22c55e);
+  background: #15803d;
   color: white;
-  transform: translateY(-1px);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(22, 163, 74, 0.4);
 }
 
 /* Non-clickable platform tags (no link) */
@@ -1622,15 +1624,16 @@ span.fides-tag.platform {
 /* Light/FIDES theme clickable platform tags */
 .fides-wallet-catalog[data-theme="fides"] a.fides-tag.platform.clickable,
 .fides-wallet-catalog[data-theme="light"] a.fides-tag.platform.clickable {
-  background: rgba(34, 197, 94, 0.1);
-  color: #16a34a;
-  border-color: rgba(34, 197, 94, 0.3);
+  background: #16a34a;
+  color: white;
+  border: 1px solid #15803d;
 }
 
 .fides-wallet-catalog[data-theme="fides"] a.fides-tag.platform.clickable:hover,
 .fides-wallet-catalog[data-theme="light"] a.fides-tag.platform.clickable:hover {
-  background: #16a34a;
+  background: #15803d;
   color: white;
+  box-shadow: 0 4px 12px rgba(22, 163, 74, 0.3);
 }
 
 /* Protocol tags */
@@ -1785,20 +1788,22 @@ span.fides-tag.platform {
 }
 
 /* FIDES theme - Platform tags in modal */
-/* Modal platform tags - clickable (green, consistent with overview) */
+/* Modal platform tags - clickable (solid green, app store buttons) */
 .fides-modal-overlay a.fides-tag.platform.clickable {
-  background: rgba(34, 197, 94, 0.15);
-  color: #4ade80;
-  border-color: rgba(34, 197, 94, 0.3);
+  background: #16a34a;
+  color: white;
+  border: 1px solid #15803d;
   text-decoration: none;
   cursor: pointer;
   transition: all 0.2s ease;
+  font-weight: 500;
 }
 
 .fides-modal-overlay a.fides-tag.platform.clickable:hover {
-  background: var(--fides-success, #22c55e);
+  background: #15803d;
   color: white;
-  transform: translateY(-1px);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(22, 163, 74, 0.4);
 }
 
 /* Modal platform tags - non-clickable (dimmed) */
@@ -1809,15 +1814,16 @@ span.fides-tag.platform {
 /* FIDES/Light theme - Modal platform tags */
 .fides-modal-overlay[data-theme="fides"] a.fides-tag.platform.clickable,
 .fides-modal-overlay[data-theme="light"] a.fides-tag.platform.clickable {
-  background: rgba(34, 197, 94, 0.1);
-  color: #16a34a;
-  border-color: rgba(34, 197, 94, 0.3);
+  background: #16a34a;
+  color: white;
+  border: 1px solid #15803d;
 }
 
 .fides-modal-overlay[data-theme="fides"] a.fides-tag.platform.clickable:hover,
 .fides-modal-overlay[data-theme="light"] a.fides-tag.platform.clickable:hover {
-  background: #16a34a;
+  background: #15803d;
   color: #ffffff;
+  box-shadow: 0 4px 12px rgba(22, 163, 74, 0.3);
 }
 
 /* FIDES theme - Features checkmark color */
