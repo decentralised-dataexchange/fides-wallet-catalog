@@ -924,9 +924,11 @@
   justify-content: space-between;
   align-items: center;
   gap: 0.5rem;
+  min-height: 2.5rem;
 }
 
 .fides-wallet-links {
+  flex: 1;
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem 1rem;
@@ -1014,12 +1016,15 @@
 .fides-view-details {
   font-size: 0.8125rem;
   color: var(--fides-accent);
-  opacity: 0;
-  transition: opacity 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  flex-shrink: 0;
+  margin-left: auto;
 }
 
 .fides-wallet-card:hover .fides-view-details {
-  opacity: 1;
+  text-decoration: underline;
 }
 
 /* ==========================================================================

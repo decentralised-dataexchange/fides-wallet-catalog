@@ -27,3 +27,6 @@ npm-debug.log*
 tmp/
 temp/
 
+
+# Generated data (created by GitHub Action)
+data/

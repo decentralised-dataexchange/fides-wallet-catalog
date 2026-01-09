@@ -524,22 +524,22 @@
                   </label>
                 </div>
               </div>
-              <div class="fides-filter-group collapsible ${!filterGroupState.country ? 'collapsed' : ''} ${filters.countries.length > 0 ? 'has-active' : ''}" data-filter-group="country">
-                <button class="fides-filter-label-toggle" type="button" aria-expanded="${filterGroupState.country}">
-                  <span class="fides-filter-label">Country</span>
-                  <span class="fides-filter-active-indicator"></span>
-                  ${icons.chevronDown}
-                </button>
-                <div class="fides-filter-options fides-filter-options-scrollable">
-                  ${getAvailableCountries().map(code => `
-                    <label class="fides-filter-checkbox">
-                      <input type="checkbox" data-filter="countries" data-value="${code}" ${filters.countries.includes(code) ? 'checked' : ''}>
-                      <span><img src="https://flagcdn.com/w20/${code.toLowerCase()}.png" alt="" class="fides-country-flag"> ${COUNTRY_NAMES[code] || code}</span>
-                    </label>
-                  `).join('')}
-                </div>
-              </div>
             ` : ''}
+            <div class="fides-filter-group collapsible ${!filterGroupState.country ? 'collapsed' : ''} ${filters.countries.length > 0 ? 'has-active' : ''}" data-filter-group="country">
+              <button class="fides-filter-label-toggle" type="button" aria-expanded="${filterGroupState.country}">
+                <span class="fides-filter-label">Country</span>
+                <span class="fides-filter-active-indicator"></span>
+                ${icons.chevronDown}
+              </button>
+              <div class="fides-filter-options fides-filter-options-scrollable">
+                ${getAvailableCountries().map(code => `
+                  <label class="fides-filter-checkbox">
+                    <input type="checkbox" data-filter="countries" data-value="${code}" ${filters.countries.includes(code) ? 'checked' : ''}>
+                    <span><img src="https://flagcdn.com/w20/${code.toLowerCase()}.png" alt="" class="fides-country-flag"> ${COUNTRY_NAMES[code] || code}</span>
+                  </label>
+                `).join('')}
+              </div>
+            </div>
             ${filters.type.includes('organizational') || settings.type === 'organizational' ? `
               <div class="fides-filter-group collapsible ${!filterGroupState.capabilities ? 'collapsed' : ''} ${filters.capabilities.length > 0 ? 'has-active' : ''}" data-filter-group="capabilities">
                 <button class="fides-filter-label-toggle" type="button" aria-expanded="${filterGroupState.capabilities}">
@@ -893,7 +893,9 @@
           
           ${wallet.platforms && wallet.platforms.length > 0 ? `
             <div class="fides-tags">
-              ${wallet.platforms.map(p => renderPlatformTag(wallet, p)).join('')}
+              ${wallet.platforms
+                .filter(p => !(wallet.type === 'organizational' && p === 'Web'))
+                .map(p => renderPlatformTag(wallet, p)).join('')}
             </div>
           ` : ''}
 
@@ -1053,7 +1055,7 @@
               ${wallet.platforms && wallet.platforms.length > 0 ? `
                 <div class="fides-modal-grid-item">
                   <div class="fides-modal-grid-label">
-                    ${icons.smartphone} Platforms <span class="fides-label-hint">(click to access)</span>
+                    ${icons.smartphone} Platforms ${wallet.type !== 'organizational' ? '<span class="fides-label-hint">(click to access)</span>' : ''}
                   </div>
                   <div class="fides-modal-grid-value">
                     ${wallet.platforms.map(p => renderPlatformTag(wallet, p)).join('')}
