@@ -13,7 +13,7 @@
       "description": "An open-source modular identity platform providing complete holder, issuer (Certify), and verifier capabilities, designed for national-scale digital identity deployments.",
       "logo": "https://www.google.com/s2/favicons?domain=mosip.io&sz=128",
       "website": "https://www.mosip.io",
-      "type": "organizational",
+      "type": "personal",
       "capabilities": ["holder", "issuer", "verifier"],
       "platforms": ["Web", "iOS", "Android"],
       "credentialFormats": ["SD-JWT-VC", "JWT-VC", "mDL/mDoc"],
