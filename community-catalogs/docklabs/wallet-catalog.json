@@ -18,7 +18,7 @@
       "platforms": ["iOS"],
       "status": "production",
       "credentialFormats": ["JSON-LD VC", "JWT-VC"],
-      "presentationProtocols": ["DIDComm", "OpenID4VP"],
+      "presentationProtocols": ["OpenID4VP"],
       "supportedIdentifiers": ["did:key", "did:peer", "did:web"],
       "openSource": false,
       "appStoreLinks": {
