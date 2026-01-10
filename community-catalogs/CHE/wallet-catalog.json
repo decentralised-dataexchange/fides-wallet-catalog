@@ -1,0 +1,28 @@
+{
+  "$schema": "https://fides.community/schemas/wallet-catalog/v1",
+  "provider": {
+    "name": "Swiss Confederation",
+    "website": "https://www.admin.ch/",
+    "logo": "https://www.google.com/s2/favicons?domain=admin.ch&sz=128",
+    "country": "CH"
+  },
+  "wallets": [
+    {
+      "id": "swiyu-wallet",
+      "name": "SWIYU Wallet",
+      "description": "Official Swiss government digital wallet for holding and presenting government-issued digital credentials and attestations.",
+      "logo": "https://www.google.com/s2/favicons?domain=swiyu.admin.ch&sz=128",
+      "website": "https://www.swiyu.admin.ch/",
+      "type": "personal",
+      "platforms": ["iOS", "Android"],
+      "status": "production",
+      "appStoreLinks": {
+        "web": "https://www.swiyu.admin.ch/",
+        "iOS": "https://apps.apple.com/ch/app/swiyu/id6446469020",
+        "android": "https://play.google.com/store/apps/details?id=ch.admin.swiyu.wallet"
+      },
+      "documentation": "https://www.swiyu.admin.ch/documentation"
+    }
+  ],
+  "lastUpdated": "2026-01-10T12:00:00Z"
+}
