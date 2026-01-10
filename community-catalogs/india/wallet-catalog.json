@@ -1,0 +1,28 @@
+{
+  "$schema": "https://fides.community/schemas/wallet-catalog/v1",
+  "provider": {
+    "name": "National e-Governance Division (NeGD), Government of India",
+    "website": "https://www.digilocker.gov.in/",
+    "logo": "https://www.google.com/s2/favicons?domain=digilocker.gov.in&sz=128",
+    "country": "IN"
+  },
+  "wallets": [
+    {
+      "id": "digilocker",
+      "name": "DigiLocker",
+      "description": "Government of India digital document wallet for storing, accessing, sharing, and verifying official documents and certificates.",
+      "logo": "https://www.google.com/s2/favicons?domain=digilocker.gov.in&sz=128",
+      "website": "https://www.digilocker.gov.in/",
+      "type": "personal",
+      "platforms": ["Web", "iOS", "Android"],
+      "status": "production",
+      "appStoreLinks": {
+        "web": "https://www.digilocker.gov.in/web/login",
+        "android": "https://play.google.com/store/apps/details?id=com.digilocker.android",
+        "iOS": "https://apps.apple.com/in/app/digilocker/id1320618078"
+      },
+      "documentation": "https://www.digilocker.gov.in/web/resources"
+    }
+  ],
+  "lastUpdated": "2026-01-10T12:00:00Z"
+}
