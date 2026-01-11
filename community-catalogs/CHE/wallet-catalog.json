@@ -18,8 +18,8 @@
       "status": "production",
       "appStoreLinks": {
         "web": "https://www.swiyu.admin.ch/",
-        "iOS": "https://apps.apple.com/ch/app/swiyu/id6446469020",
-        "android": "https://play.google.com/store/apps/details?id=ch.admin.swiyu.wallet"
+        "iOS": "https://apps.apple.com/ch/app/swiyu/id6737259614",
+        "android": "https://play.google.com/store/apps/details?id=ch.admin.foitt.swiyu"
       },
       "documentation": "https://www.swiyu.admin.ch/documentation"
     }
