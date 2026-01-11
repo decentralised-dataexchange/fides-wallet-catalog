@@ -848,6 +848,103 @@
   }
 
   /**
+   * Update only the wallet grid and results count (for search without losing focus)
+   * This avoids re-rendering the search input which causes keyboard to close on mobile
+   */
+  function renderWalletGridOnly() {
+    const filtered = getFilteredWallets();
+    
+    // Update results count
+    const resultsCount = container.querySelector('.fides-results-count');
+    if (resultsCount) {
+      resultsCount.textContent = `${filtered.length} wallet${filtered.length !== 1 ? 's' : ''} found`;
+    }
+    
+    // Update search clear button visibility
+    const searchClear = document.getElementById('fides-search-clear');
+    const mobileSearchClear = document.getElementById('fides-mobile-search-clear');
+    if (searchClear) {
+      searchClear.classList.toggle('hidden', !filters.search);
+    }
+    if (mobileSearchClear) {
+      mobileSearchClear.classList.toggle('hidden', !filters.search);
+    }
+    
+    // Update wallet grid
+    const gridContainer = container.querySelector('.fides-wallet-grid');
+    const emptyContainer = container.querySelector('.fides-empty');
+    const contentArea = container.querySelector('.fides-content');
+    
+    if (filtered.length > 0) {
+      // Remove empty state if present
+      if (emptyContainer) {
+        emptyContainer.remove();
+      }
+      
+      // Create or update grid
+      let grid = gridContainer;
+      if (!grid) {
+        grid = document.createElement('div');
+        grid.className = 'fides-wallet-grid';
+        grid.setAttribute('data-columns', settings.columns);
+        // Insert after results bar
+        const resultsBar = contentArea.querySelector('.fides-results-bar');
+        if (resultsBar) {
+          resultsBar.after(grid);
+        } else {
+          contentArea.appendChild(grid);
+        }
+      }
+      
+      // Render wallet cards
+      let html = '';
+      filtered.forEach(wallet => {
+        html += renderWalletCard(wallet);
+      });
+      grid.innerHTML = html;
+      
+      // Attach wallet card click listeners
+      attachWalletCardListeners();
+    } else {
+      // Remove grid if present
+      if (gridContainer) {
+        gridContainer.remove();
+      }
+      
+      // Show empty state if not present
+      if (!emptyContainer) {
+        const empty = document.createElement('div');
+        empty.className = 'fides-empty';
+        empty.innerHTML = `
+          <div class="fides-empty-icon">${icons.wallet}</div>
+          <h3 class="fides-empty-title">No wallets found</h3>
+          <p class="fides-empty-text">Adjust your filters or try a different search query.</p>
+        `;
+        contentArea.appendChild(empty);
+      }
+    }
+  }
+
+  /**
+   * Attach click listeners to wallet cards (for use after grid-only updates)
+   */
+  function attachWalletCardListeners() {
+    const walletCards = container.querySelectorAll('.fides-wallet-card');
+    walletCards.forEach(card => {
+      card.addEventListener('click', (e) => {
+        if (e.target.closest('a')) return;
+        openWalletDetail(card.dataset.walletId);
+      });
+      card.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          openWalletDetail(card.dataset.walletId);
+        }
+      });
+    });
+  }
+
+  /**
    * Strip parenthetical text from wallet name for card display
    */
   function getDisplayName(name) {
@@ -1306,7 +1403,15 @@
     
     const handleSearchInput = debounce((e) => {
       filters.search = e.target.value;
-      render();
+      // Use grid-only render to avoid losing focus/keyboard on mobile
+      renderWalletGridOnly();
+      // Sync the other search input value
+      const otherInput = e.target.id === 'fides-search' 
+        ? document.getElementById('fides-mobile-search')
+        : document.getElementById('fides-search');
+      if (otherInput && otherInput.value !== e.target.value) {
+        otherInput.value = e.target.value;
+      }
     }, 300);
 
     if (searchInput) {
@@ -1322,7 +1427,13 @@
     
     const handleSearchClear = () => {
       filters.search = '';
-      render();
+      // Clear both inputs
+      const sidebarInput = document.getElementById('fides-search');
+      const mobileInput = document.getElementById('fides-mobile-search');
+      if (sidebarInput) sidebarInput.value = '';
+      if (mobileInput) mobileInput.value = '';
+      // Use grid-only render
+      renderWalletGridOnly();
     };
 
     if (searchClear) {
