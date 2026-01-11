@@ -1,0 +1,26 @@
+{
+  "$schema": "https://fides.community/schemas/wallet-catalog/v1",
+  "provider": {
+    "name": "Portuguese Government",
+    "website": "https://eportugal.gov.pt",
+    "country": "PT"
+  },
+  "wallets": [
+    {
+      "id": "govpt",
+      "name": "gov.pt (formerly id.gov.pt)",
+      "description": "Portugal's ID.gov.pt (now gov.pt) mobile digital wallet officially launched January 2019 as pioneer wallet application managed by AMA (Administrative Modernization Agency) enabling citizens to keep and consult ID cards anytime anywhere through active Digital Mobile Key (CMD) with High Level of Assurance required for authentication and all app actions. The wallet achieved 548,338 app downloads by April 2021 (375,284 Android, 173,054 iOS) with 793,948 downloaded cards including Citizen Card (390,966), driving license (337,173), ADSE health card (65,809), plus Employee Card, Defense Digital Card, Former Combatant Card, Single Port Card, ADM Card, and Youth Card, supporting over 80% population eID usage making nearly 13 million authentications per year, establishing Portugal as European leader in digital identity wallet adoption ahead of eIDAS 2.0 framework and EUDI Wallet deployment requirements.",
+      "type": "personal",
+      "openSource": true,
+      "status": "production",
+      "website": "https://eportugal.gov.pt",
+      "platforms": ["iOS", "Android"],
+      "appStoreLinks": {
+        "iOS": "https://apps.apple.com/nl/app/gov-pt/id1384884826",
+        "android": "https://play.google.com/store/apps/details?id=id.gov.pt"
+      },
+      "logo": "https://flagcdn.com/w80/pt.png",
+      "releaseDate": "2019-01-01"
+    }
+  ]
+}

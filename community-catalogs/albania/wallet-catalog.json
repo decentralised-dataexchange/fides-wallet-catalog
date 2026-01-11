@@ -1,0 +1,25 @@
+{
+  "$schema": "https://fides.community/schemas/wallet-catalog/v1",
+  "provider": {
+    "name": "Albanian Government",
+    "website": "https://me.rks-gov.net",
+    "country": "AL"
+  },
+  "wallets": [
+    {
+      "id": "e-albania-digital-id",
+      "name": "e-Albania Digital ID",
+      "description": "Launch announced for 2026, to be introduced one year before the EU Digital ID Wallet (2027). Technology partner: Idemia. Biometric identification (fingerprint, facial recognition). Goal: Modernization of administration and preparation for EU accession. Budget: over 5 billion ALL.",
+      "type": "personal",
+      "openSource": true,
+      "status": "development",
+      "website": "https://me.rks-gov.net",
+      "platforms": [],
+      "presentationProtocols": ["OpenID4VP"],
+      "issuanceProtocols": ["OpenID4VCI"],
+      "credentialFormats": ["mDL/mDoc", "SD-JWT-VC"],
+      "interoperabilityProfiles": ["EUDI Wallet ARF"],
+      "logo": "https://flagcdn.com/w80/al.png"
+    }
+  ]
+}

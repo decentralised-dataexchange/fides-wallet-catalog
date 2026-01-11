@@ -1,0 +1,26 @@
+{
+  "$schema": "https://fides.community/schemas/wallet-catalog/v1",
+  "provider": {
+    "name": "PSA Payment Services Austria GmbH",
+    "website": "https://ich.app",
+    "country": "AT"
+  },
+  "wallets": [
+    {
+      "id": "ichapp",
+      "name": "ich.app",
+      "description": "Bank-verified digital identity solution developed by PSA Payment Services Austria. Leverages existing KYC processes from participating Austrian banks (Raiffeisen, HYPO, Oberbank, BKS, VKB, etc.). Integrates with ID Austria for government service verification. Uses Worldline core components. Free for users. Enables one-click authentication, form autofill, and data-minimized identity verification with explicit user consent.",
+      "type": "personal",
+      "openSource": false,
+      "status": "production",
+      "website": "https://ich.app",
+      "platforms": ["iOS", "Android"],
+      "appStoreLinks": {
+        "iOS": "https://apps.apple.com/at/app/id1593215104",
+        "android": "https://play.google.com/store/apps/details?id=at.psa.app.ich"
+      },
+      "logo": "https://flagcdn.com/w80/at.png",
+      "releaseDate": "2022-01-01"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://fides.community/schemas/wallet-catalog/v1",
+  "provider": {
+    "name": "Helix ID GmbH",
+    "website": "https://helixid.io",
+    "country": "DE"
+  },
+  "wallets": [
+    {
+      "id": "helix-id-wallet",
+      "name": "Helix ID Wallet",
+      "description": "Helix ID launched in 2020 as a German self-sovereign identity (SSI) mobile wallet solution emerging during Germany's innovation competition \"Schaufenster sichere digitale Identitäten\" (Showcase on Secure Digital Identities), which tested open and user-friendly ID ecosystems including projects ID-Ideal, IDunion, ONCE, and SDIKA. The SSI wallet embodies the decentralized identity principles where users maintain control over their digital credentials and data rather than relying on centralized authorities. Helix ID operates within Germany's SSI framework landscape that includes initiatives like Lissi (\"Let's initiate self-sovereign identity\") involving twelve German entities working to jumpstart adoption of self-sovereign identity solutions for citizen empowerment.",
+      "type": "personal",
+      "openSource": false,
+      "status": "production",
+      "website": "https://helixid.io",
+      "platforms": ["iOS", "Android"],
+      "appStoreLinks": {
+        "iOS": "https://apps.apple.com/de/app/helix-id-wallet/id1469238013",
+        "android": "https://play.google.com/store/apps/details?id=com.io.helix.id"
+      },
+      "logo": "https://flagcdn.com/w80/de.png",
+      "releaseDate": "2020-01-01"
+    }
+  ]
+}

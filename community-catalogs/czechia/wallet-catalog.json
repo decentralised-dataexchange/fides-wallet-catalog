@@ -1,0 +1,26 @@
+{
+  "$schema": "https://fides.community/schemas/wallet-catalog/v1",
+  "provider": {
+    "name": "Czech Government",
+    "website": "https://www.edoklady.cz/",
+    "country": "CZ"
+  },
+  "wallets": [
+    {
+      "id": "edoklady",
+      "name": "eDoklady",
+      "description": "Czech Republic's eDoklady mobile wallet application launched January 20, 2024, developed by the Digital and Information Agency (DIA) and National Agency for Communication and Information Technology, serves as \"an important intermediate step\" towards full EU Digital Identity Wallet (EUDI) implementation by enabling citizens to store ID cards, passports, driving licenses, health documentation, professional qualifications, and education certificates on mobile devices with over 70,000 downloads on first day. The app provides real electronic documents compatible with pending EUDI Wallet framework rather than mere document images, with central administrative authorities required to accept digital eDoklady credentials from January 2024, other government bodies from July 1, 2024, and all entities performing identity verification from January 1, 2025, positioning Czech Republic as one of the first nine EU countries to deploy national digital identity wallet solutions ahead of the 2026 mandatory deadline.",
+      "type": "personal",
+      "openSource": true,
+      "status": "production",
+      "website": "https://www.edoklady.cz/",
+      "platforms": ["iOS", "Android"],
+      "appStoreLinks": {
+        "iOS": "https://apps.apple.com/us/app/edoklady/id6470912982",
+        "android": "https://play.google.com/store/apps/details?id=cz.gov.edoklady"
+      },
+      "logo": "https://flagcdn.com/w80/cz.png",
+      "releaseDate": "2022-01-01"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://fides.community/schemas/wallet-catalog/v1",
+  "provider": {
+    "name": "Verimi GmbH",
+    "website": "https://verimi.de/",
+    "country": "DE"
+  },
+  "wallets": [
+    {
+      "id": "verimi",
+      "name": "Verimi",
+      "description": "Verimi launched in 2017 in Berlin as a digital identity platform founded by a consortium of 25 major German companies including Deutsche Bank, Allianz, Axel Springer, Bundesdruckerei, Deutsche Bahn, Lufthansa, Deutsche Telekom, Volkswagen, Mercedes-Benz, Samsung, and insurance companies (via GMB Systems including Huk-Coburg, Provinzial, LVM, DEVK, Zurich). In November 2022, Verimi merged with Yes (supported by Sparkassen, Volksbanken, and Raiffeisenbanken savings/cooperative banks) to create Germany's unified digital identity ecosystem, combining forces with 25 companies and processing over 10 million transactions in 2022. The merged platform bundles services from both providers to accelerate growth and offer comprehensive identification, ID wallet, and identity verification services from a single source, working with both public institutions (AOK) and private sector partners.",
+      "type": "personal",
+      "openSource": false,
+      "status": "production",
+      "website": "https://verimi.de/",
+      "platforms": ["iOS", "Android"],
+      "appStoreLinks": {
+        "iOS": "https://apps.apple.com/nl/app/verimi-id-wallet/id1361532848",
+        "android": "https://play.google.com/store/apps/details?id=com.verimi"
+      },
+      "logo": "https://flagcdn.com/w80/de.png",
+      "releaseDate": "2017-01-01"
+    }
+  ]
+}

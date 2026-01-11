@@ -1,0 +1,26 @@
+{
+  "$schema": "https://fides.community/schemas/wallet-catalog/v1",
+  "provider": {
+    "name": "Ukrainian Government",
+    "website": "https://diia.gov.ua/",
+    "country": "UA"
+  },
+  "wallets": [
+    {
+      "id": "diia",
+      "name": "Diia (Дія)",
+      "description": "Ukraine's Diia (\"Action\" in Ukrainian) launched in 2020 by Ministry of Digital Transformation led by Minister Mykhailo Fedorov serves as mobile app and online portal acting as one-stop shop for public services and wallet for digital documents with same legal status as paper originals including digital passports and driving licenses, providing access to over 130 government services for approximately 18.5 million users (around half adult population). The comprehensive GovTech platform implemented by UNDP Ukraine with funding from Government of Sweden (SweMFA) through DIA Support Project builds on UNDP's experience in administrative service reform, digitalisation, and public administration process re-engineering, successfully demonstrating digital government resilience during crisis with Ukraine now exporting digital transformation know-how to other countries including Estonia adapting Diia to their needs, establishing Ukraine as leader in government digital innovation despite challenging circumstances.",
+      "type": "personal",
+      "openSource": true,
+      "status": "production",
+      "website": "https://diia.gov.ua/",
+      "platforms": ["iOS", "Android"],
+      "appStoreLinks": {
+        "iOS": "https://apps.apple.com/nl/app/%D0%B4%D1%96%D1%8F/id1489717872",
+        "android": "https://play.google.com/store/apps/details?id=ua.gov.diia.app"
+      },
+      "logo": "https://flagcdn.com/w80/ua.png",
+      "releaseDate": "2020-01-01"
+    }
+  ]
+}

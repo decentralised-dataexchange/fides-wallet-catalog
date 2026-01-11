@@ -1,0 +1,41 @@
+{
+  "$schema": "https://fides.community/schemas/wallet-catalog/v1",
+  "provider": {
+    "name": "Greek Government",
+    "website": "https://wallet.gov.gr/",
+    "country": "GR"
+  },
+  "wallets": [
+    {
+      "id": "govgr-wallet",
+      "name": "Gov.gr Wallet",
+      "description": "Official Greek wallet app since July 2022. Enables digital ID cards, driver's licenses, disability cards, DYPA cards, and other documents. Fully valid within Greece (not for international travel). Login via TaxisNet or online banking. Under development into the EUDI Wallet.",
+      "type": "personal",
+      "openSource": true,
+      "status": "production",
+      "website": "https://wallet.gov.gr/",
+      "platforms": ["iOS", "Android"],
+      "appStoreLinks": {
+        "iOS": "https://apps.apple.com/gr/app/gov-gr-wallet/id1605614816",
+        "android": "https://play.google.com/store/apps/details?id=gr.gov.wallet"
+      },
+      "logo": "https://flagcdn.com/w80/gr.png",
+      "releaseDate": "2022-01-01"
+    },
+    {
+      "id": "national-eudi-wallet-greece",
+      "name": "National EUDI Wallet (Greece)",
+      "description": "Launch expected in November 2026. Builds on Gov.gr Wallet. Planned use cases: eGov, banking, SIM registration, mobile DL, QES, eRx, travel, education. Participation in EWC and DC4EU pilot projects. Pilot test at Thessaloniki Airport for travel credentials.",
+      "type": "personal",
+      "openSource": true,
+      "status": "development",
+      "platforms": ["iOS", "Android"],
+      "presentationProtocols": ["OpenID4VP"],
+      "issuanceProtocols": ["OpenID4VCI"],
+      "credentialFormats": ["mDL/mDoc", "SD-JWT-VC"],
+      "interoperabilityProfiles": ["EUDI Wallet ARF"],
+      "logo": "https://flagcdn.com/w80/gr.png",
+      "releaseDate": "2026-01-01"
+    }
+  ]
+}

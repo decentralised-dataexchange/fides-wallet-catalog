@@ -1,0 +1,25 @@
+{
+  "$schema": "https://fides.community/schemas/wallet-catalog/v1",
+  "provider": {
+    "name": "Yoti Ltd.",
+    "website": "https://www.yoti.com/",
+    "country": "GB"
+  },
+  "wallets": [
+    {
+      "id": "yoti",
+      "name": "Yoti",
+      "description": "Yoti founded in 2014 by three Oxford University students enables users to create reusable Digital IDs by adding government-issued identity documents and taking biometric selfies, protected by multi-factor authentication including phone linking, PIN protection, and personal biometrics. The UK's Proof of Age Standards Scheme (PASS) accredited Yoti ID in 2022 alongside Post Office EasyID and Lloyds Bank Smart ID as government-recognized proof of identity and age for buying restricted goods/services, with Yoti becoming one of the first certified Digital Identity Service Providers (IDSPs) under UK's digital identity framework in June 2022. Yoti technology enables Jersey islanders to prove identity for safely accessing government services online as fundamental infrastructure for Jersey's public sector modernization, while serving global markets through Digital ID Wallets and Connect apps supporting interoperable age verification across UK's expanding digital identity network.",
+      "type": "personal",
+      "openSource": false,
+      "status": "production",
+      "website": "https://www.yoti.com/",
+      "platforms": ["iOS", "Android"],
+      "appStoreLinks": {
+        "iOS": "https://apps.apple.com/gb/app/yoti-your-digital-identity/id983980808",
+        "android": "https://play.google.com/store/apps/details?id=com.yoti.mobile.android.live"
+      },
+      "releaseDate": "2014-01-01"
+    }
+  ]
+}

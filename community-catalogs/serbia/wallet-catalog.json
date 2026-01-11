@@ -1,0 +1,26 @@
+{
+  "$schema": "https://fides.community/schemas/wallet-catalog/v1",
+  "provider": {
+    "name": "Serbian Government",
+    "website": "https://eid.gov.rs",
+    "country": "RS"
+  },
+  "wallets": [
+    {
+      "id": "consentid",
+      "name": "ConsentID",
+      "description": "ConsentID is Serbia's government mobile application and digital identity platform that enables citizens to become \"eCitizens\" and access eGovernment services without physical cards or readers. The system uses cloud-based qualified electronic certificates and provides high-level authentication for all government digital services.",
+      "type": "personal",
+      "openSource": true,
+      "status": "production",
+      "website": "https://eid.gov.rs",
+      "platforms": ["iOS", "Android"],
+      "appStoreLinks": {
+        "iOS": "https://apps.apple.com/us/app/consentid/id883224643",
+        "android": "https://play.google.com/store/apps/details?id=nl.aeteurope.mpki.gui"
+      },
+      "logo": "https://flagcdn.com/w80/rs.png",
+      "releaseDate": "2020-01-01"
+    }
+  ]
+}

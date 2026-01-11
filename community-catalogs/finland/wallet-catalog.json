@@ -1,0 +1,26 @@
+{
+  "$schema": "https://fides.community/schemas/wallet-catalog/v1",
+  "provider": {
+    "name": "Finnish Government",
+    "website": "https://dvv.fi/en/european-digital-identity-wallet",
+    "country": "FI"
+  },
+  "wallets": [
+    {
+      "id": "national-eudi-wallet-finland",
+      "name": "National EUDI Wallet (Finland)",
+      "description": "Developed by DVV, coordinated by the Ministry of Finance. Launch end of 2026. Features: eID, QES, later expanded to include various certificates and documents. Participation in POTENTIAL, EWC, and DC4EU pilots.",
+      "type": "personal",
+      "openSource": true,
+      "status": "development",
+      "website": "https://dvv.fi/en/european-digital-identity-wallet",
+      "platforms": ["iOS", "Android"],
+      "presentationProtocols": ["OpenID4VP"],
+      "issuanceProtocols": ["OpenID4VCI"],
+      "credentialFormats": ["mDL/mDoc", "SD-JWT-VC"],
+      "interoperabilityProfiles": ["EUDI Wallet ARF"],
+      "logo": "https://flagcdn.com/w80/fi.png",
+      "releaseDate": "2026-01-01"
+    }
+  ]
+}

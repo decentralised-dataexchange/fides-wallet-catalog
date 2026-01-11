@@ -1,0 +1,46 @@
+{
+  "$schema": "https://fides.community/schemas/wallet-catalog/v1",
+  "provider": {
+    "name": "French Government",
+    "website": "https://france-identite.gouv.fr/",
+    "country": "FR"
+  },
+  "wallets": [
+    {
+      "id": "france-identite",
+      "name": "France Identité",
+      "description": "France Identité app launched by French Ministry of Interior entered beta in May 2022 before full public rollout February 14, 2024, with no user limits, enabling citizens to create dematerialized versions of identity cards and driving licenses on smartphones using NFC readers to scan biometric identity cards requiring Android 11 or iOS 16 minimum software. The state-provided digital identity platform generates electronically signed proofs of identity to prevent fraud, authenticates users for FranceConnect government services access, and displays identity cards and Carte Vitale health insurance cards, with plans to expand health card functionality in 2025, positioning France among early adopters of EUDI Wallet-compatible infrastructure preparing for EU Digital Identity Wallet framework implementation by 2030 for uniform mobile driving licenses across Europe aligned with eIDAS 2.0 regulation.",
+      "type": "personal",
+      "openSource": true,
+      "status": "production",
+      "website": "https://france-identite.gouv.fr/",
+      "platforms": ["iOS", "Android"],
+      "appStoreLinks": {
+        "iOS": "https://apps.apple.com/fr/app/france-identit%C3%A9/id1590142959",
+        "android": "https://play.google.com/store/apps/details?id=fr.gouv.franceidentite"
+      },
+      "presentationProtocols": ["OpenID4VP"],
+      "issuanceProtocols": ["OpenID4VCI"],
+      "credentialFormats": ["mDL/mDoc", "SD-JWT-VC"],
+      "interoperabilityProfiles": ["EUDI Wallet ARF"],
+      "logo": "https://flagcdn.com/w80/fr.png",
+      "releaseDate": "2024-01-01"
+    },
+    {
+      "id": "carte-vitale-app",
+      "name": "Carte Vitale (app)",
+      "description": "France's digital Carte Vitale app launched March 18, 2025, enabling all insured individuals with new biometric French ID cards to activate their digital health card through the France Identité smartphone application, dematerializing France's traditional health insurance card with same benefits accessible via smartphone. The app presents at medical appointments through QR code scanning or NFC technology for identification with Health Insurance and reimbursement with teletransmission, expanding from initial 23 départements to 46 by May 2025 with nationwide availability by end of 2025. Optional and free to download on iOS/Android, the digital version complements the still-valid physical Carte Vitale, available to legal residents over 18 with biometric French ID cards or plastic residency cards provided they already have a carte Vitale.",
+      "type": "personal",
+      "openSource": true,
+      "status": "production",
+      "website": "https://www.ameli.fr/assure/remboursements/etre-bien-rembourse/carte-vitale",
+      "platforms": ["iOS", "Android"],
+      "appStoreLinks": {
+        "iOS": "https://apps.apple.com/nl/app/carte-vitale/id1458351041",
+        "android": "https://play.google.com/store/apps/details?id=fr.sesamvitale.cartevitale.app"
+      },
+      "logo": "https://flagcdn.com/w80/fr.png",
+      "releaseDate": "2025-01-01"
+    }
+  ]
+}

@@ -8,6 +8,26 @@
   },
   "wallets": [
     {
+      "id": "procivis-one-wallet",
+      "name": "Procivis One Wallet",
+      "description": "A Swiss personal identity wallet app enabling secure storage and presentation of verifiable credentials for individuals, built on the Procivis One platform.",
+      "logo": "https://www.google.com/s2/favicons?domain=procivis.ch&sz=128",
+      "website": "https://www.procivis.ch",
+      "type": "personal",
+      "platforms": ["iOS", "Android"],
+      "appStoreLinks": {
+        "iOS": "https://apps.apple.com/nl/app/procivis-one-wallet/id6480111491",
+        "android": "https://play.google.com/store/apps/details?id=ch.procivis.one.wallet.trial"
+      },
+      "credentialFormats": ["SD-JWT-VC", "JWT-VC", "mDL/mDoc"],
+      "issuanceProtocols": ["OpenID4VCI"],
+      "presentationProtocols": ["OpenID4VP"],
+      "signingAlgorithms": ["ES256", "EdDSA"],
+      "credentialStatusMethods": ["StatusList2021"],
+      "openSource": false,
+      "status": "production"
+    },
+    {
       "id": "procivis-one",
       "name": "Procivis One",
       "description": "A Swiss enterprise identity platform providing issuer and verifier capabilities for verifiable credentials with a focus on privacy and compliance.",
