@@ -3,14 +3,14 @@
   "provider": {
     "name": "Ubique Innovation",
     "website": "https://ubique.ch",
-    "logo": "https://www.google.com/s2/favicons?domain=ubique.ch&sz=128",
+    "logo": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/13/2d/44/132d44a4-424b-3dfc-174e-541248ef421b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/400x400ia-75.webp",
     "country": "CH"
   },
   "wallets": [
     {
       "id": "heidi-wallet",
       "name": "Heidi Wallet App",
-      "logo": "https://www.google.com/s2/favicons?domain=ubique.ch&sz=128",
+      "logo": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/13/2d/44/132d44a4-424b-3dfc-174e-541248ef421b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/400x400ia-75.webp",
       "description": "A DIIP v4-compliant Swiss identity wallet supporting verifiable credentials for secure digital identity management.",
       "type": "personal",
       "platforms": ["iOS", "Android"],
