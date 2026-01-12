@@ -27,8 +27,8 @@
       "documentation": "https://docs.truvera.io/"
     },
     {
-      "id": "dock-certs",
-      "name": "Dock Certs",
+      "id": "truvera-platform",
+      "name": "Truvera Platform",
       "description": "A blockchain-based verifiable credentials platform enabling organizations to issue and verify tamper-proof digital credentials.",
       "logo": "https://www.google.com/s2/favicons?domain=dock.io&sz=128",
       "website": "https://www.dock.io",
