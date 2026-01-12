@@ -140,6 +140,8 @@
               "AnonCreds",
               "JWT-VC",
               "JSON-LD VC",
+              "Apple Wallet Pass",
+              "Google Wallet Pass",
               "X.509",
               "CBOR-LD"
             ]
