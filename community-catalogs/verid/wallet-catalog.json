@@ -10,6 +10,7 @@
     {
       "id": "verid-org-services",
       "name": "verID Issuer & Verifier Services",
+      "logo": "https://www.google.com/s2/favicons?domain=ver.id&sz=128",
       "type": "organizational",
       "description": "verID offers issuer and verifier services that aggregate government-issued and sector-specific identity apps, enabling seamless cross-border identity verification for businesses.",
       "website": "https://ver.id/",
