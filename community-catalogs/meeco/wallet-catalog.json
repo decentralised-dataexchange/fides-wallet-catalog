@@ -8,8 +8,8 @@
   },
   "wallets": [
     {
-      "id": "meeco-wallet",
-      "name": "Meeco Wallet",
+      "id": "meeco-svx-platform",
+      "name": "Meeco SVX Platform",
       "description": "A personal data and identity management platform enabling organizations to hold and issue verifiable credentials with zero-knowledge proof capabilities.",
       "logo": "https://www.google.com/s2/favicons?domain=meeco.me&sz=128",
       "website": "https://www.meeco.me",
