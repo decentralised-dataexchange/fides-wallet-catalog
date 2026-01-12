@@ -10,11 +10,11 @@
     {
       "id": "inji-wallet",
       "name": "Inji Wallet",
-      "description": "An open-source modular identity platform providing complete holder, issuer (Certify), and verifier capabilities, designed for national-scale digital identity deployments.",
+      "description": "An open-source modular identity wallet for individuals, supporting holding and presenting verifiable credentials as part of national-scale digital identity deployments.",
       "logo": "https://www.google.com/s2/favicons?domain=mosip.io&sz=128",
       "website": "https://www.mosip.io",
       "type": "personal",
-      "capabilities": ["holder", "issuer", "verifier"],
+      "capabilities": ["holder"],
       "platforms": ["Web", "iOS", "Android"],
       "credentialFormats": ["SD-JWT-VC", "JWT-VC", "mDL/mDoc"],
       "issuanceProtocols": ["OpenID4VCI"],
@@ -27,7 +27,26 @@
       "appStoreLinks": {
         "web": "https://injiweb.collab.mosip.net/"
       }
+    },
+    {
+      "id": "inji-platform",
+      "name": "Inji Platform",
+      "description": "A set of open source modules by MOSIP, enabling organizations and governments to issue, verify, and manage verifiable credentials at scale.",
+      "logo": "https://www.google.com/s2/favicons?domain=mosip.io&sz=128",
+      "website": "https://www.mosip.io",
+      "type": "organizational",
+      "capabilities": ["issuer", "verifier"],
+      "platforms": ["Web"],
+      "credentialFormats": ["SD-JWT-VC", "JWT-VC", "mDL/mDoc"],
+      "issuanceProtocols": ["OpenID4VCI"],
+      "presentationProtocols": ["OpenID4VP"],
+      "openSource": true,
+      "license": "MPL-2.0",
+      "repository": "https://github.com/mosip",
+      "status": "production",
+      "documentation": "https://docs.mosip.io"
     }
   ],
   "lastUpdated": "2026-01-10T12:00:00Z"
 }
+
