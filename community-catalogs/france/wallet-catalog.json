@@ -25,9 +25,7 @@
       "interoperabilityProfiles": ["EUDI Wallet ARF"],
       "logo": "https://www.google.com/s2/favicons?domain=france-identite.gouv.fr&sz=128",
       "releaseDate": "2024-01-01"
-    },
-      "logo": "https://www.google.com/s2/favicons?domain=ameli.fr&sz=128",
-      "releaseDate": "2025-01-01"
     }
   ]
 }
+
