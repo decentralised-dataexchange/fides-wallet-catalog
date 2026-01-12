@@ -14,7 +14,7 @@
       "description": "verID offers issuer and verifier services that aggregate government-issued and sector-specific identity apps, enabling seamless cross-border identity verification for businesses.",
       "website": "https://ver.id/",
       "platforms": [
-        "web"
+        "Web"
       ],
       "openSource": false
     }
