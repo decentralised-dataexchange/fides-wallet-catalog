@@ -1,7 +1,7 @@
 {
   "$schema": "https://fides.community/schemas/wallet-catalog/v1",
   "provider": {
-    "name": "Swiss Confederation",
+    "name": "Swiss Government",
     "website": "https://www.admin.ch/",
     "logo": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/95/45/6f/95456f82-a1cb-79c7-5f89-7310844bea61/Placeholder.mill/400x400bb-75.webp",
     "country": "CH"
