@@ -23,7 +23,7 @@
       "issuanceProtocols": ["OpenID4VCI"],
       "credentialFormats": ["mDL/mDoc", "SD-JWT-VC"],
       "interoperabilityProfiles": ["EUDI Wallet ARF"],
-      "logo": "https://flagcdn.com/w80/it.png",
+      "logo": "https://www.google.com/s2/favicons?domain=io.italia.it&sz=128",
       "releaseDate": "2024-01-01"
     }
   ]

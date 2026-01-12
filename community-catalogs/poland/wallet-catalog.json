@@ -20,7 +20,7 @@
         "android": "https://play.google.com/store/apps/details?id=pl.nask.mobywatel"
       },
       "credentialFormats": ["mDL/mDoc"],
-      "logo": "https://flagcdn.com/w80/pl.png",
+      "logo": "https://www.google.com/s2/favicons?domain=gov.pl&sz=128",
       "certifications": ["eIDAS notified"],
       "releaseDate": "2018-01-01"
     }

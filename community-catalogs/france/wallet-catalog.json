@@ -23,7 +23,7 @@
       "issuanceProtocols": ["OpenID4VCI"],
       "credentialFormats": ["mDL/mDoc", "SD-JWT-VC"],
       "interoperabilityProfiles": ["EUDI Wallet ARF"],
-      "logo": "https://flagcdn.com/w80/fr.png",
+      "logo": "https://www.google.com/s2/favicons?domain=france-identite.gouv.fr&sz=128",
       "releaseDate": "2024-01-01"
     },
     {
@@ -39,7 +39,7 @@
         "iOS": "https://apps.apple.com/nl/app/carte-vitale/id1458351041",
         "android": "https://play.google.com/store/apps/details?id=fr.sesamvitale.cartevitale.app"
       },
-      "logo": "https://flagcdn.com/w80/fr.png",
+      "logo": "https://www.google.com/s2/favicons?domain=ameli.fr&sz=128",
       "releaseDate": "2025-01-01"
     }
   ]
