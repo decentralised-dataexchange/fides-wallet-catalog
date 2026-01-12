@@ -15,9 +15,6 @@
       "status": "development",
       "website": "https://dvv.fi/en/european-digital-identity-wallet",
       "platforms": ["iOS", "Android"],
-      "presentationProtocols": ["OpenID4VP"],
-      "issuanceProtocols": ["OpenID4VCI"],
-      "credentialFormats": ["mDL/mDoc", "SD-JWT-VC"],
       "interoperabilityProfiles": ["EUDI Wallet ARF"],
       "logo": "https://flagcdn.com/w80/fi.png",
       "releaseDate": "2026-01-01"
