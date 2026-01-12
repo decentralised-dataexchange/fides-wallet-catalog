@@ -47,8 +47,8 @@
       "releaseDate": "2022-03-15"
     },
     {
-      "id": "sphereon-platform",
-      "name": "Sphereon Platform",
+      "id": "sphereon-vdx-platform",
+      "name": "Sphereon VDX Platform",
       "description": "An enterprise organizational wallet platform providing holder, issuer, and verifier capabilities with DIIP v4 compliance.",
       "logo": "https://www.google.com/s2/favicons?domain=sphereon.com&sz=128",
       "website": "https://sphereon.com",
