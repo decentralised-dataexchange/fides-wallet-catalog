@@ -1,7 +1,7 @@
 {
   "$schema": "https://fides.community/schemas/wallet-catalog/v1",
   "provider": {
-    "name": "National e-Governance Division (NeGD), Government of India",
+    "name": "India Government",
     "website": "https://www.digilocker.gov.in/",
     "logo": "https://www.google.com/s2/favicons?domain=digilocker.gov.in&sz=128",
     "country": "IN"
