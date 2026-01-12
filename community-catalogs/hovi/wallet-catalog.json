@@ -16,13 +16,29 @@
       "type": "personal",
       "platforms": ["iOS", "Android"],
       "openSource": false,
-      "credentialFormats": ["SD-JWT-VC", "JWT-VC", "mDL/mDoc"],
+      "credentialFormats": ["SD-JWT-VC", "JWT-VC", "mDL/mDoc", "JSON-LD VC"],
       "issuanceProtocols": ["OpenID4VCI"],
       "presentationProtocols": ["OpenID4VP"],
       "countries": ["FI"],
       "appStoreLinks": {
         "iOS": "https://apps.apple.com/app/hovi-wallet/id6478072406",
         "android": "https://play.google.com/store/apps/details?id=com.hovi.wallet"
+      },
+      "status": "production",
+      "releaseDate": "2023-01-01"
+    },
+     {
+      "id": "hovi-business-wallet",
+      "name": "Hovi Business Wallet",
+      "description": "Issue credentials, verify users, and stay compliant in one flow. Replace outdated ID checks with secure, privacy-first identity built for today’s digital world",
+      "logo": "https://www.google.com/s2/favicons?domain=hovi.id&sz=128",
+      "website": "https://www.hovi.id/",
+      "type": "organisational",
+      "openSource": false,
+      "credentialFormats": ["SD-JWT-VC", "JWT-VC", "mDL/mDoc", "JSON-LD VC"],
+      "issuanceProtocols": ["OpenID4VCI"],
+      "presentationProtocols": ["OpenID4VP"],
+      "countries": ["FI"],
       },
       "status": "production",
       "releaseDate": "2023-01-01"
