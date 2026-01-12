@@ -16,6 +16,8 @@
       "type": "personal",
       "platforms": ["iOS", "Android"],
       "status": "production",
+      "openSource": true,
+      "repository": "https://github.com/swiyu-admin-ch",
       "appStoreLinks": {
         "web": "https://www.swiyu.admin.ch/",
         "iOS": "https://apps.apple.com/ch/app/swiyu/id6737259614",
