@@ -2,7 +2,7 @@
   "$schema": "https://fides.community/schemas/wallet-catalog/v1",
   "provider": {
     "name": "Austrian Government",
-    "website": "https://a-sit-plus.github.io/",
+    "website": "https://plus.a-sit.at/open-source.html",
     "country": "AT"
   },
   "wallets": [
@@ -12,6 +12,7 @@
       "description": "Open-source wallet \"Valera\" developed by A-SIT. Migration of eID Austria (~3 million users) and eAusausweis (~1 million users) to the EUDI architecture. One of the first nine countries with a deployed EUDI wallet.",
       "type": "personal",
       "openSource": true,
+      "repository": "https://github.com/a-sit-plus/valera"
       "status": "production",
       "website": "https://a-sit-plus.github.io/",
       "platforms": ["iOS", "Android"],
