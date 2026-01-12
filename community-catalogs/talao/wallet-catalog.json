@@ -27,7 +27,7 @@
       "signingAlgorithms": ["ES256", "EdDSA"],
       "credentialStatusMethods": ["StatusList2021"],
       "openSource": true,
-      "repository": "https://github.com/altme-project/altme",
+      "repository": "https://github.com/TalaoDAO/AltMe",
       "status": "production"
     },
     {
@@ -50,7 +50,7 @@
       "signingAlgorithms": ["ES256", "EdDSA"],
       "credentialStatusMethods": ["StatusList2021"],
       "openSource": true,
-      "repository": "https://github.com/TalaoDAO/talao-wallet",
+      "repository": "https://github.com/TalaoDAO/AltMe/tree/TALAO",
       "status": "production"
     }
   ],
