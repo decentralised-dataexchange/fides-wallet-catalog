@@ -1,9 +1,9 @@
 === FIDES Wallet Catalog ===
-Contributors: fidescommunity
-Tags: wallet, identity, did, ssi, credentials
+Contributors: fideslabs
+Tags: wallet, identity, eudi, digital identity, credentials, verifiable credentials
 Requires at least: 5.0
-Tested up to: 6.4
-Stable tag: 1.0.0
+Tested up to: 6.7
+Stable tag: 1.7.8
 License: Apache-2.0
 License URI: https://www.apache.org/licenses/LICENSE-2.0
 
@@ -11,24 +11,30 @@ Displays the FIDES Wallet Catalog with search and filter functionality on your W
 
 == Description ==
 
-The FIDES Wallet Catalog plugin displays an interactive catalog of digital identity wallets. 
-Wallet providers manage their own information via DID documents, ensuring up-to-date and 
-reliable data.
+The FIDES Wallet Catalog plugin displays an interactive catalog of 70+ digital identity wallets from around the world, including national EUDI Wallets and commercial solutions.
+
+**Developed and maintained by FIDES Labs BV**
+
+Wallet providers contribute their wallet information via GitHub Pull Requests to a community-maintained repository, ensuring up-to-date and reliable data.
 
 **Features:**
 
-* Search by name, description and provider
-* Filters by type (personal/organizational), platform and credential format
+* 70+ wallets from national governments and commercial providers
+* Advanced search by name, description and provider
+* Extensive filters: type, platform, credential format, issuance/presentation protocols, interoperability profiles, and more
 * Responsive design with dark and light themes
-* Simple shortcode integration
-* Automatic updates via FIDES API
+* Simple shortcode integration: `[fides_wallet_catalog]`
+* Automatic daily updates from GitHub repository
+* Detailed wallet information including app store links, certifications, and technical specs
 
 == Installation ==
 
 1. Upload the `fides-wallet-catalog` folder to `/wp-content/plugins/`
 2. Activate the plugin via 'Plugins' in WordPress
-3. Go to Settings > FIDES Wallet Catalog to configure the API URL
-4. Use the shortcode `[fides_wallet_catalog]` on a page or post
+3. (Optional) Go to Settings > FIDES Wallet Catalog to configure a custom data source
+4. Use the shortcode `[fides_wallet_catalog]` on any page or post
+
+The plugin automatically fetches wallet data from the FIDES Community GitHub repository.
 
 == Shortcode Usage ==
 
@@ -50,16 +56,27 @@ With options:
 
 = How is the wallet data updated? =
 
-The plugin fetches data from the FIDES API, which periodically crawls wallet catalogs from 
-registered providers. Providers manage their own data via DID documents.
+The plugin fetches data from the FIDES Community GitHub repository (https://github.com/FIDEScommunity/fides-wallet-catalog), where wallet providers contribute their information via Pull Requests. The aggregated data is automatically updated daily via GitHub Actions.
+
+= How can I add my wallet to the catalog? =
+
+Submit a Pull Request to the FIDES Wallet Catalog repository with your wallet information in JSON format. See the repository documentation for the full schema and examples.
 
 = Can I customize the styling? =
 
-Yes, the plugin uses CSS classes that you can override in your theme's stylesheet.
+Yes, the plugin uses CSS classes (prefixed with `fides-`) that you can override in your theme's stylesheet.
 
 = Does this work with page builders? =
 
-Yes, the shortcode works with all common page builders like Elementor, Divi and Gutenberg.
+Yes, the shortcode works with all common page builders like Elementor, Divi, Gutenberg, and others.
+
+= What types of wallets are included? =
+
+The catalog includes both personal wallets (for citizens/consumers) and organizational wallets (for enterprises). This includes national EUDI Wallets from EU member states and commercial wallets from vendors worldwide.
+
+= Is this plugin free? =
+
+Yes, this plugin is open source under the Apache-2.0 license and completely free to use.
 
 == Screenshots ==
 
@@ -69,6 +86,19 @@ Yes, the shortcode works with all common page builders like Elementor, Divi and 
 
 == Changelog ==
 
+= 1.7.8 =
+* Updated credential format filters (Apple Wallet Pass, Google Wallet Pass)
+* Improved mobile search functionality
+* Enhanced platform tag styling for app store links
+* UI/UX improvements for wallet cards and modal popups
+* Bug fixes and performance improvements
+
+= 1.7.0 =
+* Added signing algorithms filter
+* Added interoperability profiles filter
+* Improved filter UI consistency
+* Enhanced organizational wallet display
+
 = 1.0.0 =
 * Initial release
 * Search and filters
@@ -77,5 +107,13 @@ Yes, the shortcode works with all common page builders like Elementor, Divi and 
 
 == Upgrade Notice ==
 
-= 1.0.0 =
-Initial release of the FIDES Wallet Catalog plugin.
+= 1.7.8 =
+Enhanced UI/UX and support for new credential formats. Recommended update.
+
+== Developer ==
+
+Developed and maintained by **FIDES Labs BV**
+Website: https://fides.community
+GitHub: https://github.com/FIDEScommunity/fides-wallet-catalog
+
+© 2026 FIDES Labs BV - Licensed under Apache-2.0

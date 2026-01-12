@@ -64,6 +64,8 @@
     'JWT-VC',
     'JSON-LD VC',
     'AnonCreds',
+    'Apple Wallet Pass',
+    'Google Wallet Pass',
     'X.509',
     'CBOR-LD'
   ];
@@ -610,6 +612,14 @@
                 <label class="fides-filter-checkbox">
                   <input type="checkbox" data-filter="credentialFormats" data-value="JSON-LD VC" ${filters.credentialFormats.includes('JSON-LD VC') ? 'checked' : ''}>
                   <span>JSON-LD VC</span>
+                </label>
+                <label class="fides-filter-checkbox">
+                  <input type="checkbox" data-filter="credentialFormats" data-value="Apple Wallet Pass" ${filters.credentialFormats.includes('Apple Wallet Pass') ? 'checked' : ''}>
+                  <span>Apple Wallet Pass</span>
+                </label>
+                <label class="fides-filter-checkbox">
+                  <input type="checkbox" data-filter="credentialFormats" data-value="Google Wallet Pass" ${filters.credentialFormats.includes('Google Wallet Pass') ? 'checked' : ''}>
+                  <span>Google Wallet Pass</span>
                 </label>
               </div>
             </div>

@@ -1,16 +1,23 @@
 # FIDES Wallet Catalog
 
-Decentralized wallet catalog system for the FIDES Community. Wallet providers manage their own wallet information via DID documents, FIDES aggregates and presents this data.
+**Developed and maintained by FIDES Labs BV**
+
+A comprehensive, community-driven catalog of 70+ digital identity wallets from around the world, including national EUDI Wallets and commercial solutions.
 
 ## 🎯 Concept
 
-Instead of static tables on the FIDES website, wallet providers can now:
+The FIDES Wallet Catalog provides a standardized, searchable database of digital identity wallets. Wallet providers contribute their wallet information via GitHub Pull Requests, ensuring:
 
-1. **Publish their wallet information** in a standardized JSON format
-2. **Link from their DID document** to this wallet catalog descriptor
-3. **Manage and update themselves** - changes are automatically fetched
+1. **Standardized format** - All wallets follow a unified JSON schema
+2. **Community-maintained** - Providers manage their own information via PR
+3. **Automatic aggregation** - GitHub Actions daily aggregates all catalogs
+4. **Always up-to-date** - Changes are immediately reflected in the catalog
+5. **Open source** - Apache-2.0 license, fully transparent
 
-FIDES periodically crawls the registered DID documents and aggregates the wallet information for display on the website.
+The catalog is available as:
+- **Website** - Interactive catalog at fides.community
+- **WordPress plugin** - Embed the catalog on your own site
+- **API** - JSON data at `data/aggregated.json`
 
 ## 📁 Project Structure
 
@@ -80,30 +87,38 @@ The API runs on http://localhost:3001
 
 ## 🌍 Data Sources
 
-The FIDES Wallet Catalog aggregates wallet data from multiple sources:
+The FIDES Wallet Catalog aggregates wallet data from the `community-catalogs/` directory:
 
-### 1. Community Contributions
-Individual wallet providers submit their own `wallet-catalog.json` files to the `community-catalogs/` directory via pull requests. This includes:
-- National EUDI Wallets (Austria, Finland, Germany, Netherlands, Spain, etc.)
-- Government digital ID apps (France Identité, mObywatel, Diia, IT Wallet, etc.)
-- Commercial wallet providers worldwide
+### Community Contributions (Primary)
+Wallet providers submit their own `wallet-catalog.json` files via GitHub Pull Requests. The catalog includes:
+- **National EUDI Wallets** - 20+ EU member state wallets (Austria, Finland, Germany, Netherlands, Spain, etc.)
+- **Government Digital ID Apps** - France Identité, mObywatel, Diia, IT Wallet, etc.
+- **Commercial Wallet Providers** - 50+ vendors worldwide (Animo, Sphereon, Procivis, Lissi, etc.)
+- **Tech Giants** - Apple Wallet, Google Wallet
 
-### 2. DID-based Auto-discovery (Planned)
-Wallet providers can register their DID in `data/did-registry.json`. The crawler will automatically fetch and update their wallet information from their DID document.
+### DID-based Auto-discovery (Optional)
+Advanced feature: Wallet providers with DID infrastructure can host their catalog on their own domain and register their DID for automatic crawling. See [docs/DID_REGISTRATION.md](docs/DID_REGISTRATION.md).
 
-## 📋 Wallet Provider Integration
+## 📋 Add Your Wallet to the Catalog
 
-### Step 1: Create Wallet Catalog Descriptor
+### Quick Start (Recommended)
 
-Create a JSON file according to the schema (`schemas/wallet-catalog.schema.json`):
+1. **Fork** this repository
+2. **Create** a folder in `community-catalogs/` with your organization/wallet name
+3. **Add** your `wallet-catalog.json` following the schema
+4. **Submit** a Pull Request
+
+See [docs/GITHUB_REPO_STRUCTURE.md](docs/GITHUB_REPO_STRUCTURE.md) for detailed instructions and examples.
+
+### Minimal Example
 
 ```json
 {
   "$schema": "https://fides.community/schemas/wallet-catalog/v1",
   "provider": {
     "name": "Your Organization",
-    "did": "did:web:yourdomain.com",
-    "website": "https://yourdomain.com"
+    "website": "https://yourdomain.com",
+    "country": "NL"
   },
   "wallets": [
     {
@@ -112,41 +127,41 @@ Create a JSON file according to the schema (`schemas/wallet-catalog.schema.json`
       "type": "personal",
       "platforms": ["iOS", "Android"],
       "credentialFormats": ["SD-JWT-VC", "mDL/mDoc"],
-      "issuanceProtocols": ["OpenID4VCI"],
-      "presentationProtocols": ["OpenID4VP"]
-      // ... more properties
+      "appStoreLinks": {
+        "iOS": "https://apps.apple.com/app/...",
+        "android": "https://play.google.com/store/apps/..."
+      }
     }
   ]
 }
 ```
 
-### Step 2: Publish on Your Domain
+### Validation
 
-Place the file at a publicly accessible URL, for example:
-- `https://yourdomain.com/.well-known/wallet-catalog.json`
+Your PR will be automatically validated against the schema. To validate locally:
 
-### Step 3: Link from Your DID Document
-
-Add a service endpoint to your DID document:
-
-```json
-{
-  "id": "did:web:yourdomain.com",
-  "service": [
-    {
-      "id": "did:web:yourdomain.com#wallet-catalog",
-      "type": "WalletCatalog",
-      "serviceEndpoint": "https://yourdomain.com/.well-known/wallet-catalog.json"
-    }
-  ]
-}
+```bash
+npm run validate
 ```
 
-### Step 4: Register with FIDES
+## 🔍 Using the Catalog Data
 
-Register your DID with the FIDES Community so the crawler can find your catalog.
+### Direct JSON Access
 
-## 🔍 API Endpoints
+The aggregated catalog is available at:
+```
+https://raw.githubusercontent.com/FIDEScommunity/fides-wallet-catalog/main/data/aggregated.json
+```
+
+Updated daily via GitHub Actions.
+
+### API Server (Optional)
+
+For development, you can run a local API server:
+
+```bash
+npm run serve
+```
 
 | Endpoint | Description |
 |----------|-------------|
@@ -154,27 +169,29 @@ Register your DID with the FIDES Community so the crawler can find your catalog.
 | `GET /api/wallets/:providerId/:walletId` | Specific wallet |
 | `GET /api/providers` | All providers |
 | `GET /api/stats` | Statistics |
-| `GET /api/filters` | Available filter options |
 
-### Filter Parameters
-
+Example with filters:
 ```
 GET /api/wallets?search=paradym&type=personal&platforms=iOS,Android&credentialFormats=SD-JWT-VC
 ```
 
 ## 📊 Wallet Properties
 
-The schema supports extensive wallet information:
+The schema supports extensive wallet metadata:
 
-- **General**: name, description, logo, website
+- **General**: name, description, logo, website, app store links
 - **Type**: personal or organizational
-- **Platforms**: iOS, Android, Web, Desktop, CLI
-- **Credential Formats**: SD-JWT-VC, mDL/mDoc, AnonCreds, JWT-VC, etc.
-- **Protocols**: OpenID4VCI, OpenID4VP, DIDComm, ISO 18013-5
-- **DID Methods**: did:web, did:key, did:jwk, did:peer, etc.
-- **Key Management**: Secure Enclave, StrongBox, HSM, etc.
-- **Certifications**: EUDI Wallet LSP, ISO 27001, etc.
-- **Standards**: ARF, HAIP, EBSI
+- **Platforms**: iOS, Android, Web, Windows, macOS, Linux, CLI
+- **Credential Formats**: SD-JWT-VC, mDL/mDoc, AnonCreds, JWT-VC, Apple Wallet Pass, Google Wallet Pass, etc.
+- **Protocols**: OpenID4VCI, OpenID4VP, DIDComm, ISO 18013-5, SIOPv2
+- **Identifiers**: did:web, did:key, did:jwk, did:peer, X.509, etc.
+- **Key Storage**: Secure Enclave, StrongBox, HSM, TEE, Cloud KMS, FIDO2/WebAuthn
+- **Signing Algorithms**: ES256, ES384, EdDSA, RS256, etc.
+- **Certifications**: EUDI Wallet LSP, ISO 27001, SOC 2, Common Criteria
+- **Interoperability**: DIIP v4, EWC v3, EUDI Wallet ARF
+- **Status**: development, beta, production, deprecated
+
+See the full schema: [schemas/wallet-catalog.schema.json](schemas/wallet-catalog.schema.json)
 
 ## 🔌 WordPress Integration
 
@@ -184,7 +201,7 @@ A WordPress plugin is included in `wordpress-plugin/fides-wallet-catalog/`.
 
 1. Copy the plugin folder to `wp-content/plugins/`
 2. Activate the plugin in WordPress Admin
-3. Configure the API URL in Settings > FIDES Wallet Catalog
+3. (Optional) Configure a custom data source in Settings > FIDES Wallet Catalog
 4. Use the shortcode on any page:
 
 ```
@@ -195,9 +212,43 @@ A WordPress plugin is included in `wordpress-plugin/fides-wallet-catalog/`.
 
 | Option | Values | Description |
 |--------|--------|-------------|
-| `type` | personal, organizational | Filter by wallet type |
-| `show_filters` | true, false | Show/hide filters |
-| `show_search` | true, false | Show/hide search bar |
-| `columns` | 1, 2, 3, 4 | Number of columns |
-| `theme` | dark, light | Color theme |
+| `type` | personal, organizational, both | Filter by wallet type |
+| `show_filters` | true, false | Show/hide filters (default: true) |
+| `show_search` | true, false | Show/hide search bar (default: true) |
+| `columns` | 1, 2, 3, 4 | Number of columns (default: 3) |
+| `theme` | dark, light | Color theme (default: dark) |
+
+The plugin automatically fetches data from the FIDES Community GitHub repository daily.
+
+## 📄 License
+
+This project is licensed under the **Apache License 2.0**.
+
+```
+Copyright 2026 FIDES Labs BV
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
+
+## 🏢 About
+
+**Developed and maintained by FIDES Labs BV**
+
+- Website: [https://fides.community](https://fides.community)
+- GitHub: [https://github.com/FIDEScommunity](https://github.com/FIDEScommunity)
+- Contact: For questions or support, please open an issue in this repository
+
+---
+
+**© 2026 FIDES Labs BV** - All rights reserved
 

@@ -1,14 +1,19 @@
-# DID Registration for Wallet Providers
+# DID Registration for Wallet Providers (Optional)
 
-This document explains how wallet providers can register their DID to have their wallet catalog automatically crawled and displayed on the FIDES Wallet Catalog.
+**Note:** This is an **optional advanced feature**. Most wallet providers should contribute via Pull Request to the `community-catalogs/` folder instead. See [GITHUB_REPO_STRUCTURE.md](GITHUB_REPO_STRUCTURE.md).
+
+This document explains how wallet providers with existing DID infrastructure can have their wallet catalog automatically crawled from their own domain.
+
+**Developed and maintained by FIDES Labs BV**
 
 ## How It Works
 
-1. **You register your DID** by submitting a Pull Request to this repository
-2. **The crawler resolves your DID document** (e.g., `did:web:example.com` → `https://example.com/.well-known/did.json`)
-3. **The crawler looks for a WalletCatalog service endpoint** in your DID document
-4. **Your wallet catalog is fetched and validated** against the schema
-5. **Your wallets appear on the FIDES Wallet Catalog** website
+1. **You host your `wallet-catalog.json`** on your own domain
+2. **You reference it in your DID document** with a `WalletCatalog` service endpoint
+3. **You register your DID** by submitting a Pull Request to this repository
+4. **The crawler resolves your DID document** (e.g., `did:web:example.com` → `https://example.com/.well-known/did.json`)
+5. **The crawler fetches and validates your catalog** against the schema
+6. **Your wallets appear on the FIDES Wallet Catalog** website
 
 ## Step 1: Prepare Your DID Document
 
@@ -125,5 +130,9 @@ Coming soon:
 
 ## Questions?
 
-Open an issue or contact the FIDES Community at https://fides.community
+Open an issue or contact FIDES Labs BV at https://fides.community
+
+---
+
+**© 2026 FIDES Labs BV** - Open source under Apache-2.0 license
 
