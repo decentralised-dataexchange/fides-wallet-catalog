@@ -23,7 +23,6 @@
         "iOS": "https://apps.apple.com/app/unime-identity-wallet/id6451394321",
         "android": "https://play.google.com/store/apps/details?id=com.impierce.identity_wallet"
       },
-      "openSource": true,
       "status": "production"
     },
     {
@@ -38,7 +37,6 @@
       "issuanceProtocols": ["OpenID4VCI"],
       "presentationProtocols": ["OpenID4VP"],
       "website": "https://impierce.com",
-      "openSource": true,
       "license": "Apache-2.0",
       "repository": "https://github.com/impierce/ssi-agent",
       "status": "production"
