@@ -11,7 +11,6 @@
       "name": "National EUDI Wallet (Finland)",
       "description": "Developed by DVV, coordinated by the Ministry of Finance. Launch end of 2026. Features: eID, QES, later expanded to include various certificates and documents. Participation in POTENTIAL, EWC, and DC4EU pilots.",
       "type": "personal",
-      "openSource": true,
       "status": "development",
       "website": "https://dvv.fi/en/european-digital-identity-wallet",
       "platforms": ["iOS", "Android"],
