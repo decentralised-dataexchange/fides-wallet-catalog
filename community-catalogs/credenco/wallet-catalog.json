@@ -16,7 +16,7 @@
       "type": "organizational",
       "capabilities": ["holder", "issuer", "verifier"],
       "platforms": ["Web"],
-      "credentialFormats": ["SD-JWT-VC", "JWT-VC"],
+      "credentialFormats": ["SD-JWT-VC","JWT-VC","JSON-LD VC"],
       "issuanceProtocols": ["OpenID4VCI"],
       "presentationProtocols": ["OpenID4VP"],
       "interoperabilityProfiles": ["DIIP v4"],
