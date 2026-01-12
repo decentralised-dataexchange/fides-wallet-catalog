@@ -14,8 +14,8 @@
       "description": "The DataKeeper Wallet is a personal digital wallet that allows individuals to securely store, manage, and share personal data and credentials, with a strong focus on privacy, consent, and user control.",
       "website": "https://www.datakeeper.nl/",
       "platforms": [
-        "ios",
-        "android"
+        "iOS",
+        "Android"
       ],
       "appStores": {
         "ios": "https://apps.apple.com/nl/app/datakeeper/id1546059184",
