@@ -27,7 +27,7 @@
         "country": "CH"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/CHE/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:19.180Z",
+      "fetchedAt": "2026-01-12T16:00:58.931Z",
       "source": "github"
     },
     {
@@ -64,7 +64,7 @@
         "country": "SG"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/affinidi/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:19.278Z",
+      "fetchedAt": "2026-01-12T16:00:58.940Z",
       "source": "github"
     },
     {
@@ -83,7 +83,7 @@
         "country": "AL"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/albania/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:19.325Z",
+      "fetchedAt": "2026-01-12T16:00:58.949Z",
       "source": "github"
     },
     {
@@ -165,7 +165,7 @@
         }
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/animo/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:19.387Z",
+      "fetchedAt": "2026-01-12T16:00:58.958Z",
       "source": "github"
     },
     {
@@ -217,7 +217,7 @@
         }
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/animo/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:19.387Z",
+      "fetchedAt": "2026-01-12T16:00:58.958Z",
       "source": "github"
     },
     {
@@ -245,7 +245,7 @@
         "country": "US"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/apple/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:19.400Z",
+      "fetchedAt": "2026-01-12T16:00:58.967Z",
       "source": "github"
     },
     {
@@ -281,7 +281,7 @@
         "country": "AT"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/austria/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:19.454Z",
+      "fetchedAt": "2026-01-12T16:00:58.976Z",
       "source": "github"
     },
     {
@@ -317,7 +317,7 @@
         "country": "US"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/auth0/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:19.517Z",
+      "fetchedAt": "2026-01-12T16:00:58.984Z",
       "source": "github"
     },
     {
@@ -352,7 +352,7 @@
         "country": "BE"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/belgium/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:19.533Z",
+      "fetchedAt": "2026-01-12T16:00:58.994Z",
       "source": "github"
     },
     {
@@ -396,7 +396,7 @@
         "country": "NL"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/credenco/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:19.544Z",
+      "fetchedAt": "2026-01-12T16:00:59.003Z",
       "source": "github"
     },
     {
@@ -422,7 +422,7 @@
         "country": "CY"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/cyprus/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:19.594Z",
+      "fetchedAt": "2026-01-12T16:00:59.012Z",
       "source": "github"
     },
     {
@@ -448,7 +448,7 @@
         "country": "CZ"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/czechia/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:19.641Z",
+      "fetchedAt": "2026-01-12T16:00:59.020Z",
       "source": "github"
     },
     {
@@ -472,7 +472,7 @@
         "country": "DK"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/denmark/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:19.672Z",
+      "fetchedAt": "2026-01-12T16:00:59.028Z",
       "source": "github"
     },
     {
@@ -513,7 +513,7 @@
         "country": "NL"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/digidentity/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:19.696Z",
+      "fetchedAt": "2026-01-12T16:00:59.036Z",
       "source": "github"
     },
     {
@@ -563,7 +563,7 @@
         "country": "US"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/digitalbazaar/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:19.741Z",
+      "fetchedAt": "2026-01-12T16:00:59.044Z",
       "source": "github"
     },
     {
@@ -604,7 +604,7 @@
         "country": "CH"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/docklabs/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:19.752Z",
+      "fetchedAt": "2026-01-12T16:00:59.052Z",
       "source": "github"
     },
     {
@@ -652,7 +652,7 @@
         "country": "CH"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/docklabs/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:19.752Z",
+      "fetchedAt": "2026-01-12T16:00:59.052Z",
       "source": "github"
     },
     {
@@ -675,7 +675,7 @@
         "country": "EE"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/estonia/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:19.829Z",
+      "fetchedAt": "2026-01-12T16:00:59.060Z",
       "source": "github"
     },
     {
@@ -700,7 +700,7 @@
         "country": "FI"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/finland/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:19.901Z",
+      "fetchedAt": "2026-01-12T16:00:59.069Z",
       "source": "github"
     },
     {
@@ -737,7 +737,7 @@
         "country": "NL"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/forkbomb/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:19.912Z",
+      "fetchedAt": "2026-01-12T16:00:59.077Z",
       "source": "github"
     },
     {
@@ -763,7 +763,7 @@
         "country": "FR"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/france/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:19.965Z",
+      "fetchedAt": "2026-01-12T16:00:59.085Z",
       "source": "github"
     },
     {
@@ -806,7 +806,7 @@
         "country": "ES"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/gataca/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:20.013Z",
+      "fetchedAt": "2026-01-12T16:00:59.093Z",
       "source": "github"
     },
     {
@@ -841,7 +841,7 @@
         "country": "DE"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/germany/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:20.024Z",
+      "fetchedAt": "2026-01-12T16:00:59.103Z",
       "source": "github"
     },
     {
@@ -869,7 +869,7 @@
         "country": "US"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/google/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:20.035Z",
+      "fetchedAt": "2026-01-12T16:00:59.111Z",
       "source": "github"
     },
     {
@@ -895,7 +895,7 @@
         "country": "GR"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/greece/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:20.095Z",
+      "fetchedAt": "2026-01-12T16:00:59.122Z",
       "source": "github"
     },
     {
@@ -919,7 +919,7 @@
         "country": "GR"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/greece/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:20.095Z",
+      "fetchedAt": "2026-01-12T16:00:59.122Z",
       "source": "github"
     },
     {
@@ -946,7 +946,7 @@
         "country": "DE"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/helixid/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:20.174Z",
+      "fetchedAt": "2026-01-12T16:00:59.132Z",
       "source": "github"
     },
     {
@@ -986,7 +986,7 @@
         "country": "FI"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/hovi/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:20.236Z",
+      "fetchedAt": "2026-01-12T16:00:59.140Z",
       "source": "github"
     },
     {
@@ -1021,7 +1021,7 @@
         "country": "FI"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/hovi/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:20.236Z",
+      "fetchedAt": "2026-01-12T16:00:59.140Z",
       "source": "github"
     },
     {
@@ -1045,7 +1045,7 @@
         "country": "HU"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/hungary/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:20.280Z",
+      "fetchedAt": "2026-01-12T16:00:59.148Z",
       "source": "github"
     },
     {
@@ -1069,7 +1069,7 @@
         "country": "IS"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/iceland/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:20.335Z",
+      "fetchedAt": "2026-01-12T16:00:59.157Z",
       "source": "github"
     },
     {
@@ -1147,7 +1147,7 @@
         }
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/igrant/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:20.406Z",
+      "fetchedAt": "2026-01-12T16:00:59.166Z",
       "source": "github"
     },
     {
@@ -1200,7 +1200,7 @@
         }
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/igrant/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:20.406Z",
+      "fetchedAt": "2026-01-12T16:00:59.166Z",
       "source": "github"
     },
     {
@@ -1240,7 +1240,7 @@
         "country": "NL"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/impierce/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:20.469Z",
+      "fetchedAt": "2026-01-12T16:00:59.176Z",
       "source": "github"
     },
     {
@@ -1279,7 +1279,7 @@
         "country": "NL"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/impierce/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:20.469Z",
+      "fetchedAt": "2026-01-12T16:00:59.176Z",
       "source": "github"
     },
     {
@@ -1308,7 +1308,7 @@
         "country": "IN"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/india/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:20.482Z",
+      "fetchedAt": "2026-01-12T16:00:59.186Z",
       "source": "github"
     },
     {
@@ -1331,7 +1331,7 @@
         "country": "IE"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/ireland/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:20.531Z",
+      "fetchedAt": "2026-01-12T16:00:59.195Z",
       "source": "github"
     },
     {
@@ -1357,7 +1357,7 @@
         "country": "IT"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/italy/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:20.595Z",
+      "fetchedAt": "2026-01-12T16:00:59.203Z",
       "source": "github"
     },
     {
@@ -1380,7 +1380,7 @@
         "country": "LV"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/latvia/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:20.728Z",
+      "fetchedAt": "2026-01-12T16:00:59.224Z",
       "source": "github"
     },
     {
@@ -1459,7 +1459,7 @@
         }
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/lissi/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:20.784Z",
+      "fetchedAt": "2026-01-12T16:00:59.232Z",
       "source": "github"
     },
     {
@@ -1512,7 +1512,7 @@
         }
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/lissi/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:20.784Z",
+      "fetchedAt": "2026-01-12T16:00:59.232Z",
       "source": "github"
     },
     {
@@ -1565,7 +1565,7 @@
         "country": "NZ"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/mattr/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:20.842Z",
+      "fetchedAt": "2026-01-12T16:00:59.240Z",
       "source": "github"
     },
     {
@@ -1603,7 +1603,7 @@
         "country": "AU"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/meeco/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:20.920Z",
+      "fetchedAt": "2026-01-12T16:00:59.256Z",
       "source": "github"
     },
     {
@@ -1641,7 +1641,7 @@
         "country": "US"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/microsoft/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:20.988Z",
+      "fetchedAt": "2026-01-12T16:00:59.263Z",
       "source": "github"
     },
     {
@@ -1677,7 +1677,7 @@
         "country": "FI"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/minisuomi/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:20.999Z",
+      "fetchedAt": "2026-01-12T16:00:59.273Z",
       "source": "github"
     },
     {
@@ -1721,7 +1721,7 @@
         "country": "IN"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/mosip/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:21.009Z",
+      "fetchedAt": "2026-01-12T16:00:59.281Z",
       "source": "github"
     },
     {
@@ -1761,7 +1761,7 @@
         "country": "IN"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/mosip/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:21.009Z",
+      "fetchedAt": "2026-01-12T16:00:59.281Z",
       "source": "github"
     },
     {
@@ -1796,7 +1796,7 @@
         "country": "NL"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/netherlands/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:21.050Z",
+      "fetchedAt": "2026-01-12T16:00:59.289Z",
       "source": "github"
     },
     {
@@ -1835,7 +1835,7 @@
         "country": "CA"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/northernblock/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:21.107Z",
+      "fetchedAt": "2026-01-12T16:00:59.297Z",
       "source": "github"
     },
     {
@@ -1859,7 +1859,7 @@
         "country": "NO"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/norway/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:21.165Z",
+      "fetchedAt": "2026-01-12T16:00:59.305Z",
       "source": "github"
     },
     {
@@ -1900,7 +1900,7 @@
         }
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/ooru/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:21.246Z",
+      "fetchedAt": "2026-01-12T16:00:59.313Z",
       "source": "github"
     },
     {
@@ -1932,7 +1932,7 @@
         "country": "PL"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/poland/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:21.302Z",
+      "fetchedAt": "2026-01-12T16:00:59.321Z",
       "source": "github"
     },
     {
@@ -1958,7 +1958,7 @@
         "country": "PT"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/portugal/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:21.373Z",
+      "fetchedAt": "2026-01-12T16:00:59.329Z",
       "source": "github"
     },
     {
@@ -1994,7 +1994,7 @@
         "country": "NL"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/privacybydesign/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:21.417Z",
+      "fetchedAt": "2026-01-12T16:00:59.337Z",
       "source": "github"
     },
     {
@@ -2039,7 +2039,7 @@
         "country": "CH"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/procivis/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:21.463Z",
+      "fetchedAt": "2026-01-12T16:00:59.345Z",
       "source": "github"
     },
     {
@@ -2083,7 +2083,7 @@
         "country": "CH"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/procivis/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:21.463Z",
+      "fetchedAt": "2026-01-12T16:00:59.345Z",
       "source": "github"
     },
     {
@@ -2120,7 +2120,7 @@
         "country": "IL"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/scytales/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:21.529Z",
+      "fetchedAt": "2026-01-12T16:00:59.353Z",
       "source": "github"
     },
     {
@@ -2157,7 +2157,7 @@
         "country": "IL"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/scytales/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:21.529Z",
+      "fetchedAt": "2026-01-12T16:00:59.353Z",
       "source": "github"
     },
     {
@@ -2193,7 +2193,7 @@
         "country": "CH"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/sicpa/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:21.586Z",
+      "fetchedAt": "2026-01-12T16:00:59.362Z",
       "source": "github"
     },
     {
@@ -2216,7 +2216,7 @@
         "country": "SK"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/slovakia/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:21.596Z",
+      "fetchedAt": "2026-01-12T16:00:59.369Z",
       "source": "github"
     },
     {
@@ -2239,7 +2239,7 @@
         "country": "SI"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/slovenia/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:21.642Z",
+      "fetchedAt": "2026-01-12T16:00:59.377Z",
       "source": "github"
     },
     {
@@ -2261,7 +2261,7 @@
         "country": "ES"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/spain/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:21.694Z",
+      "fetchedAt": "2026-01-12T16:00:59.386Z",
       "source": "github"
     },
     {
@@ -2345,7 +2345,7 @@
         }
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/sphereon/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:21.740Z",
+      "fetchedAt": "2026-01-12T16:00:59.394Z",
       "source": "github"
     },
     {
@@ -2395,7 +2395,7 @@
         }
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/sphereon/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:21.740Z",
+      "fetchedAt": "2026-01-12T16:00:59.394Z",
       "source": "github"
     },
     {
@@ -2438,7 +2438,7 @@
         "country": "DE"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/spherity/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:21.799Z",
+      "fetchedAt": "2026-01-12T16:00:59.402Z",
       "source": "github"
     },
     {
@@ -2485,7 +2485,7 @@
         "country": "US"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/spruce/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:21.849Z",
+      "fetchedAt": "2026-01-12T16:00:59.410Z",
       "source": "github"
     },
     {
@@ -2509,7 +2509,7 @@
         "country": "SE"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/sweden/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:21.859Z",
+      "fetchedAt": "2026-01-12T16:00:59.418Z",
       "source": "github"
     },
     {
@@ -2557,7 +2557,7 @@
         "country": "FR"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/talao/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:21.905Z",
+      "fetchedAt": "2026-01-12T16:00:59.426Z",
       "source": "github"
     },
     {
@@ -2605,7 +2605,7 @@
         "country": "FR"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/talao/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:21.905Z",
+      "fetchedAt": "2026-01-12T16:00:59.426Z",
       "source": "github"
     },
     {
@@ -2647,7 +2647,7 @@
         "country": "JP"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/toppan/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:21.933Z",
+      "fetchedAt": "2026-01-12T16:00:59.434Z",
       "source": "github"
     },
     {
@@ -2687,7 +2687,7 @@
         "country": "GR"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/uaegean/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:21.986Z",
+      "fetchedAt": "2026-01-12T16:00:59.445Z",
       "source": "github"
     },
     {
@@ -2730,7 +2730,7 @@
         "country": "CH"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/ubique/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:22.049Z",
+      "fetchedAt": "2026-01-12T16:00:59.453Z",
       "source": "github"
     },
     {
@@ -2756,7 +2756,7 @@
         "country": "UA"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/ukraine/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:22.098Z",
+      "fetchedAt": "2026-01-12T16:00:59.460Z",
       "source": "github"
     },
     {
@@ -2802,7 +2802,7 @@
         "country": "ES"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/validatedid/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:22.200Z",
+      "fetchedAt": "2026-01-12T16:00:59.468Z",
       "source": "github"
     },
     {
@@ -2848,7 +2848,7 @@
         "country": "ES"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/validatedid/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:22.200Z",
+      "fetchedAt": "2026-01-12T16:00:59.468Z",
       "source": "github"
     },
     {
@@ -2875,7 +2875,7 @@
         "country": "DE"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/verimi/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:22.241Z",
+      "fetchedAt": "2026-01-12T16:00:59.476Z",
       "source": "github"
     },
     {
@@ -2913,7 +2913,7 @@
         "country": "GR"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/wwwallet/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:22.306Z",
+      "fetchedAt": "2026-01-12T16:00:59.486Z",
       "source": "github"
     },
     {
@@ -2939,7 +2939,7 @@
         "country": "GB"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/yoti/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:22.317Z",
+      "fetchedAt": "2026-01-12T16:00:59.494Z",
       "source": "github"
     },
     {
@@ -2969,7 +2969,7 @@
         "country": "AT"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/youniqx/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:22.405Z",
+      "fetchedAt": "2026-01-12T16:00:59.502Z",
       "source": "github"
     },
     {
@@ -2999,7 +2999,7 @@
         "country": "AT"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/youniqx/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:22.405Z",
+      "fetchedAt": "2026-01-12T16:00:59.502Z",
       "source": "github"
     },
     {
@@ -3042,7 +3042,7 @@
         "country": "KR"
       },
       "catalogUrl": "https://github.com/FIDEScommunity/fides-wallet-catalog/blob/main/community-catalogs/yourd/wallet-catalog.json",
-      "fetchedAt": "2026-01-12T16:00:22.457Z",
+      "fetchedAt": "2026-01-12T16:00:59.510Z",
       "source": "github"
     }
   ],
@@ -3441,7 +3441,7 @@
       "country": "KR"
     }
   ],
-  "lastUpdated": "2026-01-12T16:00:22.488Z",
+  "lastUpdated": "2026-01-12T16:00:59.541Z",
   "stats": {
     "totalWallets": 81,
     "totalProviders": 5,
