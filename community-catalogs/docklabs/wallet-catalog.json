@@ -15,7 +15,7 @@
       "website": "https://www.truvera.io/",
       "type": "personal",
       "capabilities": ["holder"],
-      "platforms": ["iOS"],
+      "platforms": ["iOS","Android"],
       "status": "production",
       "credentialFormats": ["JSON-LD VC", "JWT-VC"],
       "presentationProtocols": ["OpenID4VP"],
